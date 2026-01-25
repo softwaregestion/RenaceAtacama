@@ -1,65 +1,118 @@
 import { motion } from "framer-motion";
 import businessPerson from "@/assets/business-person-1.jpg";
 import presentation from "@/assets/presentation.jpg";
+import teamMeeting from "@/assets/team-meeting.jpg";
 
-const stats = [
-  { number: "125", suffix: "+", label: "Business Coach" },
-  { number: "240", suffix: "+", label: "Happy Clients" },
-  { number: "99", suffix: "%", label: "Success Rate" },
+const cards = [
+  {
+    image: businessPerson,
+    items: [
+      "ex ea commodo consequat duis qui",
+      "et quasi architecto beatae vitae dicta"
+    ]
+  },
+  {
+    stats: "+25",
+    label: "Experience",
+    badge: "COACH",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+  },
+  {
+    title: "BEST ACHIEVEMENT",
+    subtitle: "LESSONS FROM TOP BUSINESS COACHES",
+    image: teamMeeting
+  }
 ];
 
 export function StatsBar() {
   return (
-    <section className="py-6 lg:py-8 bg-background">
-      <div className="container mx-auto px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="bg-navy rounded-3xl p-6 lg:p-8"
-        >
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-center">
-            {/* Image Section */}
-            <div className="flex items-center gap-4">
-              <div className="flex -space-x-4">
-                <img 
-                  src={businessPerson} 
-                  alt="Team member" 
-                  className="w-14 h-14 rounded-full border-2 border-navy object-cover"
-                />
-                <img 
-                  src={presentation} 
-                  alt="Team member" 
-                  className="w-14 h-14 rounded-full border-2 border-navy object-cover"
-                />
-              </div>
-              <div className="text-primary-foreground">
-                <p className="text-sm text-primary-foreground/70">Trusted By</p>
-                <p className="font-semibold">1000+ Businesses</p>
+    <section className="relative py-20 lg:py-28 overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-br from-orange-400 via-orange-500 to-amber-600"></div>
+
+      <div className="relative container mx-auto px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="backdrop-blur-md bg-white/20 rounded-3xl p-8 border border-white/30 shadow-xl hover:shadow-2xl transition-all duration-300"
+          >
+            <div className="mb-6">
+              <img
+                src={cards[0].image}
+                alt="Business professional"
+                className="w-full h-48 object-cover rounded-2xl"
+              />
+            </div>
+            <ul className="space-y-4">
+              {cards[0].items.map((item, idx) => (
+                <li key={idx} className="flex items-start gap-3 text-white">
+                  <span className="w-2 h-2 rounded-full bg-white mt-2 flex-shrink-0"></span>
+                  <span className="text-base leading-relaxed">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.15 }}
+            className="space-y-6"
+          >
+            <div className="backdrop-blur-md bg-white/25 rounded-3xl p-8 border border-white/30 shadow-xl">
+              <div className="text-center">
+                <p className="text-6xl lg:text-7xl font-bold text-white mb-2 font-script italic">
+                  {cards[1].stats}
+                </p>
+                <p className="text-xl text-white/90 font-medium">
+                  {cards[1].label}
+                </p>
               </div>
             </div>
 
-            {/* Stats */}
-            {stats.map((stat, index) => (
-              <div 
-                key={index} 
-                className="flex items-center gap-4 lg:justify-center"
-              >
-                <div className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center">
-                  <span className="text-primary text-xl">📊</span>
-                </div>
-                <div className="text-primary-foreground">
-                  <p className="text-2xl lg:text-3xl font-bold">
-                    {stat.number}
-                    <span className="text-primary">{stat.suffix}</span>
-                  </p>
-                  <p className="text-sm text-primary-foreground/70">{stat.label}</p>
+            <div className="backdrop-blur-md bg-white/25 rounded-3xl p-8 border border-white/30 shadow-xl">
+              <div className="flex items-center justify-between mb-4">
+                <div className="text-4xl text-orange-600">"</div>
+                <div className="flex items-center gap-2 px-4 py-2 bg-white/90 rounded-full">
+                  <span className="text-sm font-semibold text-gray-800">{cards[1].badge}</span>
+                  <div className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center">
+                    <span className="text-white text-xs">→</span>
+                  </div>
                 </div>
               </div>
-            ))}
-          </div>
-        </motion.div>
+              <p className="text-white/90 leading-relaxed">
+                {cards[1].description}
+              </p>
+            </div>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="backdrop-blur-md bg-white/95 rounded-3xl p-8 border border-white/30 shadow-xl hover:shadow-2xl transition-all duration-300"
+          >
+            <div className="mb-4">
+              <span className="text-orange-600 text-sm font-bold tracking-wider">
+                {cards[2].title}
+              </span>
+            </div>
+            <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6 leading-tight">
+              {cards[2].subtitle}
+            </h3>
+            <div className="mt-6">
+              <img
+                src={cards[2].image}
+                alt="Business coaching session"
+                className="w-full h-48 object-cover rounded-2xl"
+              />
+            </div>
+          </motion.div>
+        </div>
       </div>
     </section>
   );
