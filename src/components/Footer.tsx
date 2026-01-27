@@ -1,133 +1,109 @@
-import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, ArrowRight, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Link } from "react-router-dom";
+import { Recycle, Mail, Instagram, Youtube } from "lucide-react";
+import { ROUTES } from "@/lib/routes";
+
+const EMAIL = "contacto@renaceatacama.cl";
+
+function TiktokIcon({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} aria-hidden>
+      <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
+    </svg>
+  );
+}
+
+const QUICK_LINKS = [
+  { label: "El Proyecto", to: ROUTES.elProyecto },
+  { label: "Quiénes Somos", to: ROUTES.quienesSomos },
+  { label: "Contacto", to: ROUTES.contacto },
+];
+
+const SOCIAL = [
+  { label: "Instagram", href: "https://instagram.com/renaceatacama", icon: Instagram },
+  { label: "TikTok", href: "https://tiktok.com/@renaceatacama", icon: TiktokIcon },
+  { label: "YouTube", href: "https://youtube.com/@renaceatacama", icon: Youtube },
+];
 
 export function Footer() {
   return (
-    <footer className="bg-navy text-primary-foreground">
-      {/* Marquee */}
-      <div className="py-6 border-b border-primary-foreground/10 overflow-hidden">
-        <motion.div
-          initial={{ x: 0 }}
-          animate={{ x: "-50%" }}
-          transition={{ 
-            duration: 25, 
-            repeat: Infinity, 
-            ease: "linear" 
-          }}
-          className="flex whitespace-nowrap"
-        >
-          {[...Array(4)].map((_, index) => (
-            <div key={index} className="flex items-center mx-8">
-              <span className="text-4xl md:text-6xl font-bold text-primary-foreground/10">
-                BUSINESS
-              </span>
-              <span className="mx-8 text-primary text-3xl">★</span>
-              <span className="text-4xl md:text-6xl font-bold text-primary-foreground/10">
-                GROWTH
-              </span>
-              <span className="mx-8 text-primary text-3xl">★</span>
-            </div>
-          ))}
-        </motion.div>
-      </div>
-
-      {/* Main Footer */}
+    <footer className="bg-black text-white">
       <div className="container mx-auto px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-          {/* Brand */}
-          <div className="space-y-6">
-            <a href="#" className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">B</span>
-              </div>
-              <span className="text-xl font-bold">
-                BUSI<span className="text-primary">FY</span>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
+          {/* Columna 1: Logo + Descripción */}
+          <div className="space-y-4">
+            <Link to={ROUTES.home} className="inline-flex flex-col items-start gap-3">
+              <Recycle className="w-10 h-10 text-white" strokeWidth={1.5} />
+              <span className="uppercase tracking-tight leading-tight">
+                <span className="text-xl lg:text-2xl font-bold">RENACE</span>{" "}
+                <span className="text-lg lg:text-xl font-bold">ATACAMA</span>
               </span>
-            </a>
-            <p className="text-primary-foreground/70">
-              Transforming businesses through strategic coaching and personalized guidance.
+            </Link>
+            <p className="text-neutral-400 text-sm leading-relaxed max-w-xs">
+              Transformando el vertedero textil de Alto Hospicio en un modelo de economía circular
+              para el Desierto de Atacama.
             </p>
-            <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary transition-colors">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary transition-colors">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary transition-colors">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-primary transition-colors">
-                <Linkedin className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
-          {/* Quick Links */}
+          {/* Columna 2: Enlaces rápidos */}
           <div>
-            <h4 className="text-lg font-bold mb-6">Quick Links</h4>
+            <h4 className="text-xs font-bold uppercase tracking-widest text-white mb-6">
+              Enlaces rápidos
+            </h4>
             <ul className="space-y-4">
-              {["About Us", "Services", "Case Studies", "Blog", "Contact"].map((link) => (
-                <li key={link}>
-                  <a href="#" className="text-primary-foreground/70 hover:text-primary transition-colors">
-                    {link}
-                  </a>
+              {QUICK_LINKS.map((link) => (
+                <li key={link.to}>
+                  <Link
+                    to={link.to}
+                    className="text-white/90 hover:text-white text-sm transition-colors"
+                  >
+                    {link.label}
+                  </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* Contact Info */}
+          {/* Columna 3: Contáctanos + Email + Redes */}
           <div>
-            <h4 className="text-lg font-bold mb-6">Contact Info</h4>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3 text-primary-foreground/70">
-                <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                123 Business Ave, Suite 100, New York, NY 10001
-              </li>
-              <li className="flex items-center gap-3 text-primary-foreground/70">
-                <Phone className="w-5 h-5 text-primary flex-shrink-0" />
-                +1 (555) 123-4567
-              </li>
-              <li className="flex items-center gap-3 text-primary-foreground/70">
-                <Mail className="w-5 h-5 text-primary flex-shrink-0" />
-                hello@busify.com
-              </li>
-            </ul>
-          </div>
-
-          {/* Newsletter */}
-          <div>
-            <h4 className="text-lg font-bold mb-6">Newsletter</h4>
-            <p className="text-primary-foreground/70 mb-4">
-              Subscribe to get the latest updates and insights.
-            </p>
-            <div className="flex gap-2">
-              <Input 
-                placeholder="Your email" 
-                className="bg-primary-foreground/10 border-primary-foreground/20 text-primary-foreground placeholder:text-primary-foreground/50"
-              />
-              <Button variant="hero" size="icon">
-                <ArrowRight className="w-4 h-4" />
-              </Button>
+            <h4 className="text-xs font-bold uppercase tracking-widest text-white mb-6">
+              Contáctanos
+            </h4>
+            <div className="space-y-4">
+              <a
+                href={`mailto:${EMAIL}`}
+                className="inline-flex items-center gap-3 px-4 py-3 rounded-lg bg-neutral-800/80 hover:bg-neutral-700/80 transition-colors text-white text-sm"
+              >
+                <Mail className="w-5 h-5 text-white shrink-0" />
+                {EMAIL}
+              </a>
+              <div className="flex gap-3">
+                {SOCIAL.map((s) => {
+                  const Icon = s.icon;
+                  return (
+                    <a
+                      key={s.label}
+                      href={s.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-11 h-11 rounded-lg bg-neutral-800/80 hover:bg-neutral-700/80 flex items-center justify-center text-white transition-colors"
+                      aria-label={s.label}
+                    >
+                      <Icon className="w-5 h-5" />
+                    </a>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Copyright */}
-      <div className="border-t border-primary-foreground/10 py-6">
-        <div className="container mx-auto px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-primary-foreground/50 text-sm">
-            © 2026 Busify. All rights reserved.
-          </p>
-          <div className="flex gap-6 text-sm text-primary-foreground/50">
-            <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
-          </div>
-        </div>
+      {/* Separador */}
+      <div className="border-t border-neutral-700" />
+
+      {/* Bottom: Ubicación */}
+      <div className="container mx-auto px-6 lg:px-8 py-6">
+        <p className="text-neutral-500 text-sm">Región de Tarapacá, Chile</p>
       </div>
     </footer>
   );
