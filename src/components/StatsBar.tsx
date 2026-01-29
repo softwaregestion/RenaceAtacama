@@ -27,7 +27,7 @@ const cards = [
 export function StatsBar() {
   return (
     <section className="relative py-20 lg:py-28 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-orange-400 via-orange-500 to-amber-600"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-[#9b734c] to-[#5b2500]"></div>
 
       <div className="relative container mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">

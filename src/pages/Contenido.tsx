@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowRight, Globe, Users, Film, Play } from "lucide-react";
@@ -5,17 +6,14 @@ import { Button } from "@/components/ui/button";
 import { PageWrapper } from "@/components/PageWrapper";
 import { ROUTES } from "@/lib/routes";
 import { CTABand, PageSection } from "@/components/shared";
-import heroMeeting from "@/assets/hero-meeting.jpg";
-import teamMeeting from "@/assets/team-meeting.jpg";
-import businessPerson from "@/assets/business-person-1.jpg";
-import presentation from "@/assets/presentation.jpg";
-import coaching from "@/assets/coaching.jpg";
-import handshake from "@/assets/handshake.jpg";
-import workspace from "@/assets/workspace.jpg";
-import ceoPortrait from "@/assets/ceo-portrait.jpg";
+import {
+  Dialog,
+  DialogContent,
+  DialogTitle,
+} from "@/components/ui/dialog";
 
-/** Reemplaza con el ID de tu video de YouTube (ej: "dQw4w9WgXcQ" de https://www.youtube.com/watch?v=dQw4w9WgXcQ) */
-const YOUTUBE_VIDEO_ID = "";
+/** ID del video de YouTube (https://www.youtube.com/watch?v=dBz9LYR3d8Q) */
+const YOUTUBE_VIDEO_ID = "dBz9LYR3d8Q";
 
 const DOCS = [
   {
@@ -36,29 +34,40 @@ const DOCS = [
 ];
 
 const IMAGES = [
-  { src: heroMeeting, alt: "Terreno y vertederos en Alto Hospicio" },
-  { src: teamMeeting, alt: "Trabajo comunitario" },
-  { src: businessPerson, alt: "Operativos en terreno" },
-  { src: presentation, alt: "Charlas y talleres" },
-  { src: coaching, alt: "Formación y colaboración" },
-  { src: handshake, alt: "Alianzas locales" },
-  { src: workspace, alt: "Centro de innovación" },
-  { src: ceoPortrait, alt: "Liderazgo del proyecto" },
+  { src: "/galeria-vertedero.png", alt: "Vertedero de ropa en el desierto" },
+  { src: "/galeria-terreno-3.png", alt: "Terreno y vertederos en Alto Hospicio" },
+  { src: "/galeria-terreno-4.png", alt: "Acumulación de residuos textiles" },
+  { src: "/galeria-terreno-5.png", alt: "Montaña de ropa descartada" },
+  { src: "/galeria-terreno-6.png", alt: "Vertedero textil" },
+  { src: "/galeria-ninos.png", alt: "Contexto del territorio" },
+  { src: "/galeria-taller.png", alt: "Taller de reciclaje y oficios" },
 ];
 
 /** Posiciones asimétricas para cada imagen dentro del contenedor (object-position) */
 const OBJECT_POSITIONS = [
-  "15% 10%",
-  "85% 88%",
-  "50% 15%",
-  "8% 75%",
-  "92% 25%",
-  "25% 72%",
-  "78% 55%",
-  "35% 42%",
+  "50% 50%",
+  "50% 30%",
+  "50% 50%",
+  "50% 40%",
+  "50% 50%",
+  "50% 40%",
+  "50% 50%",
+];
+
+/** Layout asimétrico: cada imagen define columnas y filas que ocupa (1 o 2) */
+const GALLERY_LAYOUT = [
+  { colSpan: 2, rowSpan: 2 }, // 0 - imagen destacada grande
+  { colSpan: 1, rowSpan: 1 }, // 1
+  { colSpan: 1, rowSpan: 1 }, // 2
+  { colSpan: 1, rowSpan: 1 }, // 3
+  { colSpan: 1, rowSpan: 1 }, // 4
+  { colSpan: 1, rowSpan: 1 }, // 5
+  { colSpan: 2, rowSpan: 1 }, // 6 - imagen ancha
 ];
 
 export default function Contenido() {
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+
   return (
     <PageWrapper noTopPadding>
       {/* Hero Section - similar a Nosotros */}
@@ -70,8 +79,8 @@ export default function Contenido() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-4xl mx-auto space-y-8"
           >
-            <div className="inline-flex items-center gap-2 text-orange-500 text-sm font-medium mb-2 uppercase">
-              <span className="w-2 h-2 rounded-full bg-orange-500 shrink-0" />
+            <div className="inline-flex items-center gap-2 text-[#9b734c] text-sm font-medium mb-2 uppercase">
+              <span className="w-2 h-2 rounded-full bg-[#9b734c] shrink-0" />
               Contenido
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight">
@@ -203,33 +212,49 @@ export default function Contenido() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {IMAGES.map((img, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: Math.min(i * 0.05, 0.4) }}
-                className="group relative aspect-[4/3] rounded-2xl overflow-hidden border-2 border-primary/20 hover:border-primary transition-all"
-              >
-                <img
-                  src={img.src}
-                  alt={img.alt}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  style={{ objectPosition: OBJECT_POSITIONS[i % OBJECT_POSITIONS.length] }}
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-                  <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <p className="text-white text-sm font-medium">{img.alt}</p>
-                  </div>
-                </div>
-                <div className="absolute top-3 right-3 w-8 h-8 rounded-full bg-primary/90 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                  <Play className="w-4 h-4 text-white" fill="currentColor" />
-                </div>
-              </motion.div>
-            ))}
+          <div
+            className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-5 grid-auto-rows-[minmax(160px,1fr)] lg:grid-auto-rows-[minmax(200px,1fr)] grid-flow-dense"
+          >
+            {IMAGES.map((img, i) => {
+              const layout = GALLERY_LAYOUT[i] ?? { colSpan: 1, rowSpan: 1 };
+              const colSpan = layout.colSpan === 2 ? "lg:col-span-2" : "";
+              const rowSpan = layout.rowSpan === 2 ? "lg:row-span-2" : "";
+              return (
+                <motion.button
+                  type="button"
+                  key={i}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: Math.min(i * 0.05, 0.4) }}
+                  onClick={() => setLightboxIndex(i)}
+                  className={`group relative rounded-2xl overflow-hidden border-2 border-primary/20 hover:border-primary transition-all text-left cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 min-h-[160px] sm:min-h-[180px] ${colSpan} ${rowSpan}`}
+                >
+                  <img
+                    src={img.src}
+                    alt={img.alt}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 min-h-[160px] sm:min-h-[180px]"
+                    style={{ objectPosition: OBJECT_POSITIONS[i % OBJECT_POSITIONS.length] }}
+                  />
+                </motion.button>
+              );
+            })}
           </div>
+
+          <Dialog open={lightboxIndex !== null} onOpenChange={(open) => !open && setLightboxIndex(null)}>
+            <DialogContent className="max-w-[95vw] max-h-[95vh] w-auto h-auto p-3 border-0 bg-black/90 shadow-none [&>button]:text-white [&>button]:right-2 [&>button]:top-2">
+              <DialogTitle className="sr-only">
+                {lightboxIndex !== null ? IMAGES[lightboxIndex].alt : ""}
+              </DialogTitle>
+              {lightboxIndex !== null && (
+                <img
+                  src={IMAGES[lightboxIndex].src}
+                  alt={IMAGES[lightboxIndex].alt}
+                  className="max-w-full max-h-[85vh] w-auto h-auto object-contain rounded"
+                />
+              )}
+            </DialogContent>
+          </Dialog>
           </div>
         </div>
       </section>

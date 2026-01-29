@@ -15,7 +15,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 20% 10%;
 
-    --primary: 18 90% 55%;
+    --primary: 30 34% 45%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 30 25% 95%;
@@ -24,7 +24,7 @@
     --muted: 30 15% 92%;
     --muted-foreground: 220 10% 45%;
 
-    --accent: 18 90% 55%;
+    --accent: 30 34% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -32,7 +32,7 @@
 
     --border: 30 15% 88%;
     --input: 30 15% 88%;
-    --ring: 18 90% 55%;
+    --ring: 30 34% 45%;
 
     --radius: 0.5rem;
 
@@ -41,9 +41,9 @@
     --cream-dark: 30 25% 92%;
     --navy: 220 30% 15%;
     --navy-light: 220 20% 25%;
-    --orange: 18 90% 55%;
-    --orange-light: 18 85% 65%;
-    --orange-dark: 18 90% 45%;
+    --orange: 30 34% 45%;
+    --orange-light: 30 30% 55%;
+    --orange-dark: 30 38% 38%;
     --beige: 35 30% 90%;
     --beige-dark: 35 25% 80%;
 
@@ -67,7 +67,7 @@
     --popover: 220 30% 12%;
     --popover-foreground: 30 20% 95%;
 
-    --primary: 18 90% 55%;
+    --primary: 30 34% 45%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 220 25% 18%;
@@ -76,7 +76,7 @@
     --muted: 220 20% 20%;
     --muted-foreground: 30 15% 65%;
 
-    --accent: 18 90% 55%;
+    --accent: 30 34% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
@@ -84,7 +84,7 @@
 
     --border: 220 20% 20%;
     --input: 220 20% 20%;
-    --ring: 18 90% 55%;
+    --ring: 30 34% 45%;
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
@@ -118,7 +118,7 @@
   }
 
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-orange-light;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#9b734c] to-[#5b2500];
   }
 
   .marquee {

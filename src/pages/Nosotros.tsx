@@ -364,7 +364,7 @@ function TeamCard({
         </div>
         {/* Button with gradient */}
         <div className="absolute bottom-0 left-0 right-0">
-          <div className="w-full bg-gradient-to-r from-primary via-orange-400 to-amber-500 text-white py-3 px-4 rounded-t-2xl hover:opacity-90 transition-opacity">
+          <div className="w-full bg-gradient-to-r from-[#9b734c] to-[#5b2500] text-white py-3 px-4 rounded-t-2xl hover:opacity-90 transition-opacity">
             <div className="text-left">
               <div className="font-bold text-lg uppercase tracking-wide">{firstName}</div>
               <div className="font-bold text-lg uppercase tracking-wide">{lastName || ""}</div>
@@ -659,8 +659,8 @@ export default function Nosotros() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-4xl mx-auto space-y-8"
           >
-            <div className="inline-flex items-center gap-2 text-orange-500 text-sm font-medium mb-2 uppercase">
-              <span className="w-2 h-2 rounded-full bg-orange-500 shrink-0" />
+            <div className="inline-flex items-center gap-2 text-[#9b734c] text-sm font-medium mb-2 uppercase">
+              <span className="w-2 h-2 rounded-full bg-[#9b734c] shrink-0" />
               Regeneración, circularidad y comunidad al centro de cada decisión.
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight">
@@ -710,7 +710,7 @@ export default function Nosotros() {
       </section>
 
       {/* Logo Showcase Band */}
-      <section className="hidden py-8 lg:py-12 bg-gradient-to-r from-primary via-orange-400 to-amber-500">
+      <section className="hidden py-8 lg:py-12 bg-gradient-to-r from-[#9b734c] to-[#5b2500]">
         <div className="container mx-auto px-6 lg:px-8">
           <div className="flex justify-center items-center gap-8 lg:gap-12 flex-wrap">
             {MARCAS_LOGOS.map((logo, i) => (
@@ -833,7 +833,7 @@ export default function Nosotros() {
       </section>
 
       {/* Colaboradores Section - Orange Gradient CTA */}
-      <section className="py-20 lg:py-28 bg-gradient-to-r from-primary via-orange-400 to-amber-500 text-white relative overflow-hidden">
+      <section className="py-20 lg:py-28 bg-gradient-to-r from-[#9b734c] to-[#5b2500] text-white relative overflow-hidden">
         <div className="absolute top-0 left-0 right-0 h-8 bg-[#F5F2EC] rounded-b-3xl" />
         <div className="container mx-auto px-6 lg:px-8">
           <motion.div

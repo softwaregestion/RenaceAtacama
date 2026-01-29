@@ -8,7 +8,7 @@ interface GradientBandProps {
 export function GradientBand({ children, className = "" }: GradientBandProps) {
   return (
     <section
-      className={`relative overflow-hidden bg-gradient-to-r from-primary via-orange-400 to-amber-500 ${className}`}
+      className={`relative overflow-hidden bg-gradient-to-r from-[#9b734c] to-[#5b2500] ${className}`}
     >
       {children}
     </section>

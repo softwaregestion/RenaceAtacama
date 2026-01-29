@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Recycle, Mail, Instagram, Youtube } from "lucide-react";
+import { Mail, Instagram, Youtube } from "lucide-react";
 import { ROUTES } from "@/lib/routes";
 
 const EMAIL = "contacto@renaceatacama.cl";
@@ -31,12 +31,12 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
           {/* Columna 1: Logo + Descripción */}
           <div className="space-y-4">
-            <Link to={ROUTES.home} className="inline-flex flex-col items-start gap-3">
-              <Recycle className="w-10 h-10 text-white" strokeWidth={1.5} />
-              <span className="uppercase tracking-tight leading-tight">
-                <span className="text-xl lg:text-2xl font-bold">RENACE</span>{" "}
-                <span className="text-lg lg:text-xl font-bold">ATACAMA</span>
-              </span>
+            <Link to={ROUTES.home} className="inline-flex items-start">
+              <img
+                src="/logo-com-blanco.png"
+                alt="Renace Atacama"
+                className="h-[4.5rem] w-auto object-contain"
+              />
             </Link>
             <p className="text-neutral-400 text-sm leading-relaxed max-w-xs">
               Transformando el vertedero textil de Alto Hospicio en un modelo de economía circular

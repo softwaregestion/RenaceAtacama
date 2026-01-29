@@ -88,7 +88,7 @@ export default function Index() {
               transition={{ duration: 0.6 }}
               className="space-y-8"
             >
-              <span className="inline-flex items-center gap-2 text-primary text-sm font-medium">
+              <span className="inline-flex items-center gap-2 text-primary text-sm font-medium uppercase">
                 <span className="w-2 h-2 rounded-full bg-primary shrink-0" />
                 Economía circular · Desierto de Atacama
               </span>
@@ -138,6 +138,12 @@ export default function Index() {
                   className="w-full h-full object-cover"
                 />
               </div>
+              <img
+                src="/icon-blanco.png"
+                alt=""
+                aria-hidden
+                className="absolute -top-[2%] left-[88%] w-[22%] max-h-[22%] object-contain object-center pointer-events-none -translate-x-1/2 z-10"
+              />
               <div className="absolute -top-6 -right-6 w-40 h-40 bg-primary/20 rounded-full blur-3xl" />
               <div className="absolute -bottom-8 -left-8 w-56 h-56 bg-amber-200/30 rounded-full blur-3xl" />
               <motion.div
@@ -172,9 +178,14 @@ export default function Index() {
       </section>
 
       {/* Los Vertederos de Alto Hospicio */}
-      <GradientBand className="py-16 lg:py-24 -mt-2">
-        <div className="container mx-auto px-6 lg:px-8">
-          <div className="relative -mt-16 lg:-mt-20 pt-8 lg:pt-12 z-10">
+      <GradientBand className="py-24 lg:py-36 -mt-2">
+        <div className="container mx-auto px-6 lg:px-8 relative">
+          <img
+            src="/renace-logo-blanco.png"
+            alt="Renace Atacama"
+            className="absolute left-6 lg:left-8 -top-6 lg:-top-4 z-20 h-[4.2rem] lg:h-[6rem] w-auto object-contain pointer-events-none"
+          />
+          <div className="relative -mt-12 lg:-mt-16 pt-8 lg:pt-14 pb-4 z-10">
             {/* Right Card - Impactos (Top Right, Higher) */}
             <motion.div
               initial={{ opacity: 0, y: 24 }}
@@ -259,7 +270,7 @@ export default function Index() {
                       alt="Área afectada" 
                       className="w-full h-full object-cover object-center"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary/70 via-primary/30 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-br from-[#9b734c]/70 to-transparent" />
                     <div className="absolute top-4 left-4 right-4">
                       <p className="text-4xl lg:text-5xl font-bold text-white mb-1">300ha</p>
                       <p className="text-white/95 text-xs font-medium">Área afectada</p>
@@ -283,7 +294,7 @@ export default function Index() {
                       alt="Comunidades" 
                       className="w-full h-full object-cover object-left"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-tl from-primary/75 via-transparent to-primary/20" />
+                    <div className="absolute inset-0 bg-gradient-to-tl from-[#9b734c]/75 via-transparent to-[#5b2500]/20" />
                     <div className="absolute bottom-4 right-4 left-4 text-right">
                       <p className="text-4xl lg:text-5xl font-bold text-white mb-1">15+</p>
                       <p className="text-white/95 text-xs font-medium">Comunidades</p>
@@ -307,7 +318,7 @@ export default function Index() {
                       alt="Toneladas al año" 
                       className="w-full h-full object-cover object-right"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-tr from-primary/80 via-primary/50 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-tr from-[#9b734c]/80 to-transparent" />
                     <div className="absolute bottom-6 left-4 right-4">
                       <p className="text-4xl lg:text-5xl font-bold text-white mb-1">39k</p>
                       <p className="text-white/95 text-xs font-medium">Toneladas/año</p>
@@ -330,7 +341,7 @@ export default function Index() {
             transition={{ duration: 0.6 }}
             className="space-y-8"
           >
-            <div className="inline-flex items-center gap-2 text-primary text-sm font-medium">
+            <div className="inline-flex items-center gap-2 text-primary text-sm font-medium uppercase">
               <span className="w-2 h-2 rounded-full bg-primary shrink-0" />
               Acción Social y Comunitaria
             </div>

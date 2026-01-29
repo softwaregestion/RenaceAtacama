@@ -19,13 +19,12 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-primary/30">
       <div className="container mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link to={ROUTES.home} className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">R</span>
-            </div>
-            <span className="text-xl font-bold text-foreground">
-              Renace <span className="text-primary">Atacama</span>
-            </span>
+          <Link to={ROUTES.home} className="flex items-center">
+            <img
+              src="/renace-logo-cafe-oscuro.png"
+              alt="Renace Atacama"
+              className="h-14 w-auto object-contain"
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">

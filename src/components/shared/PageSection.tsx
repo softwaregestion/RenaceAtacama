@@ -20,7 +20,7 @@ export function PageSection({
         ? "bg-cream-dark"
         : variant === "dark"
           ? "bg-navy text-primary-foreground"
-          : "bg-gradient-to-r from-primary/5 via-orange-50/50 to-amber-50/50";
+          : "bg-gradient-to-r from-[#9b734c]/5 to-[#5b2500]/5";
 
   return (
     <section className={cn("py-20 lg:py-28", bg, className)}>

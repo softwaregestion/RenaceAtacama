@@ -23,7 +23,7 @@ export function StepCard({
         "rounded-3xl p-6 transition-all duration-300 hover:shadow-xl",
         variant === "light" && "bg-card border border-border hover:border-primary",
         variant === "gradient" &&
-          "bg-gradient-to-br from-primary via-orange-400 to-amber-500 border border-white/30 text-white",
+          "bg-gradient-to-br from-[#9b734c] to-[#5b2500] border border-white/30 text-white",
         variant === "dark" && "bg-navy text-primary-foreground border border-navy",
         className
       )}
