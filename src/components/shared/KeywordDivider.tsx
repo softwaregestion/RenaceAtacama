@@ -21,12 +21,12 @@ export function KeywordDivider({
             initial={{ opacity: 0.5 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="text-2xl md:text-4xl font-bold text-foreground/20 uppercase tracking-wider"
+            className="text-base sm:text-xl md:text-4xl font-bold text-foreground/20 uppercase tracking-wider"
           >
             {word}
           </motion.span>
           {i < items.length - 1 && (
-            <span className="text-primary text-xl md:text-2xl">•</span>
+            <span className="text-primary text-sm sm:text-lg md:text-2xl">•</span>
           )}
         </span>
       ))}
