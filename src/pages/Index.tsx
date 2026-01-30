@@ -189,7 +189,7 @@ export default function Index() {
             alt="Renace Atacama"
             className="absolute left-6 lg:left-8 -top-6 lg:-top-4 z-20 h-[4.2rem] lg:h-[6rem] w-auto object-contain pointer-events-none"
           />
-          <div className="relative -mt-12 lg:-mt-16 pt-8 lg:pt-14 pb-4 z-10">
+          <div className="relative -mt-12 lg:-mt-16 pt-24 lg:pt-14 pb-4 z-10">
             {/* Right Card - Impactos (Top Right, Higher) */}
             <motion.div
               initial={{ opacity: 0, y: 24 }}
