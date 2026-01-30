@@ -680,11 +680,14 @@ export default function Nosotros() {
               , una plataforma de mujeres que promueve la inclusión, la circularidad y la colaboración como motores de transformación. Buscamos crear un polo de innovación en el Desierto de Atacama poniendo en el centro a las comunidades, creando oportunidades para el territorio y generando soluciones frente a las problemáticas asociadas a los residuos.
             </p>
             <Button
+              asChild
               size="lg"
               className="bg-[#391800] hover:bg-[#391800]/90 text-white rounded-full px-10 gap-2"
             >
-              Conocer equipo
-              <ArrowRight className="w-4 h-4" />
+              <a href="#equipo">
+                Conocer equipo
+                <ArrowRight className="w-4 h-4" />
+              </a>
             </Button>
           </motion.div>
 

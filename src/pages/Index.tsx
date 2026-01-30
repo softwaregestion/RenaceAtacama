@@ -115,7 +115,11 @@ export default function Index() {
                   size="lg"
                   className="rounded-full px-8 gap-2 text-foreground hover:bg-primary/10 hover:text-primary border-0"
                 >
-                  <a href="#video">
+                  <a
+                    href="https://www.youtube.com/watch?v=dBz9LYR3d8Q"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Play className="w-4 h-4 fill-current" />
                     Ver video
                   </a>
