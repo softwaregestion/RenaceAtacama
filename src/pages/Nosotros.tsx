@@ -351,8 +351,8 @@ function TeamCard({
         className="relative group overflow-hidden cursor-pointer"
         onClick={() => setIsOpen(true)}
       >
-        {/* Image */}
-        <div className="aspect-square overflow-hidden bg-gray-200">
+        {/* Image: más alta en móvil para que la barra de nombre tape menos */}
+        <div className="aspect-[4/5] sm:aspect-square overflow-hidden bg-gray-200">
           <img
             src={member.image}
             alt={member.name}
@@ -362,13 +362,13 @@ function TeamCard({
             }}
           />
         </div>
-        {/* Button with gradient */}
+        {/* Button with gradient: menos alto en móvil para dejar más foto visible */}
         <div className="absolute bottom-0 left-0 right-0">
-          <div className="w-full bg-gradient-to-r from-[#9b734c] to-[#5b2500] text-white py-3 px-4 rounded-t-2xl hover:opacity-90 transition-opacity">
+          <div className="w-full bg-gradient-to-r from-[#9b734c] to-[#5b2500] text-white py-2.5 sm:py-3 px-3 sm:px-4 rounded-t-2xl hover:opacity-90 transition-opacity">
             <div className="text-left">
-              <div className="font-bold text-lg uppercase tracking-wide">{firstName}</div>
-              <div className="font-bold text-lg uppercase tracking-wide">{lastName || ""}</div>
-              <div className="text-xs font-medium mt-1 opacity-90">{member.title}</div>
+              <div className="font-bold text-sm sm:text-lg uppercase tracking-wide">{firstName}</div>
+              <div className="font-bold text-sm sm:text-lg uppercase tracking-wide">{lastName || ""}</div>
+              <div className="text-[10px] sm:text-xs font-medium mt-0.5 sm:mt-1 opacity-90">{member.title}</div>
             </div>
           </div>
         </div>
@@ -490,8 +490,8 @@ function ColabCard({
         className="relative group overflow-hidden cursor-pointer"
         onClick={() => setIsOpen(true)}
       >
-        {/* Image */}
-        <div className="aspect-[3/4] overflow-hidden bg-gray-200">
+        {/* Image: más alta en móvil para que la barra de nombre tape menos */}
+        <div className="aspect-[4/5] sm:aspect-[3/4] overflow-hidden bg-gray-200">
           <img
             src={member.image}
             alt={member.name}
@@ -501,13 +501,13 @@ function ColabCard({
             }}
           />
         </div>
-        {/* Button with white background */}
+        {/* Button with white background: menos alto en móvil para dejar más foto visible */}
         <div className="absolute bottom-0 left-0 right-0">
-          <div className="w-full bg-white py-3 px-4 rounded-t-2xl hover:opacity-95 transition-opacity">
+          <div className="w-full bg-white py-2.5 sm:py-3 px-3 sm:px-4 rounded-t-2xl hover:opacity-95 transition-opacity">
             <div className="text-left">
-              <div className="font-bold text-sm uppercase tracking-wide text-orange-500">{firstName}</div>
-              <div className="font-bold text-sm uppercase tracking-wide text-orange-500">{lastName || ""}</div>
-              <div className="text-xs font-medium mt-1 text-[#391800]">{member.title}</div>
+              <div className="font-bold text-xs sm:text-sm uppercase tracking-wide text-orange-500">{firstName}</div>
+              <div className="font-bold text-xs sm:text-sm uppercase tracking-wide text-orange-500">{lastName || ""}</div>
+              <div className="text-[10px] sm:text-xs font-medium mt-0.5 sm:mt-1 text-[#391800]">{member.title}</div>
             </div>
           </div>
         </div>
@@ -659,9 +659,9 @@ export default function Nosotros() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-4xl mx-auto space-y-8"
           >
-            <div className="inline-flex items-center gap-2 text-[#9b734c] text-sm font-medium mb-2 uppercase">
-              <span className="w-2 h-2 rounded-full bg-[#9b734c] shrink-0" />
-              Regeneración, circularidad y comunidad al centro de cada decisión.
+            <div className="inline-flex items-start gap-2 text-[#9b734c] text-sm font-medium mb-2 uppercase text-center sm:text-left">
+              <span className="w-2 h-2 rounded-full bg-[#9b734c] shrink-0 mt-[0.35rem]" aria-hidden />
+              <span>Regeneración, circularidad y comunidad al centro de cada decisión.</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight">
               Quiénes{" "}
