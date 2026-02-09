@@ -35,6 +35,14 @@ const TEAM: TeamMember[] = [
     image: '/claudio-bedoya.jpg',
   },
   {
+    name: 'Patricio Cabezas',
+    title: 'Ingeniero Senior',
+    summary: 'Ingeniero Senior con alta experiencia en cargos ejecutivos y directorios en grandes compañías, como también en el desarrollo de startup de alto impacto medioambiental y proyectos de gran escala.',
+    role: 'Ingeniero Senior con experiencia en cargos ejecutivos, directorios y proyectos de alto impacto medioambiental.',
+    linkedin: 'https://www.linkedin.com/in/patricio-javier-cabezas-alamos-aa7371bb',
+    image: '/patricio-cabezas.png',
+  },
+  {
     name: 'Catherinne Herrera',
     title: 'Ingeniera Textil | Consultora y Asesora Senior en Moda Sostenible e Innovación',
     summary: 'Ingeniera Textil titulada de la Universidad de Santiago de Chile, con más de 25 años de experiencia en la industria textil, retail, producción y moda. Consultora senior enfocada en sostenibilidad, innovación y economía circular. Su trayectoria combina la gestión técnica y comercial con la formación de equipos y la asesoría estratégica en proyectos de desarrollo sustentable, diseño circular y reinvención de modelos de negocio con impacto social y ambiental.',
@@ -50,6 +58,28 @@ const TEAM: TeamMember[] = [
     role: 'Experta en Ingeniería Textil y Economía Circular',
     linkedin: 'https://www.linkedin.com/in/catherinne-herrera-8792508/',
     image: '/catherinne-herrera.jpg',
+  },
+  {
+    name: 'Diego Albagly',
+    title: 'Sociólogo, máster en Medioambiente y Desarrollo Territorial y Educación y Sociedad.',
+    summary: 'Socio y Director del Instituto Profesional ARCOS.',
+    experience: [
+      '20 años de experiencia en ámbitos público y privado. Desarrollando diferentes cargos en las áreas de minería (AMSA) , energía (ENGIE), educación, en instituciones internacionales (CEPAL) y del tercer sector (Director Ejecutivo Fundación Juventud Emprendedora).',
+    ],
+    role: 'Sociólogo',
+    linkedin: 'https://www.linkedin.com/in/diego-albagly-sanfuentes-9a788b38',
+    image: '/diego-albagly-sanfuentes-.jpg',
+  },
+  {
+    name: 'Marco Bedoya',
+    title: 'Consultor senior en medio ambiente y sustentabilidad',
+    summary: 'Medio ambiente y sustentabilidad (Chile/Suiza)',
+    experience: [
+      'Más de 15 años de experiencia internacional en estrategias corporativas de sostenibilidad, evaluación ambiental y social de proyectos, gestión del cambio climático, biodiversidad, agua y residuos. Ha trabajado en sectores como minería, energía, materiales de construcción, agricultura y cosmética de lujo, en Chile, Suiza y otros países de Europa y Latinoamérica.',
+    ],
+    role: 'Asesor en sostenibilidad | Estratega ESG | Vinculación con comunidades y stakeholders internacionales',
+    linkedin: 'https://www.linkedin.com/in/marcobedoya',
+    image: '/marco-bedoya.jpg',
   },
   {
     name: 'Sandra Acosta',
@@ -70,28 +100,6 @@ const TEAM: TeamMember[] = [
     role: 'Coordinadora técnica | Asesora en economía regenerativa | Liderazgo comunitario | Movilización de recursos',
     linkedin: 'https://www.linkedin.com/in/sandraxab/?utm_source=share&utm_ca',
     image: '/sandra-acosta-beltran.png',
-  },
-  {
-    name: 'Marco Bedoya',
-    title: 'Consultor senior en medio ambiente y sustentabilidad',
-    summary: 'Medio ambiente y sustentabilidad (Chile/Suiza)',
-    experience: [
-      'Más de 15 años de experiencia internacional en estrategias corporativas de sostenibilidad, evaluación ambiental y social de proyectos, gestión del cambio climático, biodiversidad, agua y residuos. Ha trabajado en sectores como minería, energía, materiales de construcción, agricultura y cosmética de lujo, en Chile, Suiza y otros países de Europa y Latinoamérica.',
-    ],
-    role: 'Asesor en sostenibilidad | Estratega ESG | Vinculación con comunidades y stakeholders internacionales',
-    linkedin: 'https://www.linkedin.com/in/marcobedoya',
-    image: '/marco-bedoya.jpg',
-  },
-  {
-    name: 'Diego Albagly',
-    title: 'Sociólogo, máster en Medioambiente y Desarrollo Territorial y Educación y Sociedad.',
-    summary: 'Socio y Director del Instituto Profesional ARCOS.',
-    experience: [
-      '20 años de experiencia en ámbitos público y privado. Desarrollando diferentes cargos en las áreas de minería (AMSA) , energía (ENGIE), educación, en instituciones internacionales (CEPAL) y del tercer sector (Director Ejecutivo Fundación Juventud Emprendedora).',
-    ],
-    role: 'Sociólogo',
-    linkedin: 'https://www.linkedin.com/in/diego-albagly-sanfuentes-9a788b38',
-    image: '/diego-albagly-sanfuentes-.jpg',
   },
   {
     name: 'Mario Pino',
