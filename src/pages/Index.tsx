@@ -410,12 +410,12 @@ export default function Index() {
 
       <KeywordDivider />
 
-      {/* Marcas y Asociados */}
+      {/* Partners */}
       <section className="py-12 lg:py-16 bg-white">
         <div className="container mx-auto px-6 lg:px-8">
           <div className="text-center mb-8">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground">
-              Marcas y Asociados
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
+              Partners
             </h2>
           </div>
           <div className="relative overflow-hidden">
@@ -457,6 +457,47 @@ export default function Index() {
                   key={`logo-2-${i}`}
                   src={logo}
                   alt={`Logo ${i + 1}`}
+                  className="flex-shrink-0 w-40 h-40 lg:w-52 lg:h-52 object-contain transition-all duration-300 hover:scale-110"
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Patrocinadores */}
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="container mx-auto px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
+              Patrocinadores
+            </h2>
+          </div>
+          <div className="relative overflow-hidden">
+            <div className="flex animate-scroll-left gap-8 lg:gap-12">
+              {[
+                "/logo-gore-tarapaca.png",
+                "/alto-hospicio-logo.png",
+                "/logo-muni-iquique.png",
+                "/camara-verde-chile.png",
+              ].map((logo, i) => (
+                <img
+                  key={`patro-1-${i}`}
+                  src={logo}
+                  alt={`Patrocinador ${i + 1}`}
+                  className="flex-shrink-0 w-40 h-40 lg:w-52 lg:h-52 object-contain transition-all duration-300 hover:scale-110"
+                />
+              ))}
+              {[
+                "/logo-gore-tarapaca.png",
+                "/alto-hospicio-logo.png",
+                "/logo-muni-iquique.png",
+                "/camara-verde-chile.png",
+              ].map((logo, i) => (
+                <img
+                  key={`patro-2-${i}`}
+                  src={logo}
+                  alt={`Patrocinador ${i + 1}`}
                   className="flex-shrink-0 w-40 h-40 lg:w-52 lg:h-52 object-contain transition-all duration-300 hover:scale-110"
                 />
               ))}
