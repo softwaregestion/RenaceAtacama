@@ -22,6 +22,9 @@ interface TeamMember {
   image: string;
 }
 
+/** Perfiles a ocultar en la sección NUESTROS PROFESIONALES */
+const HIDDEN_PROFILES = ['Sandra Acosta', 'César Guzmán Torrico'];
+
 const TEAM: TeamMember[] = [
   {
     name: 'Claudio Bedoya',
@@ -773,7 +776,7 @@ export default function Nosotros() {
 
           {/* Team Grid */}
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
-            {TEAM.map((member, i) => (
+            {TEAM.filter((member) => !HIDDEN_PROFILES.includes(member.name)).map((member, i) => (
               <TeamCard key={member.name} member={member} index={i} />
             ))}
           </div>
