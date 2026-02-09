@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Mail, Instagram, Youtube, MapPin } from "lucide-react";
 import { PageWrapper } from "@/components/PageWrapper";
 
-const EMAIL = "contacto@renaceatacama.cl";
+const EMAIL = "contacto@renaceatacama.com";
 
 function TiktokIcon({ className }: { className?: string }) {
   return (

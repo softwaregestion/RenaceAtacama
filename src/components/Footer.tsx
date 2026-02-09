@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { Mail, Instagram, Youtube } from "lucide-react";
 import { ROUTES } from "@/lib/routes";
 
-const EMAIL = "contacto@renaceatacama.cl";
+const EMAIL = "contacto@renaceatacama.com";
 
 function TiktokIcon({ className }: { className?: string }) {
   return (
