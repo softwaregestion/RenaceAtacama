@@ -23,7 +23,7 @@ interface TeamMember {
 }
 
 /** Perfiles a ocultar en la sección NUESTROS PROFESIONALES */
-const HIDDEN_PROFILES = ['Sandra Acosta', 'César Guzmán Torrico'];
+const HIDDEN_PROFILES = ['Sandra Acosta', 'César Guzmán Torrico', 'Catherinne Herrera'];
 
 const TEAM: TeamMember[] = [
   {
