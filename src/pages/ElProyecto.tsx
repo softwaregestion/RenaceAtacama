@@ -206,7 +206,7 @@ export default function ElProyecto() {
               {/* Video Container - On Top */}
               <div className="relative z-10 w-full max-w-2xl lg:max-w-3xl aspect-[16/9] rounded-2xl overflow-hidden shadow-xl">
                 <video
-                  src="/mapa-virtual2.mp4"
+                  src="/el-proyecto-renace.mp4"
                   autoPlay
                   loop
                   muted

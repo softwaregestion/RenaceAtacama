@@ -58,9 +58,9 @@ const TEAM: TeamMember[] = [
   },
   {
     name: 'Patricio Cabezas',
-    title: 'Ingeniero Senior',
-    summary: 'Ingeniero Senior con alta experiencia en cargos ejecutivos y directorios en grandes compañías, como también en el desarrollo de startup de alto impacto medioambiental y proyectos de gran escala.',
-    role: 'Ingeniero Senior con experiencia en cargos ejecutivos, directorios y proyectos de alto impacto medioambiental.',
+    title: 'Consultor senior',
+    summary: 'Consultor senior con alta experiencia en cargos ejecutivos y directorios en grandes compañías, como también en el desarrollo de startup de alto impacto medioambiental y proyectos de gran escala.',
+    role: 'Consultor senior con experiencia en cargos ejecutivos, directorios y proyectos de alto impacto medioambiental.',
     linkedin: 'https://www.linkedin.com/in/patricio-javier-cabezas-alamos-aa7371bb',
     image: '/patricio-cabezas.png',
   },
