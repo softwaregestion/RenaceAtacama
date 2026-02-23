@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { ArrowRight, Globe, Users, Film, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -15,33 +16,18 @@ import {
 /** ID del video de YouTube (https://www.youtube.com/watch?v=dBz9LYR3d8Q) */
 const YOUTUBE_VIDEO_ID = "dBz9LYR3d8Q";
 
-const DOCS = [
-  {
-    title: "Documental para Streaming",
-    text: "Orientado a plataformas de streaming, divulgará la problemática, las causas y las soluciones propuestas con alcance internacional.",
-    icon: Globe,
-  },
-  {
-    title: "Documental Comunitario",
-    text: "En colaboración con nuestro canal asociado, seguirá la experiencia en terreno, la organización comunitaria y el impacto real de las acciones.",
-    icon: Users,
-  },
-  {
-    title: "Impacto y visibilidad",
-    text: "Contenido para campañas y movilización, posicionando a Renace Atacama como referente en innovación y sustentabilidad.",
-    icon: Film,
-  },
+const DOC_ICONS = [Globe, Users, Film] as const;
+const DOC_KEYS = ["doc1", "doc2", "doc3"] as const;
+const IMAGE_SRCS = [
+  "/galeria-vertedero.png",
+  "/galeria-terreno-3.png",
+  "/galeria-terreno-4.png",
+  "/galeria-terreno-5.png",
+  "/galeria-terreno-6.png",
+  "/galeria-ninos.png",
+  "/galeria-taller.png",
 ];
-
-const IMAGES = [
-  { src: "/galeria-vertedero.png", alt: "Vertedero de ropa en el desierto" },
-  { src: "/galeria-terreno-3.png", alt: "Terreno y vertederos en Alto Hospicio" },
-  { src: "/galeria-terreno-4.png", alt: "Acumulación de residuos textiles" },
-  { src: "/galeria-terreno-5.png", alt: "Montaña de ropa descartada" },
-  { src: "/galeria-terreno-6.png", alt: "Vertedero textil" },
-  { src: "/galeria-ninos.png", alt: "Contexto del territorio" },
-  { src: "/galeria-taller.png", alt: "Taller de reciclaje y oficios" },
-];
+const IMAGE_ALT_KEYS = ["galleryAlt1", "galleryAlt2", "galleryAlt3", "galleryAlt4", "galleryAlt5", "galleryAlt6", "galleryAlt7"] as const;
 
 /** Posiciones asimétricas para cada imagen dentro del contenedor (object-position) */
 const OBJECT_POSITIONS = [
@@ -66,11 +52,29 @@ const GALLERY_LAYOUT = [
 ];
 
 export default function Contenido() {
+  const { t } = useTranslation();
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+
+  const docs = useMemo(
+    () =>
+      DOC_KEYS.map((key, i) => ({
+        title: t(`contenido.${key}Title`),
+        text: t(`contenido.${key}Text`),
+        icon: DOC_ICONS[i],
+      })),
+    [t]
+  );
+  const images = useMemo(
+    () =>
+      IMAGE_SRCS.map((src, i) => ({
+        src,
+        alt: t(`contenido.${IMAGE_ALT_KEYS[i]}`),
+      })),
+    [t]
+  );
 
   return (
     <PageWrapper noTopPadding>
-      {/* Hero Section - similar a Nosotros */}
       <section id="contenido" className="pt-32 pb-16 lg:pt-40 lg:pb-24 bg-[#F5F2EC]">
         <div className="container mx-auto px-6 lg:px-8">
           <motion.div
@@ -81,24 +85,22 @@ export default function Contenido() {
           >
             <div className="inline-flex items-center gap-2 text-[#9b734c] text-sm font-medium mb-2 uppercase">
               <span className="w-2 h-2 rounded-full bg-[#9b734c] shrink-0" />
-              Contenido
+              {t("contenido.badge")}
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight">
-              El{" "}
-              <span className="font-script text-primary italic font-normal">documental</span>
+              {t("contenido.title")}
             </h1>
             <p className="text-muted-foreground text-base md:text-lg max-w-5xl mx-auto leading-relaxed">
-              El proyecto contempla la producción de dos largometrajes documentales que evidenciarán la problemática en la región y el proceso de creación del polo de innovación y limpieza del desierto. Documentales y galería visual que dan cuenta del trabajo en terreno.
+              {t("contenido.subtitle")}
             </p>
             <Button asChild size="lg" className="bg-[#391800] hover:bg-[#391800]/90 text-white rounded-full px-10 gap-2">
               <Link to={ROUTES.contacto}>
-                Contáctanos
+                {t("contenido.contactCta")}
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </Button>
           </motion.div>
 
-          {/* Espacio para video de YouTube */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -119,7 +121,7 @@ export default function Contenido() {
                   <div className="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center">
                     <Play className="w-10 h-10 text-primary" />
                   </div>
-                  <p className="text-sm font-medium">Video de YouTube</p>
+                  <p className="text-sm font-medium">{t("contenido.videoLabel")}</p>
                   <p className="text-xs max-w-xs text-center px-4">
                     Asigna <code className="bg-gray-200 px-1.5 py-0.5 rounded text-foreground">YOUTUBE_VIDEO_ID</code> en Contenido.tsx para mostrar el video.
                   </p>
@@ -130,7 +132,6 @@ export default function Contenido() {
         </div>
       </section>
 
-      {/* Sección Dos documentales - mismo estilo que EJES DE ACCIÓN (El Proyecto) */}
       <PageSection variant="cream">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -141,19 +142,18 @@ export default function Contenido() {
         >
           <div className="inline-flex items-center gap-2 text-primary text-sm font-medium mb-6">
             <span className="w-2 h-2 rounded-full bg-primary shrink-0" />
-            DOS DOCUMENTALES
+            {t("contenido.twoDocs")}
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6">
-            Dos documentales de la{" "}
-            <span className="font-script text-primary italic font-normal">propuesta</span>
+            {t("contenido.twoDocsTitle")}
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed max-w-4xl mx-auto">
-            Largometrajes que divulgarán la problemática, las causas y las soluciones propuestas, con alcance internacional y enfoque comunitario. Contenido para campañas y movilización, posicionando a Renace Atacama como referente en innovación y sustentabilidad.
+            {t("contenido.twoDocsSub")}
           </p>
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-          {DOCS.map((doc, i) => {
+          {docs.map((doc, i) => {
             const Icon = doc.icon;
             return (
               <motion.div
@@ -178,7 +178,6 @@ export default function Contenido() {
           })}
         </div>
 
-        {/* Banner delgado */}
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -188,34 +187,33 @@ export default function Contenido() {
         >
           <img
             src="/terreno-1-banner.png"
-            alt="Terreno y vertederos de ropa en Alto Hospicio"
+            alt={t("contenido.bannerAlt")}
             className="w-full h-32 sm:h-40 lg:h-48 object-cover"
             style={{ objectPosition: "50% 40%" }}
           />
         </motion.div>
       </PageSection>
 
-      {/* Galería - Fondo #391800 */}
       <section className="py-20 lg:py-28 bg-[#391800] text-white">
         <div className="container mx-auto px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <div className="inline-flex items-center gap-2 text-primary text-sm font-medium mb-6 uppercase">
                 <span className="w-2 h-2 rounded-full bg-primary shrink-0" />
-                GALERÍA
+                {t("contenido.galleryLabel")}
               </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
-              Evidencia <span className="font-script text-primary italic font-normal">visual</span> del territorio
+              {t("contenido.galleryTitle")}
             </h2>
             <p className="text-lg text-white/80 max-w-3xl mx-auto">
-              Imágenes del terreno que evidencian la problemática de los vertederos y el trabajo de regeneración.
+              {t("contenido.gallerySub")}
             </p>
           </div>
 
           <div
             className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-5 grid-auto-rows-[minmax(160px,1fr)] lg:grid-auto-rows-[minmax(200px,1fr)] grid-flow-dense"
           >
-            {IMAGES.map((img, i) => {
+            {images.map((img, i) => {
               const layout = GALLERY_LAYOUT[i] ?? { colSpan: 1, rowSpan: 1 };
               const colSpan = layout.colSpan === 2 ? "lg:col-span-2" : "";
               const rowSpan = layout.rowSpan === 2 ? "lg:row-span-2" : "";
@@ -244,12 +242,12 @@ export default function Contenido() {
           <Dialog open={lightboxIndex !== null} onOpenChange={(open) => !open && setLightboxIndex(null)}>
             <DialogContent className="max-w-[95vw] max-h-[95vh] w-auto h-auto p-3 border-0 bg-black/90 shadow-none [&>button]:text-white [&>button]:right-2 [&>button]:top-2">
               <DialogTitle className="sr-only">
-                {lightboxIndex !== null ? IMAGES[lightboxIndex].alt : ""}
+                {lightboxIndex !== null ? images[lightboxIndex].alt : ""}
               </DialogTitle>
               {lightboxIndex !== null && (
                 <img
-                  src={IMAGES[lightboxIndex].src}
-                  alt={IMAGES[lightboxIndex].alt}
+                  src={images[lightboxIndex].src}
+                  alt={images[lightboxIndex].alt}
                   className="max-w-full max-h-[85vh] w-auto h-auto object-contain rounded"
                 />
               )}
@@ -260,11 +258,11 @@ export default function Contenido() {
       </section>
 
       <CTABand
-        headline="¿Listo para sumarte? Juntos regeneramos el Desierto de Atacama."
+        headline={t("index.cta.headline")}
         cta={
           <Button asChild size="lg" className="rounded-full bg-white text-navy hover:bg-white/90 px-10 gap-2">
             <Link to={ROUTES.contacto}>
-              Contáctanos
+              {t("contenido.contactCta")}
               <ArrowRight className="w-4 h-4" />
             </Link>
           </Button>

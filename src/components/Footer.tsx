@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { Mail, Instagram, Youtube } from "lucide-react";
 import { ROUTES } from "@/lib/routes";
 
@@ -12,12 +13,6 @@ function TiktokIcon({ className }: { className?: string }) {
   );
 }
 
-const QUICK_LINKS = [
-  { label: "El Proyecto", to: ROUTES.elProyecto },
-  { label: "Quiénes Somos", to: ROUTES.quienesSomos },
-  { label: "Contacto", to: ROUTES.contacto },
-];
-
 const SOCIAL = [
   { label: "Instagram", href: "https://instagram.com/renaceatacama", icon: Instagram },
   { label: "TikTok", href: "https://tiktok.com/@renaceatacama", icon: TiktokIcon },
@@ -25,6 +20,13 @@ const SOCIAL = [
 ];
 
 export function Footer() {
+  const { t } = useTranslation();
+  const quickLinks = [
+    { label: t("footer.elProyecto"), to: ROUTES.elProyecto },
+    { label: t("footer.quienesSomos"), to: ROUTES.quienesSomos },
+    { label: t("footer.contacto"), to: ROUTES.contacto },
+  ];
+
   return (
     <footer className="bg-black text-white">
       <div className="container mx-auto px-6 lg:px-8 py-16">
@@ -39,18 +41,17 @@ export function Footer() {
               />
             </Link>
             <p className="text-neutral-400 text-sm leading-relaxed max-w-xs">
-              Transformando el vertedero textil de Alto Hospicio en un modelo de economía circular
-              para el Desierto de Atacama.
+              {t("footer.description")}
             </p>
           </div>
 
           {/* Columna 2: Enlaces rápidos */}
           <div>
             <h4 className="text-xs font-bold uppercase tracking-widest text-white mb-6">
-              Enlaces rápidos
+              {t("footer.quickLinks")}
             </h4>
             <ul className="space-y-4">
-              {QUICK_LINKS.map((link) => (
+              {quickLinks.map((link) => (
                 <li key={link.to}>
                   <Link
                     to={link.to}
@@ -66,7 +67,7 @@ export function Footer() {
           {/* Columna 3: Contáctanos + Email + Redes */}
           <div>
             <h4 className="text-xs font-bold uppercase tracking-widest text-white mb-6">
-              Contáctanos
+              {t("footer.contactUs")}
             </h4>
             <div className="space-y-4">
               <a
@@ -103,7 +104,7 @@ export function Footer() {
 
       {/* Bottom: Ubicación */}
       <div className="container mx-auto px-6 lg:px-8 py-6">
-        <p className="text-neutral-500 text-sm">Región de Tarapacá, Chile</p>
+        <p className="text-neutral-500 text-sm">{t("footer.location")}</p>
       </div>
     </footer>
   );

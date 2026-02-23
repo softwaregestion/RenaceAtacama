@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { ArrowRight, Briefcase, MapPin, Megaphone, Leaf, Bug } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -10,31 +11,23 @@ import { SectionAccent, CTABand } from "@/components/shared";
 const SHAPE_PATH =
   "M560.78.5H202.22c-13.66,0-24.72,11.07-24.72,24.72v41.71c0,14.12-11.45,25.57-25.57,25.57H25.22c-13.66,0-24.72,11.07-24.72,24.72v445.55c0,13.66,11.07,24.72,24.72,24.72h450.34c13.66,0,24.72-11.07,24.72-24.72v-48.17c0-10.55,8.56-19.11,19.11-19.11h41.38c13.66,0,24.72-11.07,24.72-24.72V25.22c0-13.66-11.07-24.72-24.72-24.72Z";
 
-const COMO_SUMARTE = [
-  {
-    title: "Trabajar por área específica",
-    description: "Contribuye con tus habilidades profesionales.",
-    icon: Briefcase,
-    image: "/fast-fashion.jpg",
-  },
-  {
-    title: "Colaborar en terreno",
-    description: "Participa activamente en las acciones de limpieza.",
-    icon: MapPin,
-    image: "/desierto-solo.jpg",
-  },
-  {
-    title: "Ser embajador/a",
-    description: "Difunde el proyecto en tu comunidad.",
-    icon: Megaphone,
-    image: "/recliclaje.webp",
-  },
-];
+const COMO_SUMARTE_KEYS = [
+  { key: "workByArea", icon: Briefcase, image: "/fast-fashion.jpg" },
+  { key: "collaborateField", icon: MapPin, image: "/desierto-solo.jpg" },
+  { key: "ambassador", icon: Megaphone, image: "/recliclaje.webp" },
+] as const;
 
 export default function Escarabajos() {
+  const { t } = useTranslation();
+  const comoSumarte = COMO_SUMARTE_KEYS.map(({ key, icon, image }) => ({
+    title: t(`escarabajos.${key}`),
+    description: t(`escarabajos.${key}Desc`),
+    icon,
+    image,
+  }));
+
   return (
     <PageWrapper noTopPadding>
-      {/* Hero Section - logo escarabajos arriba sin fondo negro ni borde */}
       <section id="escarabajos" className="pt-32 pb-16 lg:pt-40 lg:pb-24 bg-[#F5F2EC]">
         <div className="container mx-auto px-6 lg:px-8">
           <motion.div
@@ -45,21 +38,20 @@ export default function Escarabajos() {
           >
             <div className="inline-flex items-center gap-2 text-[#9b734c] text-sm font-medium mb-2 uppercase">
               <span className="w-2 h-2 rounded-full bg-[#9b734c] shrink-0" />
-              Escarabajos del Desierto
+              {t("escarabajos.badge")}
             </div>
             <div className="flex justify-center bg-transparent">
               <img
                 src="/escarabajos-logo-color.png"
-                alt="Escarabajos del Desierto"
+                alt={t("escarabajos.title")}
                 className="h-20 lg:h-28 w-auto object-contain"
               />
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight">
-              Escarabajos del{" "}
-              <span className="font-script text-primary italic font-normal">Desierto</span>
+              {t("escarabajos.title")}
             </h1>
             <p className="text-muted-foreground text-base md:text-lg max-w-5xl mx-auto leading-relaxed">
-              El trabajo de limpieza del desierto nos inspiró en el escarabajo estercolero: un organismo clave que recicla nutrientes, dispersa semillas y actúa como bioindicador de la salud del ecosistema.
+              {t("escarabajos.subtitle")}
             </p>
           </motion.div>
         </div>
@@ -99,7 +91,7 @@ export default function Escarabajos() {
               <div className="absolute -top-8 -right-2 lg:-top-6 lg:right-4 w-36 h-36 lg:w-44 lg:h-44 rounded-2xl overflow-hidden shadow-xl border-2 border-white bg-card z-10">
                 <img
                   src="/camion-2.jpg"
-                  alt="Logística y transporte"
+                  alt={t("escarabajos.logisticsAlt")}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -107,13 +99,13 @@ export default function Escarabajos() {
             <div className="flex-1 text-center lg:text-left space-y-4">
               <div className="inline-flex items-center gap-2 text-primary">
                 <Bug className="w-5 h-5" />
-                <span className="text-sm font-semibold uppercase tracking-wide">Símbolo del proyecto</span>
+                <span className="text-sm font-semibold uppercase tracking-wide">{t("escarabajos.symbolLabel")}</span>
               </div>
               <p className="text-xl md:text-2xl font-bold text-foreground font-display max-w-2xl">
-                Será el símbolo del proyecto y una invitación a sumarse.
+                {t("escarabajos.symbolQuote")}
               </p>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                El escarabajo representa la regeneración, el reciclaje de recursos y el trabajo comunitario en el territorio.
+                {t("escarabajos.symbolDesc")}
               </p>
             </div>
           </motion.div>
@@ -127,11 +119,11 @@ export default function Escarabajos() {
             <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
               <Leaf className="w-5 h-5 text-primary" />
             </div>
-            <SectionAccent className="mb-0">Cómo sumarte</SectionAccent>
+            <SectionAccent className="mb-0">{t("escarabajos.howToJoin")}</SectionAccent>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            {COMO_SUMARTE.map((item, i) => {
+            {comoSumarte.map((item, i) => {
               const Icon = item.icon;
               return (
                 <motion.div
@@ -164,11 +156,11 @@ export default function Escarabajos() {
       </section>
 
       <CTABand
-        headline="¿Listo para sumarte? Juntos regeneramos el Desierto de Atacama."
+        headline={t("escarabajos.ctaHeadline")}
         cta={
           <Button asChild size="lg" className="rounded-full bg-white text-navy hover:bg-white/90 px-10 gap-2">
             <Link to={ROUTES.contacto}>
-              Quiero unirme
+              {t("escarabajos.ctaButton")}
               <ArrowRight className="w-4 h-4" />
             </Link>
           </Button>

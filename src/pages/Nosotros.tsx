@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import { PageWrapper } from "@/components/PageWrapper";
@@ -23,7 +24,25 @@ interface TeamMember {
 }
 
 /** Perfiles a ocultar en la sección NUESTROS PROFESIONALES */
-const HIDDEN_PROFILES = ['Sandra Acosta', 'César Guzmán Torrico', 'Catherinne Herrera'];
+const HIDDEN_PROFILES = ['Sandra Acosta', 'César Guzmán Torrico'];
+
+/** Orden de visualización en NUESTROS PROFESIONALES (el resto mantiene orden del array TEAM) */
+const TEAM_ORDER = [
+  'Claudio Bedoya',
+  'Diego Albagly',
+  'Catherinne Herrera',
+  'Patricio Cabezas',
+  'Marco Bedoya',
+  'Mario Pino',
+  'Bruno Alfaro',
+  'María José Cáceres',
+  'Christian Matamala',
+  'Paula Castillo',
+  'Ashley Castillo Briones',
+  'Miguel Angel Curihuinca',
+  'Ricardo Quiroz',
+  'Roberto Fuentes',
+];
 
 const TEAM: TeamMember[] = [
   {
@@ -332,9 +351,11 @@ const MARCAS_LOGOS = [
 function TeamCard({
   member,
   index,
+  t,
 }: {
   member: TeamMember;
   index: number;
+  t: (key: string) => string;
 }) {
   const [isOpen, setIsOpen] = useState(false);
   const nameParts = member.name.split(" ");
@@ -411,7 +432,7 @@ function TeamCard({
                     className="inline-flex items-center gap-2 mt-3 text-primary hover:text-primary/80 transition-colors"
                   >
                     <LinkedInIcon />
-                    <span className="text-sm">Ver perfil de LinkedIn</span>
+                    <span className="text-sm">{t("nosotros.viewLinkedIn")}</span>
                     <ExternalLink className="w-3 h-3" />
                   </a>
                 )}
@@ -421,20 +442,20 @@ function TeamCard({
           
           <div className="space-y-4 mt-4">
             <div>
-              <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">Resumen</h4>
+              <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">{t("nosotros.summary")}</h4>
               <p className="text-sm leading-relaxed">{member.summary}</p>
             </div>
 
             {member.role && (
               <div>
-                <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">Rol</h4>
+                <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">{t("nosotros.role")}</h4>
                 <p className="text-sm leading-relaxed">{member.role}</p>
               </div>
             )}
 
             {member.experience && member.experience.length > 0 && (
               <div>
-                <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">Experiencia</h4>
+                <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">{t("nosotros.experience")}</h4>
                 <ul className="space-y-2">
                   {member.experience.map((exp, idx) => (
                     <li key={idx} className="text-sm leading-relaxed flex items-start gap-2">
@@ -448,7 +469,7 @@ function TeamCard({
 
             {member.competencias && member.competencias.length > 0 && (
               <div>
-                <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">Competencias</h4>
+                <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">{t("nosotros.competencies")}</h4>
                 <div className="flex flex-wrap gap-2">
                   {member.competencias.map((comp, idx) => (
                     <span
@@ -471,9 +492,11 @@ function TeamCard({
 function ColabCard({
   member,
   index,
+  t,
 }: {
   member: Colaborador;
   index: number;
+  t: (key: string) => string;
 }) {
   const [isOpen, setIsOpen] = useState(false);
   const nameParts = member.name.split(" ");
@@ -550,7 +573,7 @@ function ColabCard({
                     className="inline-flex items-center gap-2 mt-3 text-primary hover:text-primary/80 transition-colors"
                   >
                     <LinkedInIcon />
-                    <span className="text-sm">Ver perfil</span>
+                    <span className="text-sm">{t("nosotros.viewProfile")}</span>
                     <ExternalLink className="w-3 h-3" />
                   </a>
                 )}
@@ -560,20 +583,20 @@ function ColabCard({
           
           <div className="space-y-4 mt-4">
             <div>
-              <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">Resumen</h4>
+              <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">{t("nosotros.summary")}</h4>
               <p className="text-sm leading-relaxed">{member.summary}</p>
             </div>
 
             {member.role && (
               <div>
-                <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">Rol</h4>
+                <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">{t("nosotros.role")}</h4>
                 <p className="text-sm leading-relaxed">{member.role}</p>
               </div>
             )}
 
             {member.experience && member.experience.length > 0 && (
               <div>
-                <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">Experiencia</h4>
+                <h4 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">{t("nosotros.experience")}</h4>
                 <ul className="space-y-2">
                   {member.experience.map((exp, idx) => (
                     <li key={idx} className="text-sm leading-relaxed flex items-start gap-2">
@@ -659,9 +682,9 @@ function InteractiveLogoMarquee() {
 }
 
 export default function Nosotros() {
+  const { t } = useTranslation();
   return (
     <PageWrapper noTopPadding>
-      {/* Hero Section - Quiénes somos */}
       <section id="quienes-somos" className="pt-32 pb-16 lg:pt-40 lg:pb-24 bg-[#F5F2EC]">
         <div className="container mx-auto px-6 lg:px-8">
           <motion.div
@@ -672,14 +695,13 @@ export default function Nosotros() {
           >
             <div className="inline-flex items-start gap-2 text-[#9b734c] text-sm font-medium mb-2 uppercase text-center sm:text-left">
               <span className="w-2 h-2 rounded-full bg-[#9b734c] shrink-0 mt-[0.35rem]" aria-hidden />
-              <span>Regeneración, circularidad y comunidad al centro de cada decisión.</span>
+              <span>{t("nosotros.tagline")}</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight">
-              Quiénes{" "}
-              <span className="font-script text-primary italic font-normal">somos</span>
+              {t("nosotros.title")}
             </h1>
             <p className="text-muted-foreground text-base md:text-lg max-w-5xl mx-auto leading-relaxed">
-              <strong>Renace Atacama</strong> es una iniciativa que nace desde{" "}
+              {t("nosotros.introBefore")}
               <a 
                 href="https://beginss.com/" 
                 target="_blank" 
@@ -688,7 +710,7 @@ export default function Nosotros() {
               >
                 Beginss
               </a>
-              , una plataforma de mujeres que promueve la inclusión, la circularidad y la colaboración como motores de transformación. Buscamos crear un polo de innovación en el Desierto de Atacama poniendo en el centro a las comunidades, creando oportunidades para el territorio y generando soluciones frente a las problemáticas asociadas a los residuos.
+              {t("nosotros.introAfter")}
             </p>
             <Button
               asChild
@@ -696,13 +718,12 @@ export default function Nosotros() {
               className="bg-[#391800] hover:bg-[#391800]/90 text-white rounded-full px-10 gap-2"
             >
               <a href="#equipo">
-                Conocer equipo
+                {t("nosotros.knowTeam")}
                 <ArrowRight className="w-4 h-4" />
               </a>
             </Button>
           </motion.div>
 
-          {/* Beginss Logo Card */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -717,7 +738,7 @@ export default function Nosotros() {
               />
             </div>
             <p className="text-lg md:text-xl font-semibold text-foreground leading-relaxed text-left">
-              El proyecto es impulsado por un equipo interdisciplinario de expertos y actores locales, integrando sostenibilidad, innovación y acción comunitaria para restaurar el territorio y activar nuevas economías circulares.
+              {t("nosotros.beginssCard")}
             </p>
           </motion.div>
         </div>
@@ -753,14 +774,13 @@ export default function Nosotros() {
             >
               <div className="inline-flex items-center gap-2 text-white text-sm font-medium mb-6">
                 <span className="w-2 h-2 rounded-full bg-primary shrink-0"></span>
-                NUESTROS PROFESIONALES
+                {t("nosotros.ourProfessionals")}
               </div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white mb-6">
-                Equipo <span className="font-script text-orange-500 italic font-normal">multidisciplinario</span> comprometido
+                {t("nosotros.teamTitle")}
               </h2>
             </motion.div>
 
-            {/* Right Column */}
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -769,16 +789,24 @@ export default function Nosotros() {
               className="text-right"
             >
               <p className="text-white/80 text-lg leading-relaxed mb-6">
-                Un grupo de profesionales que combina sostenibilidad, industria, comunidad, comunicación y territorio.
+                {t("nosotros.teamSub")}
               </p>
             </motion.div>
           </div>
 
           {/* Team Grid */}
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
-            {TEAM.filter((member) => !HIDDEN_PROFILES.includes(member.name)).map((member, i) => (
-              <TeamCard key={member.name} member={member} index={i} />
-            ))}
+            {TEAM.filter((member) => !HIDDEN_PROFILES.includes(member.name))
+              .sort((a, b) => {
+                const i = TEAM_ORDER.indexOf(a.name);
+                const j = TEAM_ORDER.indexOf(b.name);
+                const orderA = i === -1 ? TEAM_ORDER.length : i;
+                const orderB = j === -1 ? TEAM_ORDER.length : j;
+                return orderA - orderB;
+              })
+              .map((member, i) => (
+                <TeamCard key={member.name} member={member} index={i} t={t} />
+              ))}
           </div>
         </div>
       </section>
@@ -795,15 +823,13 @@ export default function Nosotros() {
           >
             <div className="inline-flex items-center gap-2 text-foreground text-sm font-medium mb-6">
               <span className="w-2 h-2 rounded-full bg-primary shrink-0" />
-              PARTNERS Y ASOCIADOS
+              {t("nosotros.partnersSection")}
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight mb-6">
-              Impulsado por{" "}
-              <span className="font-script text-primary italic font-normal">organizaciones</span>{" "}
-              comprometidas
+              {t("nosotros.partnersTitle")}
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Renace Atacama es impulsado por organizaciones e instituciones comprometidas con la sostenibilidad.
+              {t("nosotros.partnersSub")}
             </p>
           </motion.div>
 
@@ -812,13 +838,13 @@ export default function Nosotros() {
           <div>
             <div className="inline-flex items-center gap-2 text-foreground text-sm font-medium mb-6">
               <span className="w-2 h-2 rounded-full bg-primary shrink-0" />
-              PATROCINADORES
+              {t("nosotros.sponsors")}
             </div>
             <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Entidades que nos apoyan
+              {t("nosotros.sponsorsTitle")}
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mb-12">
-              Entidades públicas que apoyan y patrocinan Renace Atacama.
+              {t("nosotros.sponsorsSub")}
             </p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -859,19 +885,17 @@ export default function Nosotros() {
           >
             <div className="inline-flex items-center gap-2 text-white text-sm font-medium mb-6">
               <span className="w-2 h-2 rounded-full bg-white shrink-0"></span>
-              COLABORADORES Y EMBAJADORES
+              {t("nosotros.collaborators")}
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white mb-6">
-              Profesionales que colaboran con{" "}
-              <span className="font-script text-white italic font-normal">Renace Atacama</span>{" "}
-              en distintas iniciativas
+              {t("nosotros.collaboratorsTitle")}
             </h2>
           </motion.div>
 
           {/* Colaboradores Grid */}
           <div id="colaboradores" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {COLABORADORES.map((member, i) => (
-              <ColabCard key={member.name} member={member} index={i} />
+              <ColabCard key={member.name} member={member} index={i} t={t} />
             ))}
           </div>
         </div>
@@ -882,7 +906,7 @@ export default function Nosotros() {
         <div className="container mx-auto px-6 lg:px-8">
           <div className="text-center">
             <p className="text-2xl md:text-3xl lg:text-4xl font-bold uppercase tracking-wide">
-              RENACE <span className="text-primary">*</span> ATACAMA <span className="text-primary">*</span> REGENERACIÓN
+              {t("nosotros.banner")}
             </p>
           </div>
         </div>

@@ -1,19 +1,56 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { ROUTES, NAV_ITEMS } from "@/lib/routes";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { ROUTES } from "@/lib/routes";
 import { cn } from "@/lib/utils";
+import i18n, { LANGUAGES, type LanguageCode } from "@/i18n";
+
+const FLAG_BY_LANG: Record<string, string> = {
+  es: "🇪🇸",
+  en: "🇺🇸",
+  "pt-BR": "🇧🇷",
+};
 
 export function Header() {
+  const { t } = useTranslation();
+  const currentFlag = FLAG_BY_LANG[i18n.language] ?? FLAG_BY_LANG.es;
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const location = useLocation();
 
+  const navItems = useMemo(
+    () => [
+      { label: t("nav.home"), href: ROUTES.home },
+      {
+        label: t("nav.elProyecto"),
+        children: [
+          { label: t("nav.elProyecto"), href: ROUTES.elProyecto },
+          { label: t("nav.productos"), href: ROUTES.productos },
+        ],
+      },
+      { label: t("nav.nosotros"), href: ROUTES.nosotros },
+      { label: t("nav.contenido"), href: ROUTES.contenido },
+      { label: t("nav.escarabajos"), href: ROUTES.escarabajos },
+    ],
+    [t]
+  );
+
   const isActive = (href: string) => location.pathname === href;
   const isActiveSection = (children?: { href: string }[]) =>
     children?.some((c) => location.pathname === c.href);
+
+  const handleLanguage = (code: LanguageCode) => {
+    i18n.changeLanguage(code);
+  };
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-primary/30">
@@ -28,7 +65,7 @@ export function Header() {
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
-            {NAV_ITEMS.map((item) =>
+            {navItems.map((item) =>
               "children" in item ? (
                 <div
                   key={item.label}
@@ -85,19 +122,42 @@ export function Header() {
           </nav>
 
           <div className="flex items-center gap-3">
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="rounded-full border border-border hover:bg-primary/10 hover:border-primary/50 text-2xl leading-none w-10 h-10"
+                  aria-label="Idioma"
+                >
+                  <span aria-hidden>{currentFlag}</span>
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="min-w-[10rem]">
+                {LANGUAGES.map((lang) => (
+                  <DropdownMenuItem
+                    key={lang.code}
+                    onClick={() => handleLanguage(lang.code)}
+                    className={cn(i18n.language === lang.code && "bg-primary/10 text-primary font-medium")}
+                  >
+                    {lang.label}
+                  </DropdownMenuItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
             <Button
               asChild
               variant="outline"
               size="lg"
               className="hidden md:flex border-2 border-foreground hover:bg-foreground hover:text-background rounded-full px-6"
             >
-              <Link to={ROUTES.contacto}>Contáctanos</Link>
+              <Link to={ROUTES.contacto}>{t("nav.contact")}</Link>
             </Button>
 
             <button
               className="lg:hidden w-10 h-10 flex items-center justify-center rounded-lg hover:bg-primary/10 transition-colors"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              aria-label="Abrir menú"
+              aria-label={t("nav.openMenu")}
             >
               {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -114,7 +174,7 @@ export function Header() {
             className="lg:hidden bg-white border-t border-primary/30"
           >
             <nav className="container mx-auto px-6 py-6 flex flex-col gap-1 max-h-[70vh] overflow-y-auto">
-              {NAV_ITEMS.map((item) =>
+              {navItems.map((item) =>
                 "children" in item ? (
                   <div key={item.label} className="pt-2">
                     <p className="px-4 py-2 text-xs font-bold text-muted-foreground uppercase tracking-wider">
@@ -151,7 +211,7 @@ export function Header() {
               <div className="flex flex-col gap-2 pt-4 mt-2 border-t border-border">
                 <Button asChild variant="outline" className="w-full rounded-full" size="lg">
                   <Link to={ROUTES.contacto} onClick={() => setIsMenuOpen(false)}>
-                    Contáctanos
+                    {t("nav.contact")}
                   </Link>
                 </Button>
               </div>

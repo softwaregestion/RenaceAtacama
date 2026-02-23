@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "elProyecto": "El proyecto",
+    "productos": "Productos",
+    "nosotros": "Nosotros",
+    "contenido": "Contenido",
+    "escarabajos": "Escarabajos del Desierto",
+    "contact": "Contáctanos",
+    "openMenu": "Abrir menú"
+  },
+  "footer": {
+    "description": "Transformando el vertedero textil de Alto Hospicio en un modelo de economía circular para el Desierto de Atacama.",
+    "quickLinks": "Enlaces rápidos",
+    "elProyecto": "El Proyecto",
+    "quienesSomos": "Quiénes Somos",
+    "contacto": "Contacto",
+    "contactUs": "Contáctanos",
+    "location": "Región de Tarapacá, Chile"
+  },
+  "index": {
+    "hero": {
+      "tagline": "Economía circular · Desierto de Atacama",
+      "titlePart1": "Renace",
+      "titlePart2": "Atacama",
+      "titlePart3": "Reciclaje con impacto real",
+      "subtitle": "Renace Atacama es una iniciativa que combina sostenibilidad, innovación y empleo. Convertimos residuos en nuevos productos, fortaleciendo comunidades y cuidando el planeta.",
+      "cta": "Saber más",
+      "video": "Ver video",
+      "alt": "Renace Atacama — reciclaje con impacto real",
+      "altoHospicio": "Alto Hospicio",
+      "territory": "Territorio en regeneración"
+    },
+    "impactos": {
+      "label": "Impactos",
+      "title": "AMBIENTALES, SOCIALES Y ECONÓMICOS",
+      "ambiental": {
+        "title": "Impactos Ambientales",
+        "text": "Contaminación de los suelos y el agua, degradación del ecosistema y contaminación del aire."
+      },
+      "social": {
+        "title": "Impactos Sociales",
+        "text": "Riesgos para la salud y profundización de la desigualdad y los conflictos sociales."
+      },
+      "economico": {
+        "title": "Impactos Económicos",
+        "text": "La contaminación afecta a la industria turística, la agricultura y la pesca en la región."
+      }
+    },
+    "vertederos": {
+      "title": "Los Vertederos de Alto Hospicio",
+      "text": "Alto Hospicio y sus alrededores reciben a diario toneladas de residuos industriales y urbanos (ropa, neumáticos, botellas y más), generando vertederos ilegales en pleno desierto. Con más de 300 hectáreas afectadas y cerca de 39.000 toneladas al año, se han convertido en una de las mayores crisis ambientales de Tarapacá, con impactos sociales, económicos y ecológicos."
+    },
+    "stats": {
+      "area": "Área afectada",
+      "communities": "Comunidades",
+      "tonsPerYear": "Toneladas/año"
+    },
+    "accionSocial": {
+      "tag": "Acción Social y Comunitaria",
+      "title": "Renace Atacama es reconstruir vida y esperanza desde la comunidad.",
+      "subtitle": "Trabajamos junto a comunidades, mujeres, recicladores y jóvenes para fortalecer la economía solidaria, la participación y la dignidad en el territorio.",
+      "card1Title": "Sanar el desierto, sanar a su gente",
+      "card1Text": "En Renace Atacama creemos que sanar el desierto es también sanar a su gente.",
+      "card2Title": "Una crisis que demanda acción inmediata",
+      "card2Text": "La magnitud del problema afecta de manera directa a las comunidades, a la salud pública, al paisaje y a las actividades productivas de la zona."
+    },
+    "partners": "Partners",
+    "patrocinadores": "Patrocinadores",
+    "escarabajosSection": {
+      "title": "Escarabajos del Desierto",
+      "intro1": "El trabajo de limpieza del desierto nos inspiró en el escarabajo estercolero: un organismo clave que recicla nutrientes, dispersa semillas y actúa como bioindicador de la salud del ecosistema.",
+      "intro2": "Será el símbolo del proyecto y una invitación a sumarse.",
+      "workByArea": "Trabajar por área específica",
+      "workByAreaDesc": "Contribuye con tus habilidades profesionales.",
+      "collaborateField": "Colaborar en terreno",
+      "collaborateFieldDesc": "Participa activamente en las acciones de limpieza.",
+      "ambassador": "Ser embajador/a",
+      "ambassadorDesc": "Difunde el proyecto en tu comunidad."
+    },
+    "cta": {
+      "headline": "¿Listo para sumarte? Juntos regeneramos el Desierto de Atacama.",
+      "button": "Quiero unirme"
+    }
+  },
+  "contacto": {
+    "badge": "Contacto",
+    "title": "Contáctanos",
+    "subtitle": "Si quieres sumarte, colaborar o impulsar alianzas con Renace Atacama, conversemos.",
+    "writeUs": "Escríbenos",
+    "follow": "Síguenos",
+    "location": "Región de Tarapacá, Chile",
+    "ctaTitle": "Juntos regeneramos el Desierto de Atacama.",
+    "ctaSub": "Tu voz y tu acción suman."
+  },
+  "nosotros": {
+    "tagline": "Regeneración, circularidad y comunidad al centro de cada decisión.",
+    "title": "Quiénes somos",
+    "introBefore": "Renace Atacama es una iniciativa que nace desde ",
+    "introAfter": ", una plataforma de mujeres que promueve la inclusión, la circularidad y la colaboración como motores de transformación. Buscamos crear un polo de innovación en el Desierto de Atacama poniendo en el centro a las comunidades, creando oportunidades para el territorio y generando soluciones frente a las problemáticas asociadas a los residuos.",
+    "knowTeam": "Conocer equipo",
+    "beginssCard": "El proyecto es impulsado por un equipo interdisciplinario de expertos y actores locales, integrando sostenibilidad, innovación y acción comunitaria para restaurar el territorio y activar nuevas economías circulares.",
+    "ourProfessionals": "NUESTROS PROFESIONALES",
+    "teamTitle": "Equipo multidisciplinario comprometido",
+    "teamSub": "Un grupo de profesionales que combina sostenibilidad, industria, comunidad, comunicación y territorio.",
+    "partnersSection": "PARTNERS Y ASOCIADOS",
+    "partnersTitle": "Impulsado por organizaciones comprometidas",
+    "partnersSub": "Renace Atacama es impulsado por organizaciones e instituciones comprometidas con la sostenibilidad.",
+    "sponsors": "PATROCINADORES",
+    "sponsorsTitle": "Entidades que nos apoyan",
+    "sponsorsSub": "Entidades públicas que apoyan y patrocinan Renace Atacama.",
+    "collaborators": "COLABORADORES Y EMBAJADORES",
+    "collaboratorsTitle": "Profesionales que colaboran con Renace Atacama en distintas iniciativas",
+    "banner": "RENACE * ATACAMA * REGENERACIÓN",
+    "summary": "Resumen",
+    "role": "Rol",
+    "experience": "Experiencia",
+    "competencies": "Competencias",
+    "viewLinkedIn": "Ver perfil de LinkedIn",
+    "viewProfile": "Ver perfil"
+  },
+  "elProblema": {
+    "title": "El basural textil del desierto",
+    "subtitle": "Los vertederos ilegales en Alto Hospicio se han convertido en uno de los mayores focos de contaminación del norte de Chile, afectando biodiversidad, salud pública y economía regional.",
+    "stats": {
+      "more300": "Más de 300",
+      "hectares": "hectáreas afectadas",
+      "39000": "39.000",
+      "tonsYear": "toneladas de residuos al año",
+      "growing": "Un impacto",
+      "growingLabel": "que crece sin control"
+    },
+    "impacts": "Impactos",
+    "threeDimensions": "Tres dimensiones de la crisis",
+    "ambiental": { "title": "Impacto Ambiental", "text": "Contaminación del suelo, aire y agua. Daño a la flora y fauna del Desierto de Atacama." },
+    "social": { "title": "Impacto Social", "text": "Afectación directa a comunidades cercanas, riesgos sanitarios y deterioro de calidad de vida." },
+    "economico": { "title": "Impacto Económico", "text": "Costos de limpieza, pérdida de valor territorial y presión sobre recursos públicos." }
+  },
+  "elProyecto": {
+    "badge": "NUESTRO PROYECTO",
+    "title": "El Proyecto Renace Atacama",
+    "subtitle": "Renace Atacama busca transformar Alto Hospicio y el desierto de Atacama en un polo de innovación, regeneración y sostenibilidad.",
+    "band": "RENACE • ATACAMA • REGENERACIÓN • ECONOMÍA CIRCULAR",
+    "problemLabel": "EL PROBLEMA",
+    "problemTitle": "Los Vertederos de Alto Hospicio",
+    "problemText": "Los vertederos ilegales en Alto Hospicio se han convertido en uno de los mayores focos de contaminación del norte de Chile, afectando biodiversidad, salud pública y economía regional.",
+    "area": "Área afectada",
+    "communities": "Comunidades",
+    "tonsYear": "Toneladas/año",
+    "projectLabel": "El Proyecto Renace Atacama",
+    "projectTitle": "Parque industrial y centro de desarrollo e innovación tecnológica comunitario",
+    "economiaRegenerativa": "ECONOMÍA REGENERATIVA",
+    "economiaText": "Transformamos vertederos ilegales en oportunidades de desarrollo económico y territorial.",
+    "nodoInnovacion": "NODO DE INNOVACIÓN",
+    "nodoText": "Un parque industrial abierto a la comunidad que integra reciclaje, educación, innovación y desarrollo local.",
+    "modeloCircular": "MODELO CIRCULAR",
+    "modeloText": "Un modelo que transforma residuos en recursos, impulsa innovación y genera empleo local.",
+    "modalidad1": "El Parque industrial y centro de desarrollo e innovación tecnológica comunitario será el corazón operativo de Renace Atacama. Ubicado en las cercanías de los vertederos de Alto Hospicio, su función es dar un nuevo destino a los residuos que hoy afectan el territorio, comenzando con los textiles y expandiéndose progresivamente hacia otros materiales según las necesidades locales.",
+    "modalidad2": "Más que una planta de reciclaje, el centro se concibe como un espacio de encuentro y aprendizaje abierto a la comunidad. Allí convergerán la innovación, la educación ambiental, la capacitación técnica y la investigación aplicada, fomentando nuevas economías locales y el trabajo colaborativo entre profesionales, organizaciones y habitantes del territorio.",
+    "modalidad3": "El objetivo es generar un modelo autosustentable donde la recuperación de materiales impulse la creación de valor social y económico, consolidando a Alto Hospicio como un referente en gestión sostenible y regeneración ambiental en el norte de Chile.",
+    "ejes": { "ambiental": "AMBIENTAL", "social": "SOCIAL", "comunitario": "COMUNITARIO", "economico": "ECONÓMICO" },
+    "ejeAmbientalDesc": "Conservación y uso responsable de recursos; restauración ecológica; equilibrio sostenible entre actividad humana y entorno.",
+    "ejeSocialDesc": "Equidad, acceso a servicios básicos, salud y seguridad, fortalecimiento, relacionamiento y protección a grupos vulnerables.",
+    "ejeComunitarioDesc": "Participación de grupos de interés; gobernanza local; cultura y patrimonio; proyectos colaborativos.",
+    "ejeEconomicoDesc": "Crecimiento sostenible e inclusivo; empleo local; cadenas de valor circulares; tecnologías y energías limpias.",
+    "ejesSectionTitle": "Ejes de acción de la propuesta",
+    "ejesSectionSub": "Renace Atacama surge como una respuesta transformadora a los desafíos del territorio. Convierte los desechos en oportunidades mediante un enfoque sostenible, innovador y de largo plazo, integrando distintas disciplinas y poniendo el empoderamiento femenino como eje central. Todo ello se articula bajo un modelo de economía circular orientado al desarrollo sustentable.",
+    "resultados": {
+      "transformar": "Transformar",
+      "transformarText": "Transformar colectivamente un territorio dañado en un espacio saludable y resiliente, donde la colaboración entre comunidades genere lazos duraderos, intercambio de saberes y un compromiso profundo para evitar que estas heridas vuelvan a abrirse.",
+      "crear": "Crear",
+      "crearText": "Impulsar cadenas productivas creativas, basadas en la observación, la experiencia, el aprendizaje aplicado y la imaginación, fomentando la cocreación de soluciones sostenibles que den origen a una nueva forma de vida en armonía con el entorno.",
+      "restaurar": "Restaurar",
+      "restaurarText": "Retirar de forma respetuosa todos los residuos y materiales ajenos al ecosistema, reconociendo el valor único y vulnerable del Desierto de Atacama, y actuando con responsabilidad hacia su preservación.",
+      "conectar": "Conectar",
+      "conectarText": "Integrarnos a redes globales de colaboración ambiental, como el movimiento de la moda sostenible, compartiendo buenas prácticas y experiencias desde el hacer, y aportando con ejemplos concretos de regeneración, creatividad y conciencia ecológica."
+    }
+  },
+  "laPropuesta": {
+    "title": "La propuesta",
+    "subtitle": "Renace Atacama responde a los desafíos del territorio transformando desechos en oportunidades. Un modelo de acción circular basado en sostenibilidad, innovación y comunidad.",
+    "ejes": "Ejes de acción",
+    "fourPillars": "Cuatro pilares del proyecto",
+    "ambiental": "Ambiental",
+    "social": "Social",
+    "comunitario": "Comunitario",
+    "economico": "Económico",
+    "whatWeAchieve": "Qué logramos",
+    "expectedResults": "Resultados esperados",
+    "expectedResultsSub": "Un plan claro para transformar el problema en un sistema sustentable, replicable y con impacto real.",
+    "joinProject": "Sumarme al proyecto",
+    "resultados": {
+      "transformar": "Transformar",
+      "transformarText": "Residuos en recursos, con foco inicial en textiles.",
+      "crear": "Crear",
+      "crearText": "Empleo local, formación y emprendimiento circular.",
+      "restaurar": "Restaurar",
+      "restaurarText": "Recuperación del desierto y protección del ecosistema.",
+      "conectar": "Conectar",
+      "conectarText": "Alianzas entre comunidad, industria e instituciones."
+    }
+  },
+  "productos": {
+    "title": "¿Qué se puede obtener de la ropa reciclada?",
+    "subtitle": "Una amplia variedad de productos útiles, creativos y sostenibles que dan nueva vida a los textiles recuperados.",
+    "categories": "Categorías",
+    "cat1": "Textiles planos y tejidos",
+    "cat1Items": ["Bolsos, mochilas, estuches", "Delantales, individuales, manteles", "Tapices, banderines decorativos", "Fundas de cojín, cortinas", "Telas para patchwork y quilting"],
+    "cat2": "Accesorios y vestuario",
+    "cat2Items": ["Gorros, bufandas, chalecos, chaquetas", "Scrunchies, turbantes, cintillos", "Prendas para muñecos", "Ropa para mascotas"],
+    "cat3": "Textiles suaves y rellenos",
+    "cat3Items": ["Cojines, zafús, peluches", "Camas para mascotas", "Aislantes térmicos/acústicos artesanales"],
+    "cat4": "Material para productos duros",
+    "cat4Items": ["Fieltros prensados", "Plantillas para muebles", "Revestimientos ecológicos"],
+    "cat5": "Arte y decoración",
+    "cat5Items": ["Collages y obras", "Muralismo con retazos", "Artesanías con identidad local"],
+    "cat6": "Productos de bienestar",
+    "cat6Items": ["Antifaces y saquitos térmicos", "Almohadas de lactancia/yoga", "Accesorios de meditación"],
+    "cat7": "Bioinnovación y sostenibilidad",
+    "cat7Items": ["Fibras mezcladas con reciclados para paneles", "Prototipos ecotextiles biodegradables"]
+  },
+  "quienesSomos": {
+    "title": "Quiénes somos",
+    "subtitle": "Renace Atacama es una iniciativa impulsada desde Begins, enfocada en innovación, sostenibilidad y economía circular para convertir residuos en oportunidades y regenerar el territorio junto a sus comunidades.",
+    "vision": "Nuestra visión",
+    "visionText": "Restaurar el Desierto de Atacama y activar economías circulares con impacto social, ambiental y productivo."
+  },
+  "accionSocial": {
+    "title": "Acción social y comunitaria",
+    "subtitle": "En Renace Atacama creemos que sanar el desierto es también sanar a su gente.",
+    "commitment": "Nuestro compromiso",
+    "text": "Trabajamos junto a comunidades, mujeres, recicladores y jóvenes para fortalecer la economía solidaria, la participación y la dignidad en el territorio.",
+    "quote": "Renace Atacama es reconstruir vida y esperanza desde la comunidad."
+  },
+  "galeria": {
+    "title": "Galería",
+    "subtitle": "Imágenes del terreno que evidencian la problemática de los vertederos.",
+    "evidence": "Evidencia visual"
+  },
+  "contenido": {
+    "badge": "Contenido",
+    "title": "El documental",
+    "subtitle": "El proyecto contempla la producción de dos largometrajes documentales que evidenciarán la problemática en la región y el proceso de creación del polo de innovación y limpieza del desierto. Documentales y galería visual que dan cuenta del trabajo en terreno.",
+    "contactCta": "Contáctanos",
+    "twoDocs": "DOS DOCUMENTALES",
+    "twoDocsTitle": "Dos documentales de la propuesta",
+    "twoDocsSub": "Largometrajes que divulgarán la problemática, las causas y las soluciones propuestas, con alcance internacional y enfoque comunitario. Contenido para campañas y movilización, posicionando a Renace Atacama como referente en innovación y sustentabilidad.",
+    "doc1Title": "Documental para Streaming",
+    "doc1Text": "Orientado a plataformas de streaming, divulgará la problemática, las causas y las soluciones propuestas con alcance internacional.",
+    "doc2Title": "Documental Comunitario",
+    "doc2Text": "En colaboración con nuestro canal asociado, seguirá la experiencia en terreno, la organización comunitaria y el impacto real de las acciones.",
+    "doc3Title": "Impacto y visibilidad",
+    "doc3Text": "Contenido para campañas y movilización, posicionando a Renace Atacama como referente en innovación y sustentabilidad.",
+    "galleryAlt1": "Vertedero de ropa en el desierto",
+    "galleryAlt2": "Terreno y vertederos en Alto Hospicio",
+    "galleryAlt3": "Acumulación de residuos textiles",
+    "galleryAlt4": "Montaña de ropa descartada",
+    "galleryAlt5": "Vertedero textil",
+    "galleryAlt6": "Contexto del territorio",
+    "galleryAlt7": "Taller de reciclaje y oficios",
+    "videoLabel": "Video de YouTube",
+    "galleryLabel": "GALERÍA",
+    "galleryTitle": "Evidencia visual del territorio",
+    "gallerySub": "Imágenes del terreno que evidencian la problemática de los vertederos y el trabajo de regeneración.",
+    "bannerAlt": "Terreno y vertederos de ropa en Alto Hospicio"
+  },
+  "elDocumental": {
+    "title": "El documental",
+    "subtitle": "El proyecto contempla la producción de dos largometrajes documentales que evidenciarán la problemática en la región y el proceso de creación del polo de innovación y limpieza del desierto.",
+    "twoDocs": "Dos documentales",
+    "doc1Title": "Documental para Streaming",
+    "doc1Text": "Orientado a plataformas de streaming, divulgará la problemática, las causas y las soluciones propuestas con alcance internacional.",
+    "doc2Title": "Documental Comunitario",
+    "doc2Text": "En colaboración con nuestro canal asociado, seguirá la experiencia en terreno, la organización comunitaria y el impacto real de las acciones.",
+    "doc3Title": "Impacto y visibilidad",
+    "doc3Text": "Contenido para campañas y movilización, posicionando a Renace Atacama como referente en innovación y sustentabilidad.",
+    "features": "Características",
+    "feature1": "Alcance Global",
+    "feature1Sub": "Plataformas de streaming internacionales",
+    "feature2": "Impacto Social",
+    "feature2Sub": "Conciencia y movilización comunitaria",
+    "feature3": "Doble Producción",
+    "feature3Sub": "Dos documentales complementarios",
+    "joinCta": "Quiero unirme"
+  },
+  "escarabajos": {
+    "badge": "Escarabajos del Desierto",
+    "title": "Escarabajos del Desierto",
+    "subtitle": "El trabajo de limpieza del desierto nos inspiró en el escarabajo estercolero: un organismo clave que recicla nutrientes, dispersa semillas y actúa como bioindicador de la salud del ecosistema.",
+    "symbolLabel": "Símbolo del proyecto",
+    "symbolQuote": "Será el símbolo del proyecto y una invitación a sumarse.",
+    "symbolDesc": "El escarabajo representa la regeneración, el reciclaje de recursos y el trabajo comunitario en el territorio.",
+    "howToJoin": "Cómo sumarte",
+    "workByArea": "Trabajar por área específica",
+    "workByAreaDesc": "Contribuye con tus habilidades profesionales.",
+    "collaborateField": "Colaborar en terreno",
+    "collaborateFieldDesc": "Participa activamente en las acciones de limpieza.",
+    "ambassador": "Ser embajador/a",
+    "ambassadorDesc": "Difunde el proyecto en tu comunidad.",
+    "ctaHeadline": "¿Listo para sumarte? Juntos regeneramos el Desierto de Atacama.",
+    "ctaButton": "Quiero unirme",
+    "logisticsAlt": "Logística y transporte"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "back": "Volver al inicio"
+  }
+}

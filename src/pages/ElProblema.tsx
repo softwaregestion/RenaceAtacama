@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { ArrowRight, Droplets, Users, TrendingDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -7,37 +8,30 @@ import { PageWrapper } from "@/components/PageWrapper";
 import { ROUTES } from "@/lib/routes";
 import { SectionAccent, FeatureCard, StatsBlock, CTABand } from "@/components/shared";
 
-const STATS = [
-  { value: "Más de 300", label: "hectáreas afectadas" },
-  { value: "39.000", label: "toneladas de residuos al año" },
-  { value: "Un impacto", label: "que crece sin control" },
-];
+const STAT_KEYS = [
+  { valueKey: "elProblema.stats.more300", labelKey: "elProblema.stats.hectares" },
+  { valueKey: "elProblema.stats.39000", labelKey: "elProblema.stats.tonsYear" },
+  { valueKey: "elProblema.stats.growing", labelKey: "elProblema.stats.growingLabel" },
+] as const;
 
-const IMPACTOS = [
-  {
-    title: "Impacto Ambiental",
-    text: "Contaminación del suelo, aire y agua. Daño a la flora y fauna del Desierto de Atacama.",
-    icon: Droplets,
-  },
-  {
-    title: "Impacto Social",
-    text: "Afectación directa a comunidades cercanas, riesgos sanitarios y deterioro de calidad de vida.",
-    icon: Users,
-  },
-  {
-    title: "Impacto Económico",
-    text: "Costos de limpieza, pérdida de valor territorial y presión sobre recursos públicos.",
-    icon: TrendingDown,
-  },
-];
+const IMPACTO_ICONS = [Droplets, Users, TrendingDown] as const;
+const IMPACTO_KEYS = ["ambiental", "social", "economico"] as const;
 
 export default function ElProblema() {
+  const { t } = useTranslation();
+  const stats = STAT_KEYS.map((s) => ({ value: t(s.valueKey), label: t(s.labelKey) }));
+  const impactos = IMPACTO_KEYS.map((key, i) => ({
+    title: t(`elProblema.${key}.title`),
+    text: t(`elProblema.${key}.text`),
+    icon: IMPACTO_ICONS[i],
+  }));
+
   return (
     <PageWrapper>
       <div className="container mx-auto px-6 lg:px-8 pt-24 lg:pt-28 pb-16 lg:pb-24">
         <PageHeader
-          title="El basural textil del desierto"
-          text="Los vertederos ilegales en Alto Hospicio se han convertido en uno de los mayores focos de contaminación del norte de Chile, afectando biodiversidad, salud pública y economía regional."
+          title={t("elProblema.title")}
+          text={t("elProblema.subtitle")}
           className="mb-16"
         />
 
@@ -47,7 +41,7 @@ export default function ElProblema() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20"
         >
-          {STATS.map((s, i) => (
+          {stats.map((s, i) => (
             <div
               key={i}
               className="p-8 rounded-3xl bg-card border border-border text-center hover:border-primary hover:shadow-xl transition-all"
@@ -57,12 +51,12 @@ export default function ElProblema() {
           ))}
         </motion.section>
 
-        <SectionAccent className="mb-6">Impactos</SectionAccent>
+        <SectionAccent className="mb-6">{t("elProblema.impacts")}</SectionAccent>
         <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-10">
-          Tres dimensiones de la crisis
+          {t("elProblema.threeDimensions")}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-20">
-          {IMPACTOS.map((item, i) => (
+          {impactos.map((item, i) => (
             <motion.div
               key={item.title}
               initial={{ opacity: 0, y: 20 }}
@@ -98,11 +92,11 @@ export default function ElProblema() {
       </div>
 
       <CTABand
-        headline="¿Listo para sumarte? Juntos regeneramos el Desierto de Atacama."
+        headline={t("index.cta.headline")}
         cta={
           <Button asChild size="lg" className="rounded-full bg-white text-navy hover:bg-white/90 px-10 gap-2">
             <Link to={ROUTES.contacto}>
-              Quiero unirme
+              {t("index.cta.button")}
               <ArrowRight className="w-4 h-4" />
             </Link>
           </Button>

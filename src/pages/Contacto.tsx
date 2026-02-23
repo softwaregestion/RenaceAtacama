@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { Mail, Instagram, Youtube, MapPin } from "lucide-react";
 import { PageWrapper } from "@/components/PageWrapper";
 
@@ -19,9 +20,9 @@ const SOCIAL = [
 ];
 
 export default function Contacto() {
+  const { t } = useTranslation();
   return (
     <PageWrapper noTopPadding>
-      {/* Hero Section - mismo diseño que Nosotros, Contenido, Escarabajos */}
       <section id="contacto" className="pt-32 pb-16 lg:pt-40 lg:pb-24 bg-[#F5F2EC]">
         <div className="container mx-auto px-6 lg:px-8">
           <motion.div
@@ -32,13 +33,13 @@ export default function Contacto() {
           >
             <div className="inline-flex items-center gap-2 text-[#9b734c] text-sm font-medium mb-2 uppercase">
               <span className="w-2 h-2 rounded-full bg-[#9b734c] shrink-0" />
-              Contacto
+              {t("contacto.badge")}
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight">
-              <span className="font-script text-primary italic font-normal">Contáctanos</span>
+              <span className="font-script text-primary italic font-normal">{t("contacto.title")}</span>
             </h1>
             <p className="text-muted-foreground text-base md:text-lg max-w-3xl mx-auto leading-relaxed">
-              Si quieres sumarte, colaborar o impulsar alianzas con Renace Atacama, conversemos.
+              {t("contacto.subtitle")}
             </p>
           </motion.div>
         </div>
@@ -58,7 +59,7 @@ export default function Contacto() {
             >
               <div className="p-8 lg:p-10 rounded-3xl bg-card border border-border shadow-lg">
                 <h2 className="text-sm font-bold text-primary uppercase tracking-wider mb-6">
-                  Escríbenos
+                  {t("contacto.writeUs")}
                 </h2>
                 <div className="flex items-center gap-4 mb-6">
                   <div className="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center shrink-0">
@@ -73,7 +74,7 @@ export default function Contacto() {
                 </div>
                 <div className="border-t border-border mt-8 pt-8">
                   <h2 className="text-sm font-bold text-primary uppercase tracking-wider mb-4">
-                    Síguenos
+                    {t("contacto.follow")}
                   </h2>
                   <div className="flex gap-3">
                     {SOCIAL.map((s) => {
@@ -113,7 +114,7 @@ export default function Contacto() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-2 left-2 right-2 flex items-center gap-2 text-white text-xs sm:text-sm">
                   <MapPin className="w-3.5 h-3.5 shrink-0" />
-                  <span className="font-medium">Región de Tarapacá, Chile</span>
+                  <span className="font-medium">{t("contacto.location")}</span>
                 </div>
               </div>
               <div className="grid grid-cols-2 gap-3 flex-shrink-0 h-20 sm:h-24">
@@ -146,7 +147,7 @@ export default function Contacto() {
             viewport={{ once: true }}
             className="text-xl md:text-2xl font-bold text-foreground max-w-2xl mx-auto"
           >
-            Juntos regeneramos el <span className="font-script text-primary italic">Desierto de Atacama</span>.
+            {t("contacto.ctaTitle")}
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 12 }}
@@ -155,7 +156,7 @@ export default function Contacto() {
             transition={{ delay: 0.1 }}
             className="text-muted-foreground mt-3"
           >
-            Tu voz y tu acción suman.
+            {t("contacto.ctaSub")}
           </motion.p>
         </div>
       </section>

@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "home": "Home",
+    "elProyecto": "The project",
+    "productos": "Products",
+    "nosotros": "About us",
+    "contenido": "Content",
+    "escarabajos": "Desert Beetles",
+    "contact": "Contact us",
+    "openMenu": "Open menu"
+  },
+  "footer": {
+    "description": "Transforming Alto Hospicio's textile landfill into a circular economy model for the Atacama Desert.",
+    "quickLinks": "Quick links",
+    "elProyecto": "The Project",
+    "quienesSomos": "Who we are",
+    "contacto": "Contact",
+    "contactUs": "Contact us",
+    "location": "Tarapacá Region, Chile"
+  },
+  "index": {
+    "hero": {
+      "tagline": "Circular economy · Atacama Desert",
+      "titlePart1": "Renace",
+      "titlePart2": "Atacama",
+      "titlePart3": "Recycling with real impact",
+      "subtitle": "Renace Atacama is an initiative that combines sustainability, innovation and employment. We turn waste into new products, strengthening communities and caring for the planet.",
+      "cta": "Learn more",
+      "video": "Watch video",
+      "alt": "Renace Atacama — recycling with real impact",
+      "altoHospicio": "Alto Hospicio",
+      "territory": "Territory in regeneration"
+    },
+    "impactos": {
+      "label": "Impacts",
+      "title": "ENVIRONMENTAL, SOCIAL AND ECONOMIC",
+      "ambiental": {
+        "title": "Environmental impacts",
+        "text": "Soil and water pollution, ecosystem degradation and air pollution."
+      },
+      "social": {
+        "title": "Social impacts",
+        "text": "Health risks and deepening inequality and social conflict."
+      },
+      "economico": {
+        "title": "Economic impacts",
+        "text": "Pollution affects the tourism industry, agriculture and fishing in the region."
+      }
+    },
+    "vertederos": {
+      "title": "The landfills of Alto Hospicio",
+      "text": "Alto Hospicio and its surroundings receive daily tons of industrial and urban waste (clothing, tires, bottles and more), generating illegal dumps in the middle of the desert. With more than 300 hectares affected and nearly 39,000 tons per year, they have become one of the major environmental crises in Tarapacá, with social, economic and ecological impacts."
+    },
+    "stats": {
+      "area": "Area affected",
+      "communities": "Communities",
+      "tonsPerYear": "Tons/year"
+    },
+    "accionSocial": {
+      "tag": "Social and community action",
+      "title": "Renace Atacama is rebuilding life and hope from the community.",
+      "subtitle": "We work with communities, women, recyclers and youth to strengthen the solidarity economy, participation and dignity in the territory.",
+      "card1Title": "Heal the desert, heal its people",
+      "card1Text": "At Renace Atacama we believe that healing the desert is also healing its people.",
+      "card2Title": "A crisis that demands immediate action",
+      "card2Text": "The scale of the problem directly affects communities, public health, the landscape and productive activities in the area."
+    },
+    "partners": "Partners",
+    "patrocinadores": "Sponsors",
+    "escarabajosSection": {
+      "title": "Desert Beetles",
+      "intro1": "The desert cleanup work inspired us in the dung beetle: a key organism that recycles nutrients, disperses seeds and acts as a bioindicator of ecosystem health.",
+      "intro2": "It will be the symbol of the project and an invitation to join.",
+      "workByArea": "Work by specific area",
+      "workByAreaDesc": "Contribute with your professional skills.",
+      "collaborateField": "Collaborate in the field",
+      "collaborateFieldDesc": "Participate actively in cleanup actions.",
+      "ambassador": "Be an ambassador",
+      "ambassadorDesc": "Spread the project in your community."
+    },
+    "cta": {
+      "headline": "Ready to join? Together we regenerate the Atacama Desert.",
+      "button": "I want to join"
+    }
+  },
+  "contacto": {
+    "badge": "Contact",
+    "title": "Contact us",
+    "subtitle": "If you want to join, collaborate or promote partnerships with Renace Atacama, let's talk.",
+    "writeUs": "Write to us",
+    "follow": "Follow us",
+    "location": "Tarapacá Region, Chile",
+    "ctaTitle": "Together we regenerate the Atacama Desert.",
+    "ctaSub": "Your voice and your action matter."
+  },
+  "nosotros": {
+    "tagline": "Regeneration, circularity and community at the center of every decision.",
+    "title": "Who we are",
+    "introBefore": "Renace Atacama is an initiative born from ",
+    "introAfter": ", a platform of women that promotes inclusion, circularity and collaboration as engines of transformation. We seek to create an innovation hub in the Atacama Desert by putting communities at the center, creating opportunities for the territory and generating solutions to the problems associated with waste.",
+    "knowTeam": "Meet the team",
+    "beginssCard": "The project is driven by an interdisciplinary team of experts and local actors, integrating sustainability, innovation and community action to restore the territory and activate new circular economies.",
+    "ourProfessionals": "OUR PROFESSIONALS",
+    "teamTitle": "Committed multidisciplinary team",
+    "teamSub": "A group of professionals that combines sustainability, industry, community, communication and territory.",
+    "partnersSection": "PARTNERS AND ASSOCIATES",
+    "partnersTitle": "Driven by committed organizations",
+    "partnersSub": "Renace Atacama is driven by organizations and institutions committed to sustainability.",
+    "sponsors": "SPONSORS",
+    "sponsorsTitle": "Entities that support us",
+    "sponsorsSub": "Public entities that support and sponsor Renace Atacama.",
+    "collaborators": "COLLABORATORS AND AMBASSADORS",
+    "collaboratorsTitle": "Professionals who collaborate with Renace Atacama in different initiatives",
+    "banner": "RENACE * ATACAMA * REGENERATION",
+    "summary": "Summary",
+    "role": "Role",
+    "experience": "Experience",
+    "competencies": "Competencies",
+    "viewLinkedIn": "View LinkedIn profile",
+    "viewProfile": "View profile"
+  },
+  "elProblema": {
+    "title": "The textile wasteland of the desert",
+    "subtitle": "Illegal landfills in Alto Hospicio have become one of the largest sources of pollution in northern Chile, affecting biodiversity, public health and the regional economy.",
+    "stats": {
+      "more300": "More than 300",
+      "hectares": "hectares affected",
+      "39000": "39,000",
+      "tonsYear": "tons of waste per year",
+      "growing": "An impact",
+      "growingLabel": "growing out of control"
+    },
+    "impacts": "Impacts",
+    "threeDimensions": "Three dimensions of the crisis",
+    "ambiental": { "title": "Environmental impact", "text": "Soil, air and water pollution. Damage to the flora and fauna of the Atacama Desert." },
+    "social": { "title": "Social impact", "text": "Direct impact on nearby communities, health risks and deterioration in quality of life." },
+    "economico": { "title": "Economic impact", "text": "Cleanup costs, loss of territorial value and pressure on public resources." }
+  },
+  "elProyecto": {
+    "badge": "OUR PROJECT",
+    "title": "The Renace Atacama Project",
+    "subtitle": "Renace Atacama seeks to transform Alto Hospicio and the Atacama desert into a hub of innovation, regeneration and sustainability.",
+    "band": "RENACE • ATACAMA • REGENERATION • CIRCULAR ECONOMY",
+    "problemLabel": "THE PROBLEM",
+    "problemTitle": "The landfills of Alto Hospicio",
+    "problemText": "Illegal landfills in Alto Hospicio have become one of the largest sources of pollution in northern Chile, affecting biodiversity, public health and the regional economy.",
+    "area": "Area affected",
+    "communities": "Communities",
+    "tonsYear": "Tons/year",
+    "projectLabel": "The Renace Atacama Project",
+    "projectTitle": "Industrial park and community technological development and innovation center",
+    "economiaRegenerativa": "REGENERATIVE ECONOMY",
+    "economiaText": "We transform illegal landfills into opportunities for economic and territorial development.",
+    "nodoInnovacion": "INNOVATION HUB",
+    "nodoText": "An industrial park open to the community that integrates recycling, education, innovation and local development.",
+    "modeloCircular": "CIRCULAR MODEL",
+    "modeloText": "A model that transforms waste into resources, drives innovation and generates local employment.",
+    "modalidad1": "The industrial park and community technological development and innovation center will be the operational heart of Renace Atacama. Located near the Alto Hospicio landfills, its function is to give a new destination to the waste that currently affects the territory, starting with textiles and progressively expanding to other materials according to local needs.",
+    "modalidad2": "More than a recycling plant, the center is conceived as a meeting and learning space open to the community. There innovation, environmental education, technical training and applied research will converge, fostering new local economies and collaborative work among professionals, organizations and inhabitants of the territory.",
+    "modalidad3": "The goal is to generate a self-sustaining model where material recovery drives the creation of social and economic value, consolidating Alto Hospicio as a benchmark in sustainable management and environmental regeneration in northern Chile.",
+    "ejes": { "ambiental": "ENVIRONMENTAL", "social": "SOCIAL", "comunitario": "COMMUNITY", "economico": "ECONOMIC" },
+    "ejeAmbientalDesc": "Conservation and responsible use of resources; ecological restoration; sustainable balance between human activity and the environment.",
+    "ejeSocialDesc": "Equity, access to basic services, health and safety, strengthening, relationship and protection of vulnerable groups.",
+    "ejeComunitarioDesc": "Participation of stakeholders; local governance; culture and heritage; collaborative projects.",
+    "ejeEconomicoDesc": "Sustainable and inclusive growth; local employment; circular value chains; clean technologies and energy.",
+    "ejesSectionTitle": "Lines of action of the proposal",
+    "ejesSectionSub": "Renace Atacama emerges as a transformative response to the challenges of the territory. It turns waste into opportunities through a sustainable, innovative and long-term approach, integrating different disciplines and placing women's empowerment at the center. All of this is articulated under a circular economy model oriented towards sustainable development.",
+    "resultados": {
+      "transformar": "Transform",
+      "transformarText": "Collectively transform a damaged territory into a healthy and resilient space, where collaboration between communities generates lasting ties, exchange of knowledge and a deep commitment to prevent these wounds from reopening.",
+      "crear": "Create",
+      "crearText": "Drive creative productive chains, based on observation, experience, applied learning and imagination, fostering the co-creation of sustainable solutions that give rise to a new way of life in harmony with the environment.",
+      "restaurar": "Restore",
+      "restaurarText": "Respectfully remove all waste and materials foreign to the ecosystem, recognizing the unique and vulnerable value of the Atacama Desert, and acting with responsibility towards its preservation.",
+      "conectar": "Connect",
+      "conectarText": "Integrate into global environmental collaboration networks, such as the sustainable fashion movement, sharing good practices and experiences from the ground up, and contributing concrete examples of regeneration, creativity and ecological awareness."
+    }
+  },
+  "laPropuesta": {
+    "title": "The proposal",
+    "subtitle": "Renace Atacama responds to the challenges of the territory by transforming waste into opportunities. A circular action model based on sustainability, innovation and community.",
+    "ejes": "Lines of action",
+    "fourPillars": "Four pillars of the project",
+    "ambiental": "Environmental",
+    "social": "Social",
+    "comunitario": "Community",
+    "economico": "Economic",
+    "whatWeAchieve": "What we achieve",
+    "expectedResults": "Expected results",
+    "expectedResultsSub": "A clear plan to transform the problem into a sustainable, replicable system with real impact.",
+    "joinProject": "Join the project",
+    "resultados": {
+      "transformar": "Transform",
+      "transformarText": "Waste into resources, with initial focus on textiles.",
+      "crear": "Create",
+      "crearText": "Local employment, training and circular entrepreneurship.",
+      "restaurar": "Restore",
+      "restaurarText": "Desert recovery and ecosystem protection.",
+      "conectar": "Connect",
+      "conectarText": "Partnerships between community, industry and institutions."
+    }
+  },
+  "productos": {
+    "title": "What can be obtained from recycled clothing?",
+    "subtitle": "A wide variety of useful, creative and sustainable products that give new life to recovered textiles.",
+    "categories": "Categories",
+    "cat1": "Flat and woven textiles",
+    "cat1Items": ["Bags, backpacks, cases", "Aprons, placemats, tablecloths", "Tapestries, decorative banners", "Cushion covers, curtains", "Fabrics for patchwork and quilting"],
+    "cat2": "Accessories and clothing",
+    "cat2Items": ["Hats, scarves, vests, jackets", "Scrunchies, turbans, headbands", "Clothing for dolls", "Pet clothing"],
+    "cat3": "Soft and padded textiles",
+    "cat3Items": ["Cushions, zafus, stuffed toys", "Pet beds", "Artisanal thermal/acoustic insulators"],
+    "cat4": "Material for hard products",
+    "cat4Items": ["Pressed felts", "Furniture inserts", "Eco-friendly coatings"],
+    "cat5": "Art and decoration",
+    "cat5Items": ["Collages and artworks", "Muralism with scraps", "Crafts with local identity"],
+    "cat6": "Wellness products",
+    "cat6Items": ["Sleep masks and thermal pouches", "Nursing/yoga pillows", "Meditation accessories"],
+    "cat7": "Bio-innovation and sustainability",
+    "cat7Items": ["Fibers mixed with recycled for panels", "Biodegradable ecotextile prototypes"]
+  },
+  "quienesSomos": {
+    "title": "Who we are",
+    "subtitle": "Renace Atacama is an initiative driven by Begins, focused on innovation, sustainability and circular economy to turn waste into opportunities and regenerate the territory together with its communities.",
+    "vision": "Our vision",
+    "visionText": "Restore the Atacama Desert and activate circular economies with social, environmental and productive impact."
+  },
+  "accionSocial": {
+    "title": "Social and community action",
+    "subtitle": "At Renace Atacama we believe that healing the desert is also healing its people.",
+    "commitment": "Our commitment",
+    "text": "We work with communities, women, recyclers and youth to strengthen the solidarity economy, participation and dignity in the territory.",
+    "quote": "Renace Atacama is rebuilding life and hope from the community."
+  },
+  "galeria": {
+    "title": "Gallery",
+    "subtitle": "Images from the field that show the problem of the landfills.",
+    "evidence": "Visual evidence"
+  },
+  "contenido": {
+    "badge": "Content",
+    "title": "The documentary",
+    "subtitle": "The project includes the production of two feature-length documentaries that will show the problem in the region and the process of creating the innovation hub and desert cleanup. Documentaries and visual gallery that account for the work in the field.",
+    "contactCta": "Contact us",
+    "twoDocs": "TWO DOCUMENTARIES",
+    "twoDocsTitle": "Two documentaries of the proposal",
+    "twoDocsSub": "Feature films that will spread the problem, causes and proposed solutions, with international reach and community focus. Content for campaigns and mobilization, positioning Renace Atacama as a benchmark in innovation and sustainability.",
+    "doc1Title": "Streaming documentary",
+    "doc1Text": "Aimed at streaming platforms, it will spread the problem, causes and proposed solutions with international reach.",
+    "doc2Title": "Community documentary",
+    "doc2Text": "In collaboration with our partner channel, it will follow the experience in the field, community organization and the real impact of the actions.",
+    "doc3Title": "Impact and visibility",
+    "doc3Text": "Content for campaigns and mobilization, positioning Renace Atacama as a benchmark in innovation and sustainability.",
+    "galleryAlt1": "Clothing landfill in the desert",
+    "galleryAlt2": "Land and landfills in Alto Hospicio",
+    "galleryAlt3": "Accumulation of textile waste",
+    "galleryAlt4": "Mountain of discarded clothing",
+    "galleryAlt5": "Textile landfill",
+    "galleryAlt6": "Territory context",
+    "galleryAlt7": "Recycling and crafts workshop",
+    "videoLabel": "YouTube video",
+    "galleryLabel": "GALLERY",
+    "galleryTitle": "Visual evidence of the territory",
+    "gallerySub": "Images from the field that show the problem of the landfills and the regeneration work.",
+    "bannerAlt": "Land and clothing landfills in Alto Hospicio"
+  },
+  "elDocumental": {
+    "title": "The documentary",
+    "subtitle": "The project includes the production of two feature-length documentaries that will show the problem in the region and the process of creating the innovation hub and desert cleanup.",
+    "twoDocs": "Two documentaries",
+    "doc1Title": "Streaming documentary",
+    "doc1Text": "Aimed at streaming platforms, it will spread the problem, causes and proposed solutions with international reach.",
+    "doc2Title": "Community documentary",
+    "doc2Text": "In collaboration with our partner channel, it will follow the experience in the field, community organization and the real impact of the actions.",
+    "doc3Title": "Impact and visibility",
+    "doc3Text": "Content for campaigns and mobilization, positioning Renace Atacama as a benchmark in innovation and sustainability.",
+    "features": "Features",
+    "feature1": "Global reach",
+    "feature1Sub": "International streaming platforms",
+    "feature2": "Social impact",
+    "feature2Sub": "Community awareness and mobilization",
+    "feature3": "Double production",
+    "feature3Sub": "Two complementary documentaries",
+    "joinCta": "I want to join"
+  },
+  "escarabajos": {
+    "badge": "Desert Beetles",
+    "title": "Desert Beetles",
+    "subtitle": "The desert cleanup work inspired us in the dung beetle: a key organism that recycles nutrients, disperses seeds and acts as a bioindicator of ecosystem health.",
+    "symbolLabel": "Symbol of the project",
+    "symbolQuote": "It will be the symbol of the project and an invitation to join.",
+    "symbolDesc": "The beetle represents regeneration, resource recycling and community work in the territory.",
+    "howToJoin": "How to join",
+    "workByArea": "Work by specific area",
+    "workByAreaDesc": "Contribute with your professional skills.",
+    "collaborateField": "Collaborate in the field",
+    "collaborateFieldDesc": "Participate actively in cleanup actions.",
+    "ambassador": "Be an ambassador",
+    "ambassadorDesc": "Spread the project in your community.",
+    "ctaHeadline": "Ready to join? Together we regenerate the Atacama Desert.",
+    "ctaButton": "I want to join",
+    "logisticsAlt": "Logistics and transport"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "back": "Back to home"
+  }
+}

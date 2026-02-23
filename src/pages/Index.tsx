@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { ArrowRight, Leaf, Zap, Users, Briefcase, Check, Play, MapPin, Megaphone } from "lucide-react";
+import { ArrowRight, Leaf, Zap, Users, Briefcase, Play, MapPin, Megaphone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ROUTES } from "@/lib/routes";
 import {
@@ -18,54 +19,20 @@ import { PageWrapper } from "@/components/PageWrapper";
 const HERO_SHAPE_PATH =
   "M560.78.5H202.22c-13.66,0-24.72,11.07-24.72,24.72v41.71c0,14.12-11.45,25.57-25.57,25.57H25.22c-13.66,0-24.72,11.07-24.72,24.72v445.55c0,13.66,11.07,24.72,24.72,24.72h450.34c13.66,0,24.72-11.07,24.72-24.72v-48.17c0-10.55,8.56-19.11,19.11-19.11h41.38c13.66,0,24.72-11.07,24.72-24.72V25.22c0-13.66-11.07-24.72-24.72-24.72Z";
 
-const IMPACTO_EJES = [
-  {
-    title: "Ambiental",
-    text: "Conservación de recursos y regeneración del ecosistema.",
-    icon: Leaf,
-  },
-  {
-    title: "Social",
-    text: "Salud, dignidad y equidad para quienes viven el territorio.",
-    icon: Users,
-  },
-  {
-    title: "Comunitario",
-    text: "Participación, gobernanza local y redes colaborativas.",
-    icon: Zap,
-  },
-  {
-    title: "Económico",
-    text: "Desarrollo inclusivo con tecnologías limpias.",
-    icon: Briefcase,
-  },
-];
-
-const ESCARABAJOS_CARDS = [
-  {
-    icon: Briefcase,
-    title: "Trabajar por área específica",
-    description: "Contribuye con tus habilidades profesionales.",
-  },
-  {
-    icon: MapPin,
-    title: "Colaborar en terreno",
-    description: "Participa activamente en las acciones de limpieza.",
-  },
-  {
-    icon: Megaphone,
-    title: "Ser embajador/a",
-    description: "Difunde el proyecto en tu comunidad.",
-  },
-];
-
-const COMO_SUMARTE = [
-  { title: "Trabajar por área específica", text: "Contribuye con tus habilidades profesionales." },
-  { title: "Colaborar en terreno", text: "Participa activamente en acciones y operativos." },
-  { title: "Ser embajador/a", text: "Difunde el proyecto en tu comunidad." },
-];
+const ESCARABAJOS_CARD_KEYS = [
+  { key: "workByArea", icon: Briefcase },
+  { key: "collaborateField", icon: MapPin },
+  { key: "ambassador", icon: Megaphone },
+] as const;
 
 export default function Index() {
+  const { t } = useTranslation();
+  const escarabajosCards = ESCARABAJOS_CARD_KEYS.map(({ key, icon }) => ({
+    icon,
+    title: t(`index.escarabajosSection.${key}`),
+    description: t(`index.escarabajosSection.${key}Desc`),
+  }));
+
   return (
     <PageWrapper noTopPadding>
       {/* Hero */}
@@ -90,22 +57,20 @@ export default function Index() {
             >
               <span className="inline-flex items-center gap-2 text-primary text-sm font-medium uppercase">
                 <span className="w-2 h-2 rounded-full bg-primary shrink-0" />
-                Economía circular · Desierto de Atacama
+                {t("index.hero.tagline")}
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-[1.1]">
-                Renace <span className="font-script text-primary italic font-normal">Atacama</span>
+                {t("index.hero.titlePart1")} <span className="font-script text-primary italic font-normal">{t("index.hero.titlePart2")}</span>
                 <br />
-                Reciclaje con impacto real
+                {t("index.hero.titlePart3")}
               </h1>
               <p className="text-muted-foreground text-lg md:text-xl max-w-lg leading-relaxed">
-                Renace Atacama es una iniciativa que combina sostenibilidad, innovación y empleo.
-                Convertimos residuos en nuevos productos, fortaleciendo comunidades y cuidando el
-                planeta.
+                {t("index.hero.subtitle")}
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 <Button asChild variant="hero" size="lg" className="gap-2 rounded-full px-8">
                   <Link to={ROUTES.elProyecto}>
-                    Saber más
+                    {t("index.hero.cta")}
                     <ArrowRight className="w-4 h-4" />
                   </Link>
                 </Button>
@@ -121,7 +86,7 @@ export default function Index() {
                     rel="noopener noreferrer"
                   >
                     <Play className="w-4 h-4 fill-current" />
-                    Ver video
+                    {t("index.hero.video")}
                   </a>
                 </Button>
               </div>
@@ -138,7 +103,7 @@ export default function Index() {
               >
                 <img
                   src="/header-rectangle.jpg"
-                  alt="Renace Atacama — reciclaje con impacto real"
+                  alt={t("index.hero.alt")}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -171,8 +136,8 @@ export default function Index() {
                     </span>
                   </div>
                   <div>
-                    <p className="font-bold text-foreground">Alto Hospicio</p>
-                    <p className="text-sm text-muted-foreground">Territorio en regeneración</p>
+                    <p className="font-bold text-foreground">{t("index.hero.altoHospicio")}</p>
+                    <p className="text-sm text-muted-foreground">{t("index.hero.territory")}</p>
                   </div>
                 </div>
               </motion.div>
@@ -200,34 +165,29 @@ export default function Index() {
             >
               <div className="rounded-3xl bg-white shadow-2xl p-6 lg:p-8 border border-orange-200/50">
                 <span className="inline-block text-xs font-bold text-primary uppercase tracking-wider mb-4">
-                  Impactos
+                  {t("index.impactos.label")}
                 </span>
                 <h3 className="text-2xl lg:text-3xl font-bold text-foreground mb-8 leading-tight">
-                  AMBIENTALES, SOCIALES Y ECONÓMICOS
+                  {t("index.impactos.title")}
                 </h3>
                 
                 <div className="space-y-6">
-                  {/* Impacto Ambiental */}
                   <div>
-                    <h4 className="text-lg font-bold text-foreground mb-2">Impactos Ambientales</h4>
+                    <h4 className="text-lg font-bold text-foreground mb-2">{t("index.impactos.ambiental.title")}</h4>
                     <p className="text-muted-foreground text-sm leading-relaxed">
-                      Contaminación de los suelos y el agua, degradación del ecosistema y contaminación del aire.
+                      {t("index.impactos.ambiental.text")}
                     </p>
                   </div>
-
-                  {/* Impacto Social */}
                   <div>
-                    <h4 className="text-lg font-bold text-foreground mb-2">Impactos Sociales</h4>
+                    <h4 className="text-lg font-bold text-foreground mb-2">{t("index.impactos.social.title")}</h4>
                     <p className="text-muted-foreground text-sm leading-relaxed">
-                      Riesgos para la salud y profundización de la desigualdad y los conflictos sociales.
+                      {t("index.impactos.social.text")}
                     </p>
                   </div>
-
-                  {/* Impacto Económico */}
                   <div>
-                    <h4 className="text-lg font-bold text-foreground mb-2">Impactos Económicos</h4>
+                    <h4 className="text-lg font-bold text-foreground mb-2">{t("index.impactos.economico.title")}</h4>
                     <p className="text-muted-foreground text-sm leading-relaxed">
-                      La contaminación afecta a la industria turística, la agricultura y la pesca en la región.
+                      {t("index.impactos.economico.text")}
                     </p>
                   </div>
                 </div>
@@ -248,11 +208,11 @@ export default function Index() {
                     <Leaf className="w-5 h-5 text-primary" />
                   </div>
                   <h3 className="text-2xl lg:text-3xl font-bold text-black">
-                    Los Vertederos de Alto Hospicio
+                    {t("index.vertederos.title")}
                   </h3>
                 </div>
                 <p className="text-white/90 text-sm leading-relaxed">
-                  Alto Hospicio y sus alrededores reciben a diario toneladas de residuos industriales y urbanos (ropa, neumáticos, botellas y más), generando vertederos ilegales en pleno desierto. Con más de 300 hectáreas afectadas y cerca de 39.000 toneladas al año, se han convertido en una de las mayores crisis ambientales de Tarapacá, con impactos sociales, económicos y ecológicos.
+                  {t("index.vertederos.text")}
                 </p>
               </FrostedCard>
             </motion.div>
@@ -277,7 +237,7 @@ export default function Index() {
                     <div className="absolute inset-0 bg-gradient-to-br from-[#9b734c]/70 to-transparent" />
                     <div className="absolute top-4 left-4 right-4">
                       <p className="text-4xl lg:text-5xl font-bold text-white mb-1">300ha</p>
-                      <p className="text-white/95 text-xs font-medium">Área afectada</p>
+                      <p className="text-white/95 text-xs font-medium">{t("index.stats.area")}</p>
                     </div>
                   </div>
                 </FrostedCard>
@@ -301,7 +261,7 @@ export default function Index() {
                     <div className="absolute inset-0 bg-gradient-to-tl from-[#9b734c]/75 via-transparent to-[#5b2500]/20" />
                     <div className="absolute bottom-4 right-4 left-4 text-right">
                       <p className="text-4xl lg:text-5xl font-bold text-white mb-1">15+</p>
-                      <p className="text-white/95 text-xs font-medium">Comunidades</p>
+                      <p className="text-white/95 text-xs font-medium">{t("index.stats.communities")}</p>
                     </div>
                   </div>
                 </FrostedCard>
@@ -325,7 +285,7 @@ export default function Index() {
                     <div className="absolute inset-0 bg-gradient-to-tr from-[#9b734c]/80 to-transparent" />
                     <div className="absolute bottom-6 left-4 right-4">
                       <p className="text-4xl lg:text-5xl font-bold text-white mb-1">39k</p>
-                      <p className="text-white/95 text-xs font-medium">Toneladas/año</p>
+                      <p className="text-white/95 text-xs font-medium">{t("index.stats.tonsPerYear")}</p>
                     </div>
                   </div>
                 </FrostedCard>
@@ -347,13 +307,13 @@ export default function Index() {
           >
             <div className="inline-flex items-center gap-2 text-primary text-sm font-medium uppercase">
               <span className="w-2 h-2 rounded-full bg-primary shrink-0" />
-              Acción Social y Comunitaria
+              {t("index.accionSocial.tag")}
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-tight">
-              Renace Atacama es <span className="font-script text-primary italic font-normal">reconstruir</span> vida y esperanza desde la <span className="font-script text-primary italic font-normal">comunidad</span>.
+              {t("index.accionSocial.title")}
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed max-w-lg">
-              Trabajamos junto a comunidades, mujeres, recicladores y jóvenes para fortalecer la economía solidaria, la participación y la dignidad en el territorio.
+              {t("index.accionSocial.subtitle")}
             </p>
           </motion.div>
           <div className="grid sm:grid-cols-1 gap-6">
@@ -373,10 +333,10 @@ export default function Index() {
                   />
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-3">
-                  Sanar el desierto, sanar a su gente
+                  {t("index.accionSocial.card1Title")}
                 </h3>
                 <p className="text-base font-medium text-muted-foreground leading-relaxed">
-                  En Renace Atacama creemos que sanar el desierto es también sanar a su gente.
+                  {t("index.accionSocial.card1Text")}
                 </p>
               </div>
             </motion.div>
@@ -397,10 +357,10 @@ export default function Index() {
                   />
                 </div>
                 <h3 className="text-xl font-bold text-foreground mb-3">
-                  Una crisis que demanda acción inmediata
+                  {t("index.accionSocial.card2Title")}
                 </h3>
                 <p className="text-base font-medium text-muted-foreground leading-relaxed">
-                  La magnitud del problema afecta de manera directa a las comunidades, a la salud pública, al paisaje y a las actividades productivas de la zona.
+                  {t("index.accionSocial.card2Text")}
                 </p>
               </div>
             </motion.div>
@@ -415,7 +375,7 @@ export default function Index() {
         <div className="container mx-auto px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
-              Partners
+              {t("index.partners")}
             </h2>
           </div>
           <div className="relative overflow-hidden">
@@ -470,7 +430,7 @@ export default function Index() {
         <div className="container mx-auto px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground">
-              Patrocinadores
+              {t("index.patrocinadores")}
             </h2>
           </div>
           <div className="relative overflow-hidden">
@@ -541,19 +501,16 @@ export default function Index() {
             className="rounded-2xl lg:rounded-3xl bg-white border-2 border-primary p-6 lg:p-10 flex flex-col justify-center"
           >
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground leading-tight mb-4">
-              Escarabajos del{" "}
-              <span className="font-script text-primary italic font-normal">Desierto</span>
+              {t("index.escarabajosSection.title")}
             </h2>
             <p className="text-muted-foreground text-sm lg:text-base leading-relaxed mb-2">
-              El trabajo de limpieza del desierto nos inspiró en el escarabajo estercolero: un
-              organismo clave que recicla nutrientes, dispersa semillas y actúa como bioindicador
-              de la salud del ecosistema.
+              {t("index.escarabajosSection.intro1")}
             </p>
             <p className="text-muted-foreground text-sm lg:text-base leading-relaxed mb-6">
-              Será el símbolo del proyecto y una invitación a sumarse.
+              {t("index.escarabajosSection.intro2")}
             </p>
             <div className="space-y-4">
-              {ESCARABAJOS_CARDS.map((c, i) => {
+              {escarabajosCards.map((c, i) => {
                 const Icon = c.icon;
                 return (
                   <motion.div
@@ -640,11 +597,11 @@ export default function Index() {
 
       {/* CTA Band */}
       <CTABand
-        headline="¿Listo para sumarte? Juntos regeneramos el Desierto de Atacama."
+        headline={t("index.cta.headline")}
         cta={
           <Button asChild size="lg" className="rounded-full bg-white text-navy hover:bg-white/90 px-10 gap-2">
             <Link to={ROUTES.contacto}>
-              Quiero unirme
+              {t("index.cta.button")}
               <ArrowRight className="w-4 h-4" />
             </Link>
           </Button>

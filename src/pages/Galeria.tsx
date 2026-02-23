@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import { PageHeader } from "@/components/PageHeader";
 import { PageWrapper } from "@/components/PageWrapper";
 import { SectionAccent } from "@/components/shared";
@@ -23,15 +24,16 @@ const IMAGES = [
 ];
 
 export default function Galeria() {
+  const { t } = useTranslation();
   return (
     <PageWrapper>
       <div className="container mx-auto px-6 lg:px-8">
         <PageHeader
-          title="Galería"
-          text="Imágenes del terreno que evidencian la problemática de los vertederos."
+          title={t("galeria.title")}
+          text={t("galeria.subtitle")}
           className="mb-12"
         />
-        <SectionAccent className="mb-10">Evidencia visual</SectionAccent>
+        <SectionAccent className="mb-10">{t("galeria.evidence")}</SectionAccent>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {IMAGES.map((img, i) => (
