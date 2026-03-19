@@ -436,30 +436,44 @@ export default function Index() {
           <div className="relative overflow-hidden">
             <div className="flex animate-scroll-left gap-8 lg:gap-12">
               {[
-                "/logo-gore-tarapaca.png",
-                "/alto-hospicio-logo.png",
-                "/logo-muni-iquique.png",
-                "/camara-verde-chile.png",
+                { src: "/logo-gore-tarapaca.png", link: "https://www.goretarapaca.gov.cl/" },
+                { src: "/alto-hospicio-logo.png", link: "https://maho.cl/web/" },
+                { src: "/logo-muni-iquique.png", link: "https://www.municipioiquique.cl/" },
+                { src: "/camara-verde-chile.png", link: "https://camaraverde.org/" },
               ].map((logo, i) => (
-                <img
+                <a
                   key={`patro-1-${i}`}
-                  src={logo}
-                  alt={`Patrocinador ${i + 1}`}
-                  className="flex-shrink-0 w-40 h-40 lg:w-52 lg:h-52 object-contain transition-all duration-300 hover:scale-110"
-                />
+                  href={logo.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-shrink-0 w-40 h-40 lg:w-52 lg:h-52 flex items-center justify-center transition-all duration-300 hover:scale-110"
+                >
+                  <img
+                    src={logo.src}
+                    alt={`Patrocinador ${i + 1}`}
+                    className="w-full h-full object-contain"
+                  />
+                </a>
               ))}
               {[
-                "/logo-gore-tarapaca.png",
-                "/alto-hospicio-logo.png",
-                "/logo-muni-iquique.png",
-                "/camara-verde-chile.png",
+                { src: "/logo-gore-tarapaca.png", link: "https://www.goretarapaca.gov.cl/" },
+                { src: "/alto-hospicio-logo.png", link: "https://maho.cl/web/" },
+                { src: "/logo-muni-iquique.png", link: "https://www.municipioiquique.cl/" },
+                { src: "/camara-verde-chile.png", link: "https://camaraverde.org/" },
               ].map((logo, i) => (
-                <img
+                <a
                   key={`patro-2-${i}`}
-                  src={logo}
-                  alt={`Patrocinador ${i + 1}`}
-                  className="flex-shrink-0 w-40 h-40 lg:w-52 lg:h-52 object-contain transition-all duration-300 hover:scale-110"
-                />
+                  href={logo.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-shrink-0 w-40 h-40 lg:w-52 lg:h-52 flex items-center justify-center transition-all duration-300 hover:scale-110"
+                >
+                  <img
+                    src={logo.src}
+                    alt={`Patrocinador ${i + 1}`}
+                    className="w-full h-full object-contain"
+                  />
+                </a>
               ))}
             </div>
           </div>
