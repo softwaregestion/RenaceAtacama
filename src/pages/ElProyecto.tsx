@@ -40,7 +40,7 @@ export default function ElProyecto() {
   }));
 
   return (
-    <PageWrapper>
+    <PageWrapper noTopPadding>
       {/* Hero Section */}
       <section className="relative pt-32 pb-16 lg:pt-40 lg:pb-24 overflow-hidden">
         {/* Background Image */}

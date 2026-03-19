@@ -25,7 +25,6 @@ const B2C_ITEMS = [
   { key: "pecheras", img: "/productos/pechera-escarabjo.png" },
   { key: "chaquetas", img: "/productos/chaqueta-escarabajos.jpg" },
   { key: "bolsos", img: "/productos/bolso-2.jpg" },
-  { key: "peluches", img: "/productos/peluche-escaabajkos.jpg" },
 ] as const;
 
 export default function Productos() {
@@ -149,7 +148,7 @@ export default function Productos() {
                 <div className="xl:w-1/3 relative z-10 text-center xl:text-left flex flex-col items-center xl:items-start">
                   <div className="inline-flex items-center gap-2 mb-6 px-5 py-2.5 rounded-full border border-[#e8b67d]/30 bg-[#e8b67d]/10 backdrop-blur-md shadow-lg">
                     <Leaf className="w-4 h-4 text-[#e8b67d]" />
-                    <span className="text-sm font-bold uppercase tracking-widest text-[#e8b67d]">B2C & Comunidad</span>
+                    <span className="text-sm font-bold uppercase tracking-widest text-[#e8b67d]">ESCARABAJO STORE</span>
                   </div>
                   <h3 className="text-3xl md:text-5xl font-bold mb-6 text-balance tracking-tight bg-gradient-to-r from-[#e8b67d] to-white bg-clip-text text-transparent">
                     {t(ps("b2c.title"))}
@@ -169,31 +168,34 @@ export default function Productos() {
                 </div>
 
                 <div className="xl:w-2/3 relative z-10 w-full">
-                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6">
+                  <div className="grid grid-cols-2 md:grid-cols-6 gap-4 lg:gap-6">
                     {B2C_ITEMS.map((item, index) => {
                       const name = t(ps(`b2c.items.${item.key}`));
+                      const isLastRow = index >= 3;
+                      const spanClass = isLastRow ? "md:col-span-3" : "md:col-span-2";
                       return (
-                        <motion.button
-                          key={item.key}
-                          initial={{ opacity: 0, y: 20 }}
-                          whileInView={{ opacity: 1, y: 0 }}
-                          viewport={{ once: true }}
-                          transition={{ delay: index * 0.1 }}
-                          onClick={() => setSelectedProduct({ name, tag: t(ps("b2c.title")), img: item.img })}
-                          className="group rounded-3xl overflow-hidden bg-black/20 border border-white/5 hover:border-[#e8b67d]/40 transition-all focus:outline-none focus:ring-2 focus:ring-[#e8b67d]/60 text-left w-full h-full flex flex-col hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#e8b67d]/10"
-                        >
-                          <div className="bg-black/40 w-full aspect-[4/3] flex-shrink-0 relative overflow-hidden">
-                            <img
-                              src={item.img}
-                              alt={name}
-                              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
-                          </div>
-                          <div className="p-4 sm:p-5 flex-1 flex items-center justify-center bg-black/40 backdrop-blur-md">
-                            <p className="text-sm sm:text-base font-semibold text-[#e8b67d] group-hover:text-white transition-colors leading-tight text-center">{name}</p>
-                          </div>
-                        </motion.button>
+                        <div key={item.key} className={`col-span-1 ${spanClass}`}>
+                          <motion.button
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: index * 0.1 }}
+                            onClick={() => setSelectedProduct({ name, tag: t(ps("b2c.title")), img: item.img })}
+                            className="group rounded-3xl overflow-hidden bg-black/20 border border-white/5 hover:border-[#e8b67d]/40 transition-all focus:outline-none focus:ring-2 focus:ring-[#e8b67d]/60 text-left w-full h-full flex flex-col hover:-translate-y-2 hover:shadow-2xl hover:shadow-[#e8b67d]/10"
+                          >
+                            <div className="bg-black/40 w-full aspect-[4/3] flex-shrink-0 relative overflow-hidden">
+                              <img
+                                src={item.img}
+                                alt={name}
+                                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                              />
+                              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
+                            </div>
+                            <div className="p-4 sm:p-5 flex-1 flex items-center justify-center bg-black/40 backdrop-blur-md">
+                              <p className="text-sm sm:text-base font-semibold text-[#e8b67d] group-hover:text-white transition-colors leading-tight text-center">{name}</p>
+                            </div>
+                          </motion.button>
+                        </div>
                       );
                     })}
                   </div>

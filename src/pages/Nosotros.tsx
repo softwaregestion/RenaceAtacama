@@ -210,10 +210,10 @@ const COLABORADORES: Colaborador[] = [
 
 const LOGOS_PARTNERS = ["LOGO", "LOGO", "LOGO", "LOGO", "LOGO", "LOGO"];
 const LOGOS_PATROCINADORES = [
-  "/logo-gore-tarapaca.png",
-  "/alto-hospicio-logo.png",
-  "/logo-muni-iquique.png",
-  "/camara-verde-chile.png",
+  { src: "/logo-gore-tarapaca.png", link: "https://www.goretarapaca.gov.cl/" },
+  { src: "/alto-hospicio-logo.png", link: "https://maho.cl/web/" },
+  { src: "/logo-muni-iquique.png", link: "https://www.municipioiquique.cl/" },
+  { src: "/camara-verde-chile.png", link: "https://camaraverde.org/" },
 ];
 
 const MARCAS_LOGOS = [
@@ -807,19 +807,22 @@ export default function Nosotros({ variant = "all" }: { variant?: NosotrosVarian
               className="grid grid-cols-2 md:grid-cols-4 gap-6"
             >
               {LOGOS_PATROCINADORES.map((logo, i) => (
-                <div
+                <a
                   key={i}
-                  className="aspect-[4/3] rounded-2xl bg-white flex items-center justify-center p-4 hover:shadow-xl transition-all"
+                  href={logo.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="aspect-[4/3] rounded-2xl bg-white flex items-center justify-center p-4 hover:shadow-xl transition-all hover:-translate-y-1 block"
                 >
                   <img
-                    src={logo}
+                    src={logo.src}
                     alt={`Patrocinador ${i + 1}`}
                     className="w-full h-full object-contain"
                     onError={(e) => {
                       (e.target as HTMLImageElement).src = '/placeholder.svg';
                     }}
                   />
-                </div>
+                </a>
               ))}
             </motion.div>
           </div>
