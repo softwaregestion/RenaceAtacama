@@ -38,7 +38,7 @@ const TEAM_ORDER = [
   'María José Cáceres',
   'Christian Matamala',
   'Paula Castillo',
-  'Ashley Castillo Briones',
+  'Ashley Castillo',
   'Miguel Angel Curihuinca',
   'Ricardo Quiroz',
   'Roberto Fuentes',
@@ -254,7 +254,7 @@ const TEAM: TeamMember[] = [
     image: '/angeline-valentina-reyes.jpg',
   },
   {
-    name: 'Ashley Castillo Briones',
+    name: 'Ashley Castillo',
     title: 'Trabajadora social',
     summary: 'Licenciada en trabajo social de la universidad Arturo Prat',
     experience: [
@@ -325,6 +325,41 @@ const COLABORADORES: Colaborador[] = [
     linkedin: 'https://www.instagram.com/solleyton/',
     image: '/sol-leyton.png',
   },
+  {
+    name: 'Sara Samaniego (Marce La Reciclamores)',
+    title: 'Influencer',
+    summary:
+      'Marce es conocida como la primera "Recicladora influencer" de Latinoamérica. Su objetivo es crear contenido educativo y social, principalmente en temas de sostenibilidad ambiental, creando conciencia sobre el consumo responsable y hablando principalmente de reciclaje de una manera RE FÁCIL, RE BAKANA Y RE DIFERENTE.\n\nOtro de sus grandes propósitos es visibilizar y dignificar la importante labor que realiza el gremio de los "reciclamores" por el medio ambiente y la sociedad, labor que lleva a cabo desde hace 5 años, en los que ha servido de maestra, ejemplo y vocera en países como Argentina, Brasil, México, Chile, Ecuador, Perú y principalmente Colombia.\n\nDentro de sus logros más destacados, Marce fue a representar a Colombia en Alemania en el foro más importante de jóvenes "One Young World", fue galardonada en los Premios "Insta Fest 2022" como mejor influencer con contenido educativo, y en la Asamblea Mundial de la juventud llevada a cabo en la ONU en Nueva York recibió el reconocimiento de "mejor historia de impacto", además de ser portada en el periódico más importante del mundo, The New York Times.',
+    role: 'Embajadora',
+    image: '/gente/mrce-larecicladora.jpg',
+  },
+  {
+    name: 'Celeste Giardinelli',
+    title: 'Periodista y exploradora científica',
+    summary:
+      'Periodista enfocada en divulgación científica y exploración, dedicada a acercar la ciencia a audiencias amplias a través de contenido accesible, narrativo y visual. Su trabajo combina comunicación, terreno y storytelling, abordando temas como biodiversidad, medioambiente y experiencias personales ligadas a la ciencia.\n\nHa desarrollado contenido digital de alto alcance y participa en proyectos de comunicación como podcasts y colaboraciones editoriales. Su enfoque se basa en observar, comprender y traducir fenómenos complejos en relatos cercanos, despertando curiosidad y conexión con el entorno.',
+    role: 'Embajadora',
+    linkedin: 'https://www.instagram.com/giardinelliceleste?igsh=MTQyZjIzaWI1emsxbg==',
+    image: '/gente/celeste.jpg',
+  },
+  {
+    name: 'Agustina Grasso',
+    title: 'Periodista ambiental y docente universitaria',
+    summary:
+      'Autora del libro Basuraleza, ¿es posible un mundo sin basura? Directora de los documentales TRASH, el camino de la basura y Transición energética en Argentina. Creadora del portal Escritura Crónica. Fue columnista ambiental para El País de España y editora de ecología en Perfil.com. Conductora del streaming ambiental Hilo Verde.\n\nDocente de nuevas tecnologías y periodismo ambiental en la Universidad Nacional de Avellaneda y de la diplomatura en comunicación ambiental de la Universidad Nacional de San Martín.',
+    role: 'Embajadora',
+    linkedin: 'https://www.instagram.com/cronistamillennial?igsh=MWRtN2FnbjdjeTlvcA%3D%3D',
+    image: '/gente/agustina.jpg',
+  },
+  {
+    name: 'Claudia Valdés',
+    title: 'Actriz, productora y escritora',
+    summary:
+      'Cubana formada en la Escuela Nacional de Arte. Su carrera comenzó con la película Lejos de África y alcanzó reconocimiento internacional con Los dioses rotos. Ha trabajado en cine, teatro y televisión en Cuba y Estados Unidos, además de incursionar en la escritura con el libro Mi hija es un astronauta.\n\nActualmente impulsa proyectos que combinan artes escénicas, medios digitales y comunicación, con un enfoque en visibilizar historias inspiradoras y cercanas, especialmente desde la perspectiva de las mujeres y la maternidad.',
+    role: 'Embajadora',
+    linkedin: 'https://www.instagram.com/claudiavaldesoficial/reels/',
+    image: '/gente/claudia.jpg',
+  },
 ];
 
 const LOGOS_PARTNERS = ["LOGO", "LOGO", "LOGO", "LOGO", "LOGO", "LOGO"];
@@ -348,6 +383,11 @@ const MARCAS_LOGOS = [
   "/unap.jpg",
 ];
 
+const NAME_LINE_SPLIT_OVERRIDES: Record<string, { first: string; second: string }> = {
+  'María José Cáceres': { first: 'María José', second: 'Cáceres' },
+  'Miguel Angel Curihuinca': { first: 'Miguel Angel', second: 'Curihuinca' },
+};
+
 function TeamCard({
   member,
   index,
@@ -358,9 +398,10 @@ function TeamCard({
   t: (key: string) => string;
 }) {
   const [isOpen, setIsOpen] = useState(false);
+  const override = NAME_LINE_SPLIT_OVERRIDES[member.name];
   const nameParts = member.name.split(" ");
-  const firstName = nameParts[0];
-  const lastName = nameParts.slice(1).join(" ");
+  const firstName = override ? override.first : nameParts[0];
+  const lastName = override ? override.second : nameParts.slice(1).join(" ");
 
   const LinkedInIcon = () => (
     <svg
@@ -372,6 +413,21 @@ function TeamCard({
       <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
     </svg>
   );
+
+  const InstagramIcon = () => (
+    <svg
+      className="w-5 h-5"
+      fill="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm10 2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h10z" />
+      <path d="M12 7.5A4.5 4.5 0 1 0 12 16a4.5 4.5 0 0 0 0-8.5z" />
+      <circle cx="17.5" cy="6.5" r="1.25" />
+    </svg>
+  );
+
+  const isInstagram = (member.linkedin ?? "").toLowerCase().includes("instagram.com");
 
   return (
     <>
@@ -431,7 +487,7 @@ function TeamCard({
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 mt-3 text-primary hover:text-primary/80 transition-colors"
                   >
-                    <LinkedInIcon />
+                    {isInstagram ? <InstagramIcon /> : <LinkedInIcon />}
                     <span className="text-sm">{t("nosotros.viewLinkedIn")}</span>
                     <ExternalLink className="w-3 h-3" />
                   </a>
@@ -514,6 +570,21 @@ function ColabCard({
     </svg>
   );
 
+  const InstagramIcon = () => (
+    <svg
+      className="w-5 h-5"
+      fill="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm10 2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h10z" />
+      <path d="M12 7.5A4.5 4.5 0 1 0 12 16a4.5 4.5 0 0 0 0-8.5z" />
+      <circle cx="17.5" cy="6.5" r="1.25" />
+    </svg>
+  );
+
+  const isInstagram = (member.linkedin ?? "").toLowerCase().includes("instagram.com");
+
   return (
     <>
       <motion.div
@@ -572,7 +643,7 @@ function ColabCard({
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 mt-3 text-primary hover:text-primary/80 transition-colors"
                   >
-                    <LinkedInIcon />
+                    {isInstagram ? <InstagramIcon /> : <LinkedInIcon />}
                     <span className="text-sm">{t("nosotros.viewProfile")}</span>
                     <ExternalLink className="w-3 h-3" />
                   </a>

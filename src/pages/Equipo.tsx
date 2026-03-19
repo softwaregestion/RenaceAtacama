@@ -81,7 +81,7 @@ const TEAM = [
     bio: "Evaluación ambiental y diseño sustentable.",
   },
   {
-    name: "Ashley Castillo Briones",
+    name: "Ashley Castillo",
     role: "Trabajadora social",
     image: coaching,
     bio: "Trabajo comunitario y derechos sociales.",
