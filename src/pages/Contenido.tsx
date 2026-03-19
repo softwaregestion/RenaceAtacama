@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/dialog";
 
 /** ID del video de YouTube (https://www.youtube.com/watch?v=dBz9LYR3d8Q) */
-const YOUTUBE_VIDEO_ID = "dBz9LYR3d8Q";
+const YOUTUBE_VIDEO_ID = "HsFQzlOqzUQ";
 
 const DOC_ICONS = [Globe, Users, Film] as const;
 const DOC_KEYS = ["doc1", "doc2", "doc3"] as const;

@@ -1,0 +1,354 @@
+{
+  "nav": {
+    "home": "domov",
+    "elProyecto": "Projekt",
+    "productos": "Izdelki",
+    "nosotros": "nas",
+    "colaboradores": "Ekipa",
+    "embajadores": "Ambasadorji",
+    "contenido": "Vsebina",
+    "escarabajos": "Puščavski hrošči",
+    "contact": "Kontaktirajte nas",
+    "openMenu": "Odpri meni"
+  },
+  "footer": {
+    "description": "Preoblikovanje tekstilnega odlagališča Alto Hospicio v model krožnega gospodarstva za puščavo Atacama.",
+    "quickLinks": "Hitre povezave",
+    "elProyecto": "Projekt",
+    "quienesSomos": "Kdo smo",
+    "contacto": "Kontakt",
+    "contactUs": "Kontaktirajte nas",
+    "location": "Regija Tarapacá, Čile"
+  },
+  "index": {
+    "hero": {
+      "tagline": "Krožno gospodarstvo · Puščava Atacama",
+      "titlePart1": "Prerojena",
+      "titlePart2": "Atacama",
+      "titlePart3": "Recikliranje z resničnim učinkom",
+      "subtitle": "Renace Atacama je pobuda, ki združuje trajnost, inovativnost in zaposlovanje. Odpadke pretvarjamo v nove izdelke, krepimo skupnosti in skrbimo za planet.",
+      "cta": "Več o tem",
+      "video": "Oglejte si video",
+      "alt": "Renace Atacama — recikliranje z resničnim učinkom",
+      "altoHospicio": "Visoki hospic",
+      "territory": "Ozemlje v regeneraciji"
+    },
+    "impactos": {
+      "label": "Vplivi",
+      "title": "OKOLJSKI, SOCIALNI IN EKONOMSKI",
+      "ambiental": {
+        "title": "Vplivi na okolje",
+        "text": "Onesnaženost tal in vode, degradacija ekosistemov in onesnaženost zraka."
+      },
+      "social": {
+        "title": "Socialni vplivi",
+        "text": "Zdravstvena tveganja ter poglabljanje neenakosti in družbenih konfliktov."
+      },
+      "economico": {
+        "title": "Gospodarski vplivi",
+        "text": "Onesnaženje vpliva na turistično industrijo, kmetijstvo in ribištvo v regiji."
+      }
+    },
+    "vertederos": {
+      "title": "Odlagališča Alto Hospicio",
+      "text": "Alto Hospicio in njegova okolica vsak dan sprejmeta na tone industrijskih in mestnih odpadkov (oblačila, pnevmatike, plastenke in drugo), kar ustvarja nezakonita odlagališča sredi puščave. Z več kot 300 hektarji prizadetih površin in skoraj 39.000 tonami na leto so postale ena največjih okoljskih kriz v Tarapacá s socialnimi, gospodarskimi in ekološkimi vplivi."
+    },
+    "stats": {
+      "area": "Prizadeto območje",
+      "communities": "Skupnosti",
+      "tonsPerYear": "Ton/leto"
+    },
+    "accionSocial": {
+      "tag": "Socialno in skupnostno delovanje",
+      "title": "Renace Atacama bo ponovno zgradila življenje in upanje skupnosti.",
+      "subtitle": "Sodelujemo s skupnostmi, ženskami, predelovalci in mladimi za krepitev solidarnostne ekonomije, sodelovanja in dostojanstva na ozemlju.",
+      "card1Title": "Ozdravi puščavo, ozdravi njene ljudi",
+      "card1Text": "Pri Renace Atacama verjamemo, da zdravljenje puščave pomeni tudi zdravljenje njenih ljudi.",
+      "card2Title": "Kriza, ki zahteva takojšnje ukrepanje",
+      "card2Text": "Obseg problema neposredno vpliva na skupnosti, javno zdravje, krajino in proizvodne dejavnosti na tem območju."
+    },
+    "partners": "Partnerji",
+    "patrocinadores": "Sponzorji",
+    "escarabajosSection": {
+      "title": "Puščavski hrošči",
+      "intro1": "Delo na čiščenju puščave nas je navdihnilo gnojni hrošč: ključni organizem, ki reciklira hranila, raznaša semena in deluje kot bioindikator zdravja ekosistema.",
+      "intro2": "To bo simbol projekta in povabilo k pridružitvi.",
+      "workByArea": "Delo po določenem področju",
+      "workByAreaDesc": "Prispevajte svoje poklicne sposobnosti.",
+      "collaborateField": "Sodelujte na terenu",
+      "collaborateFieldDesc": "Aktivno sodelujte pri čistilnih akcijah.",
+      "ambassador": "Bodi veleposlanik",
+      "ambassadorDesc": "Razširite projekt v svoji skupnosti."
+    },
+    "cta": {
+      "headline": "Ste se pripravljeni pridružiti? Skupaj obnovimo puščavo Atacama.",
+      "button": "Želim se pridružiti"
+    }
+  },
+  "contacto": {
+    "badge": "Kontakt",
+    "title": "Kontaktirajte nas",
+    "subtitle": "Če se želite pridružiti, sodelovati ali spodbujati zavezništva z Renace Atacama, se pogovorimo.",
+    "writeUs": "Pišite nam",
+    "follow": "sledite nam",
+    "location": "Regija Tarapacá, Čile",
+    "ctaTitle": "Skupaj obnovimo puščavo Atacama.",
+    "ctaSub": "Vaš glas in vaše dejanje se seštevata."
+  },
+  "nosotros": {
+    "tagline": "Regeneracija, krožnost in skupnost v središču vsake odločitve.",
+    "title": "Kdo smo",
+    "introBefore": "Renace Atacama je pobuda, ki je nastala iz ",
+    "introAfter": ", ženska platforma, ki spodbuja vključevanje, krožnost in sodelovanje kot gonila preobrazbe. Prizadevamo si ustvariti pol inovacij v puščavi Atacama, pri čemer postavljamo skupnosti v središče, ustvarjamo priložnosti za ozemlje in ustvarjamo rešitve za težave, povezane z odpadki.",
+    "knowTeam": "Spoznajte ekipo",
+    "beginssCard": "Projekt vodi interdisciplinarna ekipa strokovnjakov in lokalnih akterjev, ki združuje trajnost, inovacije in ukrepanje skupnosti za obnovo ozemlja in aktiviranje novih krožnih gospodarstev.",
+    "ourProfessionals": "NAŠI STROKOVNJAKI",
+    "teamTitle": "Predana multidisciplinarna ekipa",
+    "teamSub": "Skupina strokovnjakov, ki združuje trajnost, industrijo, skupnost, komunikacijo in ozemlje.",
+    "partnersSection": "PARTNERJI IN SODELAVCI",
+    "partnersTitle": "Poganjajo predane organizacije",
+    "partnersSub": "Renace Atacama promovirajo organizacije in institucije, ki so zavezane trajnosti.",
+    "sponsors": "SPONZORJI",
+    "sponsorsTitle": "Subjekti, ki nas podpirajo",
+    "sponsorsSub": "Javne ustanove, ki podpirajo in sponzorirajo Renace Atacama.",
+    "collaborators": "SODELAVCI IN AMBASADORJI",
+    "collaboratorsTitle": "Strokovnjaki, ki sodelujejo z Renace Atacama v različnih pobudah",
+    "banner": "REBORN * ATACAMA * REGENERACIJA",
+    "summary": "Povzetek",
+    "role": "Vloga",
+    "experience": "Izkušnje",
+    "competencies": "Kompetence",
+    "viewLinkedIn": "Ogled profila LinkedIn",
+    "viewProfile": "Prikaži profil"
+  },
+  "elProblema": {
+    "title": "Puščavsko smetišče tekstila",
+    "subtitle": "Nezakonita odlagališča v Alto Hospiciu so postala eden največjih virov onesnaževanja v severnem Čilu, kar vpliva na biotsko raznovrstnost, javno zdravje in regionalno gospodarstvo.",
+    "stats": {
+      "39000": "39.000",
+      "more300": "Več kot 300",
+      "hectares": "prizadetih hektarjev",
+      "tonsYear": "ton odpadkov na leto",
+      "growing": "vpliv",
+      "growingLabel": "ki raste brez nadzora"
+    },
+    "impacts": "Vplivi",
+    "threeDimensions": "Tri razsežnosti krize",
+    "ambiental": {
+      "title": "Vpliv na okolje",
+      "text": "Onesnaženost tal, zraka in vode. Škoda za floro in favno puščave Atacama."
+    },
+    "social": {
+      "title": "Socialni vpliv",
+      "text": "Neposreden vpliv na bližnje skupnosti, zdravstvena tveganja in poslabšanje kakovosti življenja."
+    },
+    "economico": {
+      "title": "Gospodarski učinek",
+      "text": "Stroški čiščenja, izguba teritorialne vrednosti in pritisk na javna sredstva."
+    }
+  },
+  "elProyecto": {
+    "badge": "NAŠ PROJEKT",
+    "title": "Projekt Reborn Atacama",
+    "subtitle": "Renace Atacama si prizadeva spremeniti Alto Hospicio in puščavo Atacama v središče inovacij, regeneracije in trajnosti.",
+    "band": "RENACE • ATACAMA • REGENERACIJA • KROŽNO GOSPODARSTVO",
+    "problemLabel": "TEŽAVA",
+    "problemTitle": "Odlagališča Alto Hospicio",
+    "problemText": "Nezakonita odlagališča v Alto Hospiciu so postala eden največjih virov onesnaževanja v severnem Čilu, kar vpliva na biotsko raznovrstnost, javno zdravje in regionalno gospodarstvo.",
+    "area": "Prizadeto območje",
+    "communities": "Skupnosti",
+    "tonsYear": "Ton/leto",
+    "projectLabel": "Projekt Reborn Atacama",
+    "projectTitle": "Industrijski park in skupnostno tehnološko razvojno in inovacijsko središče",
+    "economiaRegenerativa": "REGENERATIVNO GOSPODARSTVO",
+    "economiaText": "Divja odlagališča spreminjamo v priložnosti za gospodarski in teritorialni razvoj.",
+    "nodoInnovacion": "VOZLIŠČE INOVACIJE",
+    "nodoText": "Industrijski park, odprt za skupnost, ki združuje recikliranje, izobraževanje, inovacije in lokalni razvoj.",
+    "modeloCircular": "KROŽNI MODEL",
+    "modeloText": "Model, ki spreminja odpadke v vire, spodbuja inovacije in ustvarja lokalna delovna mesta.",
+    "modalidad1": "Industrijski park in center za tehnološki razvoj in inovacije skupnosti bosta operativno srce Renace Atacame. Nahaja se v bližini odlagališč Alto Hospicio, njegova naloga pa je dati novo destinacijo odpadkom, ki danes vplivajo na ozemlje, začenši s tekstilom in postopoma širiti na druge materiale v skladu z lokalnimi potrebami.",
+    "modalidad2": "Center je bolj kot obrat za recikliranje zasnovan kot prostor za srečanja in učenje, odprt skupnosti. Tam se bodo združile inovacije, okoljsko izobraževanje, tehnično usposabljanje in uporabne raziskave ter spodbujale nova lokalna gospodarstva in sodelovanje med strokovnjaki, organizacijami in prebivalci ozemlja.",
+    "modalidad3": "Cilj je ustvariti samovzdrževalni model, kjer predelava materialov spodbuja ustvarjanje družbene in ekonomske vrednosti, s čimer utrjuje Alto Hospicio kot merilo trajnostnega upravljanja in regeneracije okolja v severnem Čilu.",
+    "ejes": {
+      "ambiental": "OKOLJSKI",
+      "social": "SOCIALNO",
+      "comunitario": "SKUPNOST",
+      "economico": "GOSPODARNO"
+    },
+    "ejeAmbientalDesc": "Ohranjanje in odgovorna raba virov; ekološka obnova; trajnostno ravnovesje med človekovo dejavnostjo in okoljem.",
+    "ejeSocialDesc": "Pravičnost, dostop do osnovnih storitev, zdravje in varnost, krepitev, odnosi in zaščita ranljivih skupin.",
+    "ejeComunitarioDesc": "Sodelovanje interesnih skupin; lokalno upravljanje; kultura in dediščina; skupni projekti.",
+    "ejeEconomicoDesc": "Trajnostna in vključujoča rast; lokalna zaposlitev; krožne vrednostne verige; čiste tehnologije in energije.",
+    "ejesSectionTitle": "Področja delovanja predloga",
+    "ejesSectionSub": "Renace Atacama se pojavi kot transformativni odgovor na izzive ozemlja. Odpadke spreminja v priložnosti s trajnostnim, inovativnim in dolgoročnim pristopom, ki vključuje različne discipline in postavlja krepitev vloge žensk kot osrednjo os. Vse to je artikulirano v okviru modela krožnega gospodarstva, usmerjenega v trajnostni razvoj.",
+    "resultados": {
+      "transformar": "Preobrazba",
+      "transformarText": "Skupaj preoblikujte poškodovano ozemlje v zdrav in odporen prostor, kjer sodelovanje med skupnostmi ustvarja trajne vezi, izmenjavo znanja in globoko predanost preprečitvi ponovnega odpiranja teh ran.",
+      "crear": "Ustvari",
+      "crearText": "Spodbujati ustvarjalne proizvodne verige, ki temeljijo na opazovanju, izkušnjah, uporabnem učenju in domišljiji, spodbujati soustvarjanje trajnostnih rešitev, ki ustvarjajo nov način življenja v harmoniji z okoljem.",
+      "restaurar": "Obnovi",
+      "restaurarText": "Spoštljivo odstranite vse odpadke in materiale izven ekosistema, pri čemer se zavedajte edinstvene in ranljive vrednosti puščave Atacama in ravnajte odgovorno za njeno ohranitev.",
+      "conectar": "Povežite se",
+      "conectarText": "Vključite se v globalna omrežja okoljskega sodelovanja, kot je gibanje za trajnostno modo, z izmenjavo dobrih praks in izkušenj iz delovanja ter prispevanjem s konkretnimi primeri regeneracije, ustvarjalnosti in ekološke ozaveščenosti."
+    }
+  },
+  "laPropuesta": {
+    "title": "Predlog",
+    "subtitle": "Renace Atacama se na izzive ozemlja odziva s spreminjanjem odpadkov v priložnosti. Model krožnega delovanja, ki temelji na trajnosti, inovativnosti in skupnosti.",
+    "ejes": "Linije delovanja",
+    "fourPillars": "Štirje stebri projekta",
+    "ambiental": "Okoljski",
+    "social": "Socialno",
+    "comunitario": "Skupnost",
+    "economico": "Varčno",
+    "whatWeAchieve": "Kaj smo dosegli",
+    "expectedResults": "Pričakovani rezultati",
+    "expectedResultsSub": "Jasen načrt za preoblikovanje problema v trajnosten, ponovljiv sistem z resničnim učinkom.",
+    "joinProject": "Pridružite se projektu",
+    "resultados": {
+      "transformar": "Preobrazba",
+      "transformarText": "Zapravljanje virov, s prvotnim poudarkom na tekstilu.",
+      "crear": "Ustvari",
+      "crearText": "Lokalno zaposlovanje, usposabljanje in krožno podjetništvo.",
+      "restaurar": "Obnovi",
+      "restaurarText": "Obnova puščave in zaščita ekosistema.",
+      "conectar": "Povežite se",
+      "conectarText": "Zavezništva med skupnostjo, industrijo in institucijami."
+    }
+  },
+  "productos": {
+    "title": "Kaj lahko dobite iz recikliranih oblačil?",
+    "subtitle": "Široka paleta uporabnih, ustvarjalnih in trajnostnih izdelkov, ki dajejo novo življenje predelanemu tekstilu.",
+    "categories": "kategorije",
+    "cat1": "Ravni in tkani tekstil",
+    "cat1Items": [
+      "Torbe, nahrbtniki, kovčki",
+      "Predpasniki, pogrinjki, prti",
+      "Tapiserije, okrasne zastavice",
+      "Prevleke za blazine, zavese",
+      "Tkanine za patchwork in prešivanje"
+    ],
+    "cat2": "Dodatki in kostumi",
+    "cat2Items": [
+      "Kape, šali, brezrokavniki, jakne",
+      "Gumice za lase, turbani, naglavni trakovi",
+      "Oblačila za punčke",
+      "oblačila za hišne ljubljenčke"
+    ],
+    "cat3": "Mehke in polnjene tkanine",
+    "cat3Items": [
+      "Blazine, zafusi, plišaste živali",
+      "Ležišča za hišne ljubljenčke",
+      "Ročno izdelani toplotni/zvočni izolatorji"
+    ],
+    "cat4": "Material za trde izdelke",
+    "cat4Items": [
+      "Stisnjena klobučevina",
+      "Šablone za pohištvo",
+      "Ekološki premazi"
+    ],
+    "cat5": "Umetnost in dekoracija",
+    "cat5Items": [
+      "Kolaži in dela",
+      "Patchwork muralizem",
+      "Obrt z lokalno identiteto"
+    ],
+    "cat6": "Wellness izdelki",
+    "cat6Items": [
+      "Maske in termo torbe",
+      "Blazine za dojenje/jogo",
+      "Dodatki za meditacijo"
+    ],
+    "cat7": "Bioinovacije in trajnost",
+    "cat7Items": [
+      "Vlakna, mešana z recikliranimi materiali za plošče",
+      "Biorazgradljivi prototipi ekotekstila"
+    ]
+  },
+  "quienesSomos": {
+    "title": "Kdo smo",
+    "subtitle": "Renace Atacama je pobuda, ki jo spodbuja Begins in se osredotoča na inovacije, trajnost in krožno gospodarstvo za pretvorbo odpadkov v priložnosti in regeneracijo ozemlja skupaj s svojimi skupnostmi.",
+    "vision": "Naša vizija",
+    "visionText": "Obnovite puščavo Atacama in aktivirajte krožna gospodarstva z družbenim, okoljskim in proizvodnim učinkom."
+  },
+  "accionSocial": {
+    "title": "Socialno in skupnostno delovanje",
+    "subtitle": "Pri Renace Atacama verjamemo, da zdravljenje puščave pomeni tudi zdravljenje njenih ljudi.",
+    "commitment": "Naša zaveza",
+    "text": "Sodelujemo s skupnostmi, ženskami, predelovalci in mladimi za krepitev solidarnostne ekonomije, sodelovanja in dostojanstva na ozemlju.",
+    "quote": "Renace Atacama bo ponovno zgradila življenje in upanje skupnosti."
+  },
+  "galeria": {
+    "title": "Galerija",
+    "subtitle": "Slike zemljišč, ki prikazujejo problem odlagališč.",
+    "evidence": "Vizualni dokazi"
+  },
+  "contenido": {
+    "badge": "Vsebina",
+    "title": "Dokumentarni film",
+    "subtitle": "Projekt vključuje produkcijo dveh igrano-dokumentarnih filmov, ki bosta osvetljevala probleme v regiji in proces nastajanja centra za inovacije in čiščenje puščav. Dokumentarni filmi in vizualna galerija, ki prikazujejo delo na terenu.",
+    "contactCta": "Kontaktirajte nas",
+    "twoDocs": "DVA DOKUMENTARNA FILMA",
+    "twoDocsTitle": "Dva dokumentarna filma o predlogu",
+    "twoDocsSub": "Igrani filmi, ki bodo razširjali problem, vzroke in predlagane rešitve z mednarodnim obsegom in osredotočenostjo na skupnost. Vsebina za kampanje in mobilizacijo, ki postavlja Renace Atacamo kot referenco na področju inovacij in trajnosti.",
+    "doc1Title": "Dokumentarec za pretakanje",
+    "doc1Text": "Namenjen je pretočnim platformam in bo razširjal težave, vzroke in predlagane rešitve z mednarodnim dosegom.",
+    "doc2Title": "Skupnostni dokumentarni film",
+    "doc2Text": "V sodelovanju z našim partnerskim kanalom boste spremljali izkušnje na terenu, organizacijo skupnosti in dejanski učinek dejanj.",
+    "doc3Title": "Vpliv in prepoznavnost",
+    "doc3Text": "Vsebina za kampanje in mobilizacijo, ki postavlja Renace Atacamo kot referenco na področju inovacij in trajnosti.",
+    "galleryAlt1": "Odlagališče oblačil v puščavi",
+    "galleryAlt2": "Zemljišča in odlagališča v Alto Hospicio",
+    "galleryAlt3": "Kopičenje tekstilnih odpadkov",
+    "galleryAlt4": "Gora odvrženih oblačil",
+    "galleryAlt5": "odlagališče tekstila",
+    "galleryAlt6": "Kontekst ozemlja",
+    "galleryAlt7": "Delavnica recikliranja in obrti",
+    "videoLabel": "YouTube video",
+    "galleryLabel": "GALERIJA",
+    "galleryTitle": "Vizualni dokaz ozemlja",
+    "gallerySub": "Slike zemljišč, ki prikazujejo probleme odlagališč in regeneracijskih del.",
+    "bannerAlt": "Odlagališča zemlje in oblačil v Alto Hospicio"
+  },
+  "elDocumental": {
+    "title": "Dokumentarni film",
+    "subtitle": "Projekt vključuje produkcijo dveh igrano-dokumentarnih filmov, ki bosta osvetljevala probleme v regiji in proces nastajanja centra za inovacije in čiščenje puščav.",
+    "twoDocs": "Dva dokumentarna filma",
+    "doc1Title": "Dokumentarec za pretakanje",
+    "doc1Text": "Namenjen je pretočnim platformam in bo razširjal težave, vzroke in predlagane rešitve z mednarodnim dosegom.",
+    "doc2Title": "Skupnostni dokumentarni film",
+    "doc2Text": "V sodelovanju z našim partnerskim kanalom boste spremljali izkušnje na terenu, organizacijo skupnosti in dejanski učinek dejanj.",
+    "doc3Title": "Vpliv in prepoznavnost",
+    "doc3Text": "Vsebina za kampanje in mobilizacijo, ki postavlja Renace Atacamo kot referenco na področju inovacij in trajnosti.",
+    "features": "Lastnosti",
+    "feature1": "Globalni doseg",
+    "feature1Sub": "Mednarodne platforme za pretakanje",
+    "feature2": "Socialni vpliv",
+    "feature2Sub": "Ozaveščanje in mobilizacija skupnosti",
+    "feature3": "Dvojna proizvodnja",
+    "feature3Sub": "Dva dopolnjujoča se dokumentarna filma",
+    "joinCta": "Želim se pridružiti"
+  },
+  "escarabajos": {
+    "badge": "Puščavski hrošči",
+    "title": "Puščavski hrošči",
+    "subtitle": "Delo na čiščenju puščave nas je navdihnilo gnojni hrošč: ključni organizem, ki reciklira hranila, raznaša semena in deluje kot bioindikator zdravja ekosistema.",
+    "symbolLabel": "Simbol projekta",
+    "symbolQuote": "To bo simbol projekta in povabilo k pridružitvi.",
+    "symbolDesc": "Hrošč predstavlja regeneracijo, recikliranje virov in delo v skupnosti na ozemlju.",
+    "howToJoin": "Kako se pridružiti",
+    "workByArea": "Delo po določenem področju",
+    "workByAreaDesc": "Prispevajte svoje poklicne sposobnosti.",
+    "collaborateField": "Sodelujte na terenu",
+    "collaborateFieldDesc": "Aktivno sodelujte pri čistilnih akcijah.",
+    "ambassador": "Bodi veleposlanik",
+    "ambassadorDesc": "Razširite projekt v svoji skupnosti.",
+    "ctaHeadline": "Ste se pripravljeni pridružiti? Skupaj obnovimo puščavo Atacama.",
+    "ctaButton": "Želim se pridružiti",
+    "logisticsAlt": "Logistika in transport"
+  },
+  "notFound": {
+    "title": "Stran ni najdena",
+    "back": "Nazaj na vrh"
+  }
+}

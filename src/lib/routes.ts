@@ -8,6 +8,7 @@ export const ROUTES = {
   equipo: "/equipo",
   partners: "/partners",
   colaboradores: "/colaboradores",
+  embajadores: "/embajadores",
   contenido: "/contenido",
   elDocumental: "/el-documental",
   escarabajos: "/escarabajos",

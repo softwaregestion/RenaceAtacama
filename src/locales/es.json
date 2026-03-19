@@ -4,7 +4,9 @@
     "elProyecto": "El proyecto",
     "productos": "Productos",
     "nosotros": "Nosotros",
-    "contenido": "Contenido",
+    "colaboradores": "Equipo",
+    "embajadores": "Embajadores",
+    "contenido": "El documental",
     "escarabajos": "Escarabajos del Desierto",
     "contact": "Contáctanos",
     "openMenu": "Abrir menú"
@@ -299,7 +301,73 @@
     "ambassadorDesc": "Difunde el proyecto en tu comunidad.",
     "ctaHeadline": "¿Listo para sumarte? Juntos regeneramos el Desierto de Atacama.",
     "ctaButton": "Quiero unirme",
-    "logisticsAlt": "Logística y transporte"
+    "logisticsAlt": "Logística y transporte",
+    "productsSection": {
+      "badge": "EL PRODUCTO",
+      "titleProducts": "Productos",
+      "titleBrand": "Escarabajos del Desierto",
+      "intro": "Transformamos residuos textiles y neumáticos en líneas industriales y textiles que devuelven valor al territorio.",
+      "heroAlt": "Productos Escarabajos del Desierto",
+      "industrialThumbAlt": "Línea Industrial",
+      "industrialTitle": "Línea Industrial (B2B)",
+      "industrialDesc": "Materiales reciclados para aislación, fieltros técnicos y componentes que se integran a nuevas cadenas productivas.",
+      "textileThumbAlt": "Línea Textil",
+      "textileTitle": "Línea Textil (B2C)",
+      "textileDesc": "Ponchos, chaquetas, bolsos y accesorios creados a partir de textiles recuperados y oficios locales.",
+      "alliesThumbAlt": "Industrias y aliados",
+      "alliesTitle": "Industrias y aliados",
+      "alliesDesc": "Productos pensados para integrarse a cadenas productivas y proyectos con impacto territorial.",
+      "carouselBadge": "PRODUCTOS",
+      "ariaScrollPrev": "Ver productos anteriores",
+      "ariaScrollNext": "Ver más productos",
+      "industriesBadge": "INDUSTRIAS",
+      "industrySub": "Uso de materiales reciclados",
+      "industryAutomotive": "Automotriz",
+      "industryRetail": "Retail",
+      "industryMattresses": "Colchones",
+      "industryConstruction": "Construcción",
+      "products": {
+        "thermal": { "name": "Aislación térmica", "tag": "Soluciones B2B" },
+        "feltMattress": { "name": "Fieltros para colchones", "tag": "Industria colchones" },
+        "feltAuto": { "name": "Fieltros industria automotriz", "tag": "Sector automotriz" },
+        "tireWallets": { "name": "Carteras de neumáticos", "tag": "Neumáticos en desuso" },
+        "yarns": { "name": "Hilos / lana / telas", "tag": "Textil reciclado" },
+        "ponchos": { "name": "Ponchos de lana", "tag": "Pequeñas tejedoras" },
+        "beanies": { "name": "Gorros de jeans", "tag": "Upcycling textil" },
+        "vests": { "name": "Pecheras de jeans", "tag": "Trabajo en terreno" },
+        "jackets": { "name": "Chaquetas", "tag": "Moda sostenible" },
+        "bags": { "name": "Bolsos", "tag": "Incluye neumáticos reciclados" }
+      }
+    }
+  },
+  "productosPage": {
+    "badge": "PRODUCTOS",
+    "titleProducts": "Productos",
+    "titleBrand": "Escarabajos del Desierto",
+    "b2b": {
+      "title": "Línea Industrial (B2B)",
+      "desc": "Se comercializará principalmente a retail, industrial automotriz, industria de colchones, grandes marcas y suelas de zapatillas.",
+      "items": {
+        "aislacion": "Aislación térmica",
+        "colchones": "Fieltros para colchones",
+        "automotriz": "Fieltros industria automotriz",
+        "carteras": "Carteras de neumáticos en desuso",
+        "suelas": "Suelas de zapatillas"
+      }
+    },
+    "b2c": {
+      "title": "Productos fabricados a partir de Textiles reciclados (B2C)",
+      "desc": "Se comercializarán por plataformas online (Escarabajos Store) a través de la marca Escarabajos del Desierto.",
+      "linkStore": "Ir al Escarabajos Store",
+      "items": {
+        "hilos": "Hilos / Lana / Tela / Ponchos",
+        "gorros": "Gorros de Jeans",
+        "pecheras": "Pechera de jeans",
+        "chaquetas": "Chaquetas",
+        "bolsos": "Bolsos y accesorios",
+        "peluches": "Peluches"
+      }
+    }
   },
   "notFound": {
     "title": "Página no encontrada",

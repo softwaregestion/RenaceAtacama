@@ -1,0 +1,354 @@
+{
+  "nav": {
+    "home": "首頁",
+    "elProyecto": "專案",
+    "productos": "產品展示",
+    "nosotros": "我們",
+    "colaboradores": "團隊",
+    "embajadores": "大使",
+    "contenido": "內容",
+    "escarabajos": "沙漠甲蟲",
+    "contact": "聯絡我們",
+    "openMenu": "開啟選單"
+  },
+  "footer": {
+    "description": "將 Alto Hospicio 紡織垃圾掩埋場改造成阿塔卡馬沙漠的循環經濟模式。",
+    "quickLinks": "快速連結",
+    "elProyecto": "專案",
+    "quienesSomos": "我們是誰",
+    "contacto": "聯絡方式",
+    "contactUs": "聯絡我們",
+    "location": "智利塔拉帕卡區"
+  },
+  "index": {
+    "hero": {
+      "tagline": "循環經濟·阿塔卡馬沙漠",
+      "titlePart1": "重生",
+      "titlePart2": "阿塔卡馬",
+      "titlePart3": "具有實際影響的回收",
+      "subtitle": "Renace Atacama 是一項將永續發展、創新和就業相結合的倡議。我們將廢棄物轉化為新產品，加強社區建設並關愛地球。",
+      "cta": "了解更多",
+      "video": "看影片",
+      "alt": "Renace Atacama－具有真正影響力的回收",
+      "altoHospicio": "高臨終關懷中心",
+      "territory": "重建中的領土"
+    },
+    "impactos": {
+      "label": "影響",
+      "title": "環境、社會和經濟",
+      "ambiental": {
+        "title": "環境影響",
+        "text": "土壤和水污染、生態系統退化和空氣污染。"
+      },
+      "social": {
+        "title": "社會影響",
+        "text": "健康風險以及日益加深的不平等和社會衝突。"
+      },
+      "economico": {
+        "title": "经济影响",
+        "text": "污染影響該地區的旅遊業、農業和漁業。"
+      }
+    },
+    "vertederos": {
+      "title": "阿尔托福利院垃圾填埋场",
+      "text": "阿尔托霍斯皮西奥及其周边地区每天都会收到大量工业和城市废物（衣服、轮胎、瓶子等），在沙漠中央形成非法垃圾填埋场。受影响面积超过 300 公顷，每年产量近 39,000 吨，已成为塔拉帕卡州最大的环境危机之一，产生社会、经济和生态影响。"
+    },
+    "stats": {
+      "area": "受影响地区",
+      "communities": "社群",
+      "tonsPerYear": "噸/年"
+    },
+    "accionSocial": {
+      "tag": "社会和社区行动",
+      "title": "Renace Atacama 致力於重建社區的生活和希望。",
+      "subtitle": "我們與社區、婦女、回收商和年輕人合作，加強該地區的團結經濟、參與和尊嚴。",
+      "card1Title": "治癒沙漠，治癒沙漠人民",
+      "card1Text": "在 Renace Atacama，我們相信治癒沙漠也治癒了這裡的人民。",
+      "card2Title": "需要立即採取行動的危機",
+      "card2Text": "此問題的嚴重程度直接影響該地區的社區、公共衛生、景觀和生產活動。"
+    },
+    "partners": "合作夥伴",
+    "patrocinadores": "贊助商",
+    "escarabajosSection": {
+      "title": "沙漠甲蟲",
+      "intro1": "沙漠清理工作受到粪甲虫的启发：粪甲虫是一种重要的生物体，可以循环利用营养物质、传播种子，并充当生态系统健康的生物指标。",
+      "intro2": "它將成為該項目的象徵和加入邀請。",
+      "workByArea": "按特定區域開展工作",
+      "workByAreaDesc": "貢獻你的專業技能。",
+      "collaborateField": "領域合作",
+      "collaborateFieldDesc": "積極參與清潔行動。",
+      "ambassador": "成為大使",
+      "ambassadorDesc": "在您的社區中傳播該項目。"
+    },
+    "cta": {
+      "headline": "準備好加入了嗎？我們共同重建阿塔卡馬沙漠。",
+      "button": "我想加入"
+    }
+  },
+  "contacto": {
+    "badge": "聯絡方式",
+    "title": "聯絡我們",
+    "subtitle": "如果您想加入 Renace Atacama、與 Renace Atacama 合作或促進聯盟，請與我們聯絡。",
+    "writeUs": "寫信給我們",
+    "follow": "關注我們",
+    "location": "智利塔拉帕卡區",
+    "ctaTitle": "我們共同重建阿塔卡馬沙漠。",
+    "ctaSub": "你的聲音和你的行動相加。"
+  },
+  "nosotros": {
+    "tagline": "再生、循環和社區是每個決策的核心。",
+    "title": "我們是誰",
+    "introBefore": "Renace Atacama 是一項倡議，誕生於",
+    "introAfter": "，一個促進包容性、循環性和協作作為轉型驅動力的女性平台。我們尋求在阿塔卡馬沙漠建立一個創新極，以社區為中心，為該地區創造機會，並為與廢物相關的問題提供解決方案。",
+    "knowTeam": "了解團隊",
+    "beginssCard": "該計畫由專家和當地參與者組成的跨學科團隊推動，將永續性、創新和社區行動結合起來，以恢復領土並激活新的循環經濟。",
+    "ourProfessionals": "我們的專業人士",
+    "teamTitle": "致力於多學科團隊",
+    "teamSub": "一群集可持續發展、行業、社區、傳播和領域於一體的專業人士。",
+    "partnersSection": "合作夥伴和聯營公司",
+    "partnersTitle": "由忠誠的組織提供支持",
+    "partnersSub": "Renace Atacama 由致力於永續發展的組織和機構推動。",
+    "sponsors": "贊助商",
+    "sponsorsTitle": "支持我們的實體",
+    "sponsorsSub": "支持和贊助 Renace Atacama 的公共實體。",
+    "collaborators": "合作者和大使",
+    "collaboratorsTitle": "在不同舉措中與 Renace Atacama 合作的專業人士",
+    "banner": "重生 * 阿塔卡馬 * 再生",
+    "summary": "總結",
+    "role": "角色",
+    "experience": "經驗",
+    "competencies": "能力",
+    "viewLinkedIn": "查看領英個人資料",
+    "viewProfile": "查看個人資料"
+  },
+  "elProblema": {
+    "title": "沙漠紡織垃圾場",
+    "subtitle": "阿爾托霍斯皮西奧的非法垃圾掩埋場已成為智利北部最大的污染源之一，影響生物多樣性、公共衛生和地區經濟。",
+    "stats": {
+      "39000": "39,000",
+      "more300": "超過300個",
+      "hectares": "受影響公頃",
+      "tonsYear": "每年產生噸垃圾",
+      "growing": "影響",
+      "growingLabel": "不受控制地生長"
+    },
+    "impacts": "影響",
+    "threeDimensions": "危機的三個向度",
+    "ambiental": {
+      "title": "環境影響",
+      "text": "土壤、空氣和水的污染。對阿塔卡馬沙漠動植物的破壞。"
+    },
+    "social": {
+      "title": "社會影響",
+      "text": "對附近社區的直接影響、健康風險和生活品質惡化。"
+    },
+    "economico": {
+      "title": "經濟影響",
+      "text": "清潔成本、領土價值損失和公共資源壓力。"
+    }
+  },
+  "elProyecto": {
+    "badge": "我們的項目",
+    "title": "重生的阿塔卡馬項目",
+    "subtitle": "Renace Atacama 致力於將 Alto Hospicio 和阿塔卡馬沙漠轉變為創新、復興和永續發展的中心。",
+    "band": "RENACE • 阿塔卡馬 • 再生 • 循環經濟",
+    "problemLabel": "問題所在",
+    "problemTitle": "阿爾托福利院垃圾掩埋場",
+    "problemText": "阿爾托霍斯皮西奧的非法垃圾掩埋場已成為智利北部最大的污染源之一，影響生物多樣性、公共衛生和地區經濟。",
+    "area": "受影響地區",
+    "communities": "社群",
+    "tonsYear": "噸/年",
+    "projectLabel": "重生的阿塔卡馬項目",
+    "projectTitle": "產業園區及社區技術開發創新中心",
+    "economiaRegenerativa": "再生經濟",
+    "economiaText": "我們將非法垃圾掩埋場轉化為經濟和領土發展的機會。",
+    "nodoInnovacion": "創新節點",
+    "nodoText": "一個向社區開放、收集、教育、創新和當地發展於一體的工業園區。",
+    "modeloCircular": "圓形模型",
+    "modeloText": "將廢物轉化為資源、促進創新並創造當地就業的模式。",
+    "modalidad1": "工業園區和社區技術開發創新中心將成為Renace Atacama的營運中心。其位於 Alto Hospicio 垃圾掩埋場附近，其功能是為當今影響該地區的廢物提供一個新的目的地，從紡織品開始，並根據當地需求逐步擴展到其他材料。",
+    "modalidad2": "該中心不僅是一個回收廠，更是一個向社區開放的會議和學習空間。創新、環境教育、技術培訓和應用研究將匯聚於此，促進新的當地經濟以及專業人士、組織和居民之間的協作。",
+    "modalidad3": "目標是建立一個自我永續的模式，其中材料的回收推動社會和經濟價值的創造，鞏固 Alto Hospicio 作為智利北部永續管理和​​環境再生的基準。",
+    "ejes": {
+      "ambiental": "環保",
+      "social": "社群",
+      "comunitario": "社群",
+      "economico": "經濟"
+    },
+    "ejeAmbientalDesc": "保護和負責任地使用資源；生態修復；人類活動與環境之間的可持續平衡。",
+    "ejeSocialDesc": "公平、獲得基本服務、健康與安全、加強弱勢族群的關係和保護。",
+    "ejeComunitarioDesc": "利益團體的參與；地方治理；文化與遺產；合作計畫。",
+    "ejeEconomicoDesc": "永續和包容性成長；當地就業；循環價值鏈；清潔技術和能源。",
+    "ejesSectionTitle": "提案的行動方針",
+    "ejesSectionSub": "Renace Atacama 的出現是對該地區挑戰的變革性回應。它透過永續、創新和長期的方法，整合不同學科，並將女性賦權作為中心軸，將浪費轉化為機會。所有這一切都在旨在永續發展的循環經濟模式下得到體現。",
+    "resultados": {
+      "transformar": "變換",
+      "transformarText": "共同將受損地區轉變為健康且有復原力的空間，社區之間的合作可以產生持久的聯繫、知識交流以及防止這些傷口重新癒合的堅定承諾。",
+      "crear": "創建",
+      "crearText": "促進基於觀察、經驗、應用學習和想像力的創意生產鏈，促進共同創造永續解決方案，從而形成與環境和諧相處的新生活方式。",
+      "restaurar": "恢復",
+      "restaurarText": "尊重地清除生態系統以外的所有廢物和材料，認識到阿塔卡馬沙漠獨特且脆弱的價值，並負責任地採取行動保護其。",
+      "conectar": "連接",
+      "conectarText": "融入全球環境合作網絡，例如永續時尚運動，分享良好實踐和經驗，並以再生、創造力和生態意識的具體例子做出貢獻。"
+    }
+  },
+  "laPropuesta": {
+    "title": "提案",
+    "subtitle": "Renace Atacama 透過將廢物轉化為機會來應對該地區的挑戰。基於永續、創新和社區的循環行動模式。",
+    "ejes": "行動路線",
+    "fourPillars": "該計畫的四大支柱",
+    "ambiental": "環保",
+    "social": "社群",
+    "comunitario": "社群",
+    "economico": "經濟型",
+    "whatWeAchieve": "我們取得了什麼成就",
+    "expectedResults": "預期結果",
+    "expectedResultsSub": "將問題轉化為具有實際影響的可持續、可複製系統的明確計劃。",
+    "joinProject": "加入項目",
+    "resultados": {
+      "transformar": "變換",
+      "transformarText": "資源浪費，最初集中在紡織品上。",
+      "crear": "創建",
+      "crearText": "當地就業、培訓和循環創業。",
+      "restaurar": "恢復",
+      "restaurarText": "沙漠恢復和生態系統保護。",
+      "conectar": "連接",
+      "conectarText": "社區、產業和機構之間的聯盟。"
+    }
+  },
+  "productos": {
+    "title": "你能從回收的衣服中得到什麼？",
+    "subtitle": "各種實用、創意和永續的產品，為回收的紡織品賦予新的生命。",
+    "categories": "類別",
+    "cat1": "平織和機織紡織品",
+    "cat1Items": [
+      "箱包、背包、箱包",
+      "圍裙、餐墊、桌布",
+      "掛毯、裝飾錦旗",
+      "靠墊套、窗簾",
+      "拼布和絎縫布料"
+    ],
+    "cat2": "配件和服裝",
+    "cat2Items": [
+      "帽子、圍巾、背心、夾克",
+      "髮圈、頭巾、髮帶",
+      "給娃娃穿的衣服",
+      "寵物服裝"
+    ],
+    "cat3": "柔軟的填充紡織品",
+    "cat3Items": [
+      "靠墊、zafus、毛絨動物",
+      "寵物床",
+      "手工製作的隔熱/隔音材料"
+    ],
+    "cat4": "硬製品材料",
+    "cat4Items": [
+      "壓制氈",
+      "家具模板",
+      "生態塗料"
+    ],
+    "cat5": "藝術與裝飾",
+    "cat5Items": [
+      "拼貼畫和作品",
+      "拼布壁畫",
+      "具有地方特色的工藝品"
+    ],
+    "cat6": "保健產品",
+    "cat6Items": [
+      "口罩及保溫袋",
+      "哺乳/瑜珈枕頭",
+      "冥想配件"
+    ],
+    "cat7": "生物創新與永續發展",
+    "cat7Items": [
+      "纖維與回收材料混合製成面板",
+      "可生物降解的生態紡織品原型"
+    ]
+  },
+  "quienesSomos": {
+    "title": "我們是誰",
+    "subtitle": "Renace Atacama 是 Begins 推動的一項倡議，專注於創新、永續發展和循環經濟，將廢物轉化為機會，與社區一起重建土地。",
+    "vision": "我們的願景",
+    "visionText": "恢復阿塔卡馬沙漠並激活循環經濟，對社會、環境和生產產生影響。"
+  },
+  "accionSocial": {
+    "title": "社會和社區行動",
+    "subtitle": "在 Renace Atacama，我們相信治癒沙漠也治癒了這裡的人民。",
+    "commitment": "我們的承諾",
+    "text": "我們與社區、婦女、回收商和年輕人合作，加強該地區的團結經濟、參與和尊嚴。",
+    "quote": "Renace Atacama 致力於重建社區的生活和希望。"
+  },
+  "galeria": {
+    "title": "畫廊",
+    "subtitle": "顯示垃圾掩埋場問題的土地影像。",
+    "evidence": "視覺證據"
+  },
+  "contenido": {
+    "badge": "內容",
+    "title": "紀錄片",
+    "subtitle": "該項目包括製作兩部長篇紀錄片，突出該地區的問題以及創建創新和沙漠清理中心的過程。記錄現場工作的紀錄片和視覺畫廊。",
+    "contactCta": "聯絡我們",
+    "twoDocs": "兩部紀錄片",
+    "twoDocsTitle": "該提案的兩部紀錄片",
+    "twoDocsSub": "專題片將傳播問題、原因和建議的解決方案，具有國際範圍和社區關注。活動和動員的內容，將 Renace Atacama 定位為創新和永續發展的參考。",
+    "doc1Title": "串流媒體紀錄片",
+    "doc1Text": "針對串流媒體平台，它將傳播具有國際影響力的問題、原因和建議的解決方案。",
+    "doc2Title": "社區紀錄片",
+    "doc2Text": "透過與我們的合作夥伴管道合作，您將了解實地經驗、社區組織以及行動的真正影響。",
+    "doc3Title": "影響力和知名度",
+    "doc3Text": "活動和動員的內容，將 Renace Atacama 定位為創新和永續發展的參考。",
+    "galleryAlt1": "沙漠裡的衣物堆放場",
+    "galleryAlt2": "阿爾托福利院的土地和垃圾掩埋場",
+    "galleryAlt3": "紡織廢料的堆積",
+    "galleryAlt4": "廢棄衣服堆成山",
+    "galleryAlt5": "紡織垃圾掩埋場",
+    "galleryAlt6": "領土背景",
+    "galleryAlt7": "回收及貿易研討會",
+    "videoLabel": "YouTube 影片",
+    "galleryLabel": "畫廊",
+    "galleryTitle": "該領土的視覺證據",
+    "gallerySub": "顯示垃圾掩埋場和再生工作問題的土地影像。",
+    "bannerAlt": "Alto Hospicio 的土地和衣物垃圾場"
+  },
+  "elDocumental": {
+    "title": "紀錄片",
+    "subtitle": "該項目包括製作兩部長篇紀錄片，突出該地區的問題以及創建創新和沙漠清理中心的過程。",
+    "twoDocs": "兩部紀錄片",
+    "doc1Title": "串流媒體紀錄片",
+    "doc1Text": "針對串流媒體平台，它將傳播具有國際影響力的問題、原因和建議的解決方案。",
+    "doc2Title": "社區紀錄片",
+    "doc2Text": "透過與我們的合作夥伴管道合作，您將了解實地經驗、社區組織以及行動的真正影響。",
+    "doc3Title": "影響力和知名度",
+    "doc3Text": "活動和動員的內容，將 Renace Atacama 定位為創新和永續發展的參考。",
+    "features": "特點",
+    "feature1": "全球影響力",
+    "feature1Sub": "國際串流平台",
+    "feature2": "社會影響",
+    "feature2Sub": "社區意識與動員",
+    "feature3": "雙倍生產",
+    "feature3Sub": "兩部互補的紀錄片",
+    "joinCta": "我想加入"
+  },
+  "escarabajos": {
+    "badge": "沙漠甲蟲",
+    "title": "沙漠甲蟲",
+    "subtitle": "沙漠清理工作受到糞金龜的啟發：糞金龜是一種重要的生物體，可以循環利用營養物質、傳播種子，並作為生態系統健康的生物指標。",
+    "symbolLabel": "項目符號",
+    "symbolQuote": "它將成為該項目的象徵和加入邀請。",
+    "symbolDesc": "甲蟲代表了該地區的再生、資源回收和社區工作。",
+    "howToJoin": "如何加入",
+    "workByArea": "按特定區域開展工作",
+    "workByAreaDesc": "貢獻你的專業技能。",
+    "collaborateField": "領域合作",
+    "collaborateFieldDesc": "積極參與清潔行動。",
+    "ambassador": "成為大使",
+    "ambassadorDesc": "在您的社區中傳播該項目。",
+    "ctaHeadline": "準備好加入了嗎？我們共同重建阿塔卡馬沙漠。",
+    "ctaButton": "我想加入",
+    "logisticsAlt": "物流運輸"
+  },
+  "notFound": {
+    "title": "找不到頁面",
+    "back": "回到頂部"
+  }
+}

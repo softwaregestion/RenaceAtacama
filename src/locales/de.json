@@ -1,0 +1,354 @@
+{
+  "nav": {
+    "home": "Zuhause",
+    "elProyecto": "Das Projekt",
+    "productos": "Produkte",
+    "nosotros": "uns",
+    "colaboradores": "Team",
+    "embajadores": "Botschafter",
+    "contenido": "Inhalt",
+    "escarabajos": "Wüstenkäfer",
+    "contact": "Kontaktieren Sie uns",
+    "openMenu": "Menü öffnen"
+  },
+  "footer": {
+    "description": "Umwandlung der Textildeponie Alto Hospicio in ein Kreislaufwirtschaftsmodell für die Atacama-Wüste.",
+    "quickLinks": "Schnelle Links",
+    "elProyecto": "Das Projekt",
+    "quienesSomos": "Wer wir sind",
+    "contacto": "Kontakt",
+    "contactUs": "Kontaktieren Sie uns",
+    "location": "Region Tarapacá, Chile"
+  },
+  "index": {
+    "hero": {
+      "tagline": "Kreislaufwirtschaft · Atacama-Wüste",
+      "titlePart1": "Wiedergeboren",
+      "titlePart2": "Atacama",
+      "titlePart3": "Recycling mit echter Wirkung",
+      "subtitle": "Renace Atacama ist eine Initiative, die Nachhaltigkeit, Innovation und Beschäftigung verbindet. Wir wandeln Abfälle in neue Produkte um, stärken Gemeinschaften und kümmern uns um den Planeten.",
+      "cta": "Erfahren Sie mehr",
+      "video": "Siehe Video",
+      "alt": "Renace Atacama – Recycling mit echter Wirkung",
+      "altoHospicio": "Hohes Hospiz",
+      "territory": "Territorium in der Regeneration"
+    },
+    "impactos": {
+      "label": "Auswirkungen",
+      "title": "UMWELT, SOZIAL UND WIRTSCHAFT",
+      "ambiental": {
+        "title": "Umweltauswirkungen",
+        "text": "Boden- und Wasserverschmutzung, Ökosystemzerstörung und Luftverschmutzung."
+      },
+      "social": {
+        "title": "Soziale Auswirkungen",
+        "text": "Gesundheitsrisiken und zunehmende Ungleichheit und soziale Konflikte."
+      },
+      "economico": {
+        "title": "Wirtschaftliche Auswirkungen",
+        "text": "Die Umweltverschmutzung beeinträchtigt die Tourismusbranche, die Landwirtschaft und die Fischerei in der Region."
+      }
+    },
+    "vertederos": {
+      "title": "Die Alto Hospicio-Deponien",
+      "text": "Alto Hospicio und seine Umgebung erhalten täglich Tonnen von industriellen und städtischen Abfällen (Kleidung, Reifen, Flaschen und mehr), was zu illegalen Mülldeponien mitten in der Wüste führt. Mit mehr als 300 Hektar betroffenen Hektar und fast 39.000 Tonnen pro Jahr sind sie zu einer der größten Umweltkrisen in Tarapacá geworden, mit sozialen, wirtschaftlichen und ökologischen Auswirkungen."
+    },
+    "stats": {
+      "area": "Betroffener Bereich",
+      "communities": "Gemeinschaften",
+      "tonsPerYear": "Tonnen/Jahr"
+    },
+    "accionSocial": {
+      "tag": "Soziales und gemeinschaftliches Handeln",
+      "title": "Renace Atacama soll das Leben und die Hoffnung der Gemeinschaft wieder aufbauen.",
+      "subtitle": "Wir arbeiten mit Gemeinden, Frauen, Recyclern und jungen Menschen zusammen, um die Solidarwirtschaft, Teilhabe und Würde in der Region zu stärken.",
+      "card1Title": "Heile die Wüste, heile ihre Menschen",
+      "card1Text": "Wir bei Renace Atacama glauben, dass die Heilung der Wüste auch die Heilung ihrer Menschen bedeutet.",
+      "card2Title": "Eine Krise, die sofortiges Handeln erfordert",
+      "card2Text": "Das Ausmaß des Problems wirkt sich direkt auf die Gemeinden, die öffentliche Gesundheit, die Landschaft und die produktiven Aktivitäten in der Region aus."
+    },
+    "partners": "Partner",
+    "patrocinadores": "Sponsoren",
+    "escarabajosSection": {
+      "title": "Wüstenkäfer",
+      "intro1": "Die Säuberungsarbeiten in der Wüste haben uns vom Mistkäfer inspiriert: einem wichtigen Organismus, der Nährstoffe recycelt, Samen verteilt und als Bioindikator für die Gesundheit des Ökosystems fungiert.",
+      "intro2": "Es wird das Symbol des Projekts und eine Einladung zum Beitritt sein.",
+      "workByArea": "Arbeiten Sie nach einem bestimmten Bereich",
+      "workByAreaDesc": "Bringen Sie Ihre beruflichen Fähigkeiten ein.",
+      "collaborateField": "Arbeiten Sie vor Ort zusammen",
+      "collaborateFieldDesc": "Beteiligen Sie sich aktiv an Reinigungsaktionen.",
+      "ambassador": "Seien Sie ein Botschafter",
+      "ambassadorDesc": "Verbreiten Sie das Projekt in Ihrer Community."
+    },
+    "cta": {
+      "headline": "Bereit mitzumachen? Gemeinsam regenerieren wir die Atacama-Wüste.",
+      "button": "Ich möchte mitmachen"
+    }
+  },
+  "contacto": {
+    "badge": "Kontakt",
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Wenn Sie Renace Atacama beitreten, mit ihm zusammenarbeiten oder Allianzen fördern möchten, lassen Sie uns reden.",
+    "writeUs": "Schreiben Sie uns",
+    "follow": "Folge uns",
+    "location": "Region Tarapacá, Chile",
+    "ctaTitle": "Gemeinsam regenerieren wir die Atacama-Wüste.",
+    "ctaSub": "Ihre Stimme und Ihre Aktion summieren sich."
+  },
+  "nosotros": {
+    "tagline": "Regeneration, Zirkularität und Gemeinschaft stehen im Mittelpunkt jeder Entscheidung.",
+    "title": "Wer wir sind",
+    "introBefore": "Renace Atacama ist eine Initiative, die aus dieser Initiative hervorgegangen ist ",
+    "introAfter": ", eine Frauenplattform, die Inklusion, Zirkularität und Zusammenarbeit als Treiber der Transformation fördert. Unser Ziel ist es, in der Atacama-Wüste einen Pol der Innovation zu schaffen, indem wir die Gemeinschaften in den Mittelpunkt stellen, Möglichkeiten für das Gebiet schaffen und Lösungen für die mit Abfall verbundenen Probleme finden.",
+    "knowTeam": "Lernen Sie das Team kennen",
+    "beginssCard": "Das Projekt wird von einem interdisziplinären Team aus Experten und lokalen Akteuren vorangetrieben und integriert Nachhaltigkeit, Innovation und Gemeinschaftsmaßnahmen, um das Gebiet wiederherzustellen und neue Kreislaufwirtschaften zu aktivieren.",
+    "ourProfessionals": "UNSERE PROFIS",
+    "teamTitle": "Engagiertes multidisziplinäres Team",
+    "teamSub": "Eine Gruppe von Fachleuten, die Nachhaltigkeit, Industrie, Gemeinschaft, Kommunikation und Territorium vereint.",
+    "partnersSection": "PARTNER UND MITARBEITER",
+    "partnersTitle": "Unterstützt von engagierten Organisationen",
+    "partnersSub": "Renace Atacama wird von Organisationen und Institutionen gefördert, die sich für Nachhaltigkeit einsetzen.",
+    "sponsors": "SPONSOREN",
+    "sponsorsTitle": "Organisationen, die uns unterstützen",
+    "sponsorsSub": "Öffentliche Einrichtungen, die Renace Atacama unterstützen und sponsern.",
+    "collaborators": "MITARBEITER UND BOTSCHAFTER",
+    "collaboratorsTitle": "Fachleute, die mit Renace Atacama in verschiedenen Initiativen zusammenarbeiten",
+    "banner": "WIEDERGEBORGEN * ATACAMA * REGENERATION",
+    "summary": "Zusammenfassung",
+    "role": "Rolle",
+    "experience": "Erfahrung",
+    "competencies": "Kompetenzen",
+    "viewLinkedIn": "LinkedIn-Profil ansehen",
+    "viewProfile": "Profil ansehen"
+  },
+  "elProblema": {
+    "title": "Die Textildeponie in der Wüste",
+    "subtitle": "Die illegalen Mülldeponien in Alto Hospicio sind zu einer der größten Verschmutzungsquellen im Norden Chiles geworden und beeinträchtigen die Artenvielfalt, die öffentliche Gesundheit und die regionale Wirtschaft.",
+    "stats": {
+      "39000": "39.000",
+      "more300": "Mehr als 300",
+      "hectares": "betroffene Hektar",
+      "tonsYear": "Tonnen Abfall pro Jahr",
+      "growing": "eine Auswirkung",
+      "growingLabel": "das wächst unkontrolliert"
+    },
+    "impacts": "Auswirkungen",
+    "threeDimensions": "Drei Dimensionen der Krise",
+    "ambiental": {
+      "title": "Umweltauswirkungen",
+      "text": "Verschmutzung von Boden, Luft und Wasser. Schäden an der Flora und Fauna der Atacama-Wüste."
+    },
+    "social": {
+      "title": "Soziale Auswirkungen",
+      "text": "Direkte Auswirkungen auf umliegende Gemeinden, Gesundheitsrisiken und Verschlechterung der Lebensqualität."
+    },
+    "economico": {
+      "title": "Wirtschaftliche Auswirkungen",
+      "text": "Reinigungskosten, Verlust des territorialen Wertes und Druck auf öffentliche Ressourcen."
+    }
+  },
+  "elProyecto": {
+    "badge": "UNSER PROJEKT",
+    "title": "Das Reborn Atacama-Projekt",
+    "subtitle": "Renace Atacama möchte Alto Hospicio und die Atacama-Wüste in ein Zentrum der Innovation, Regeneration und Nachhaltigkeit verwandeln.",
+    "band": "RENACE • ATACAMA • REGENERATION • KREISLAUFWIRTSCHAFT",
+    "problemLabel": "DAS PROBLEM",
+    "problemTitle": "Die Alto Hospicio-Deponien",
+    "problemText": "Die illegalen Mülldeponien in Alto Hospicio sind zu einer der größten Verschmutzungsquellen im Norden Chiles geworden und beeinträchtigen die Artenvielfalt, die öffentliche Gesundheit und die regionale Wirtschaft.",
+    "area": "Betroffener Bereich",
+    "communities": "Gemeinschaften",
+    "tonsYear": "Tonnen/Jahr",
+    "projectLabel": "Das Reborn Atacama-Projekt",
+    "projectTitle": "Industriepark und kommunales Zentrum für technologische Entwicklung und Innovation",
+    "economiaRegenerativa": "REGENERATIVE WIRTSCHAFT",
+    "economiaText": "Wir verwandeln illegale Mülldeponien in Chancen für wirtschaftliche und territoriale Entwicklung.",
+    "nodoInnovacion": "INNOVATIONSKNOTEN",
+    "nodoText": "Ein für die Gemeinschaft offener Industriepark, der Recycling, Bildung, Innovation und lokale Entwicklung integriert.",
+    "modeloCircular": "KREISMODELL",
+    "modeloText": "Ein Modell, das Abfall in Ressourcen umwandelt, Innovationen fördert und lokale Arbeitsplätze schafft.",
+    "modalidad1": "Der Industriepark und das kommunale Technologieentwicklungs- und Innovationszentrum werden das operative Herzstück von Renace Atacama sein. Die Anlage befindet sich in der Nähe der Deponien Alto Hospicio und hat die Aufgabe, den Abfällen, die heute in diesem Gebiet anfallen, einen neuen Bestimmungsort zu geben, angefangen bei Textilien bis hin zur schrittweisen Ausweitung auf andere Materialien entsprechend den örtlichen Bedürfnissen.",
+    "modalidad2": "Das Zentrum ist mehr als eine Recyclinganlage, es ist als ein für die Gemeinschaft offener Begegnungs- und Lernraum konzipiert. Innovation, Umwelterziehung, technische Ausbildung und angewandte Forschung werden dort zusammenlaufen und neue lokale Ökonomien und die Zusammenarbeit zwischen Fachleuten, Organisationen und Bewohnern des Gebiets fördern.",
+    "modalidad3": "Ziel ist die Schaffung eines selbsttragenden Modells, bei dem die Rückgewinnung von Materialien die Schaffung von sozialem und wirtschaftlichem Wert vorantreibt und Alto Hospicio als Maßstab für nachhaltiges Management und Umweltsanierung im Norden Chiles festigt.",
+    "ejes": {
+      "ambiental": "UMWELTSCHUTZ",
+      "social": "SOZIAL",
+      "comunitario": "GEMEINSCHAFT",
+      "economico": "WIRTSCHAFTLICH"
+    },
+    "ejeAmbientalDesc": "Schonung und verantwortungsvoller Umgang mit Ressourcen; ökologische Wiederherstellung; nachhaltiges Gleichgewicht zwischen menschlicher Aktivität und Umwelt.",
+    "ejeSocialDesc": "Gerechtigkeit, Zugang zu grundlegenden Dienstleistungen, Gesundheit und Sicherheit, Stärkung, Beziehungen und Schutz gefährdeter Gruppen.",
+    "ejeComunitarioDesc": "Beteiligung von Interessengruppen; lokale Regierungsführung; Kultur und Erbe; Gemeinschaftsprojekte.",
+    "ejeEconomicoDesc": "Nachhaltiges und integratives Wachstum; lokale Beschäftigung; zirkuläre Wertschöpfungsketten; saubere Technologien und Energien.",
+    "ejesSectionTitle": "Aktionslinien des Vorschlags",
+    "ejesSectionSub": "Renace Atacama erweist sich als transformative Antwort auf die Herausforderungen des Territoriums. Es verwandelt Verschwendung in Chancen durch einen nachhaltigen, innovativen und langfristigen Ansatz, der verschiedene Disziplinen integriert und die Stärkung der Rolle der Frau in den Mittelpunkt stellt. All dies wird im Rahmen eines Kreislaufwirtschaftsmodells formuliert, das auf eine nachhaltige Entwicklung abzielt.",
+    "resultados": {
+      "transformar": "Verwandeln",
+      "transformarText": "Verwandeln Sie gemeinsam ein beschädigtes Gebiet in einen gesunden und widerstandsfähigen Raum, in dem durch die Zusammenarbeit zwischen Gemeinschaften dauerhafte Bindungen, Wissensaustausch und ein tiefes Engagement entstehen, um zu verhindern, dass diese Wunden wieder aufbrechen.",
+      "crear": "Erstellen",
+      "crearText": "Förderung kreativer Produktionsketten, die auf Beobachtung, Erfahrung, angewandtem Lernen und Vorstellungskraft basieren und die gemeinsame Entwicklung nachhaltiger Lösungen fördern, die zu einer neuen Lebensweise im Einklang mit der Umwelt führen.",
+      "restaurar": "Wiederherstellen",
+      "restaurarText": "Entfernen Sie respektvoll alle Abfälle und Materialien außerhalb des Ökosystems, erkennen Sie den einzigartigen und empfindlichen Wert der Atacama-Wüste an und handeln Sie verantwortungsbewusst für deren Erhaltung.",
+      "conectar": "Verbinden",
+      "conectarText": "Integrieren Sie sich in globale Netzwerke der Umweltzusammenarbeit, wie z. B. die nachhaltige Modebewegung, teilen Sie bewährte Praktiken und Erfahrungen aus der Praxis und tragen Sie mit konkreten Beispielen für Regeneration, Kreativität und Umweltbewusstsein bei."
+    }
+  },
+  "laPropuesta": {
+    "title": "Der Vorschlag",
+    "subtitle": "Renace Atacama reagiert auf die Herausforderungen des Territoriums, indem er Verschwendung in Chancen verwandelt. Ein zirkuläres Aktionsmodell, das auf Nachhaltigkeit, Innovation und Gemeinschaft basiert.",
+    "ejes": "Aktionslinien",
+    "fourPillars": "Vier Säulen des Projekts",
+    "ambiental": "Umweltfreundlich",
+    "social": "Sozial",
+    "comunitario": "Gemeinschaft",
+    "economico": "Sparsam",
+    "whatWeAchieve": "Was wir erreicht haben",
+    "expectedResults": "Erwartete Ergebnisse",
+    "expectedResultsSub": "Ein klarer Plan, um das Problem in ein nachhaltiges, reproduzierbares System mit echten Auswirkungen umzuwandeln.",
+    "joinProject": "Treten Sie dem Projekt bei",
+    "resultados": {
+      "transformar": "Verwandeln",
+      "transformarText": "Verschwendung von Ressourcen, wobei der Schwerpunkt zunächst auf Textilien liegt.",
+      "crear": "Erstellen",
+      "crearText": "Lokale Beschäftigung, Ausbildung und zirkuläres Unternehmertum.",
+      "restaurar": "Wiederherstellen",
+      "restaurarText": "Wiederherstellung der Wüste und Schutz des Ökosystems.",
+      "conectar": "Verbinden",
+      "conectarText": "Allianzen zwischen Gemeinschaft, Industrie und Institutionen."
+    }
+  },
+  "productos": {
+    "title": "Was kann man aus recycelter Kleidung gewinnen?",
+    "subtitle": "Eine große Auswahl an nützlichen, kreativen und nachhaltigen Produkten, die recycelten Textilien neues Leben einhauchen.",
+    "categories": "Kategorien",
+    "cat1": "Flache und gewebte Textilien",
+    "cat1Items": [
+      "Taschen, Rucksäcke, Koffer",
+      "Schürzen, Tischsets, Tischdecken",
+      "Wandteppiche, dekorative Wimpel",
+      "Kissenbezüge, Vorhänge",
+      "Stoffe für Patchwork und Quilten"
+    ],
+    "cat2": "Accessoires und Kostüme",
+    "cat2Items": [
+      "Mützen, Schals, Westen, Jacken",
+      "Haargummis, Turbane, Stirnbänder",
+      "Kleidung für Puppen",
+      "Haustierkleidung"
+    ],
+    "cat3": "Weiche und gefüllte Textilien",
+    "cat3Items": [
+      "Kissen, Zafus, Kuscheltiere",
+      "Haustierbetten",
+      "Handgefertigte thermische/akustische Isolatoren"
+    ],
+    "cat4": "Material für harte Produkte",
+    "cat4Items": [
+      "Gepresste Filze",
+      "Möbelvorlagen",
+      "Ökologische Beschichtungen"
+    ],
+    "cat5": "Kunst und Dekoration",
+    "cat5Items": [
+      "Collagen und Werke",
+      "Patchwork-Wandmalerei",
+      "Kunsthandwerk mit lokaler Identität"
+    ],
+    "cat6": "Wellness-Produkte",
+    "cat6Items": [
+      "Masken und Thermobeutel",
+      "Still-/Yogakissen",
+      "Meditationszubehör"
+    ],
+    "cat7": "Bioinnovation und Nachhaltigkeit",
+    "cat7Items": [
+      "Fasern gemischt mit recycelten Materialien für Paneele",
+      "Biologisch abbaubare Ökotextil-Prototypen"
+    ]
+  },
+  "quienesSomos": {
+    "title": "Wer wir sind",
+    "subtitle": "Renace Atacama ist eine von Begins geförderte Initiative, die sich auf Innovation, Nachhaltigkeit und Kreislaufwirtschaft konzentriert, um Abfall in Chancen umzuwandeln und das Gebiet gemeinsam mit seinen Gemeinden zu regenerieren.",
+    "vision": "Unsere Vision",
+    "visionText": "Stellen Sie die Atacama-Wüste wieder her und aktivieren Sie Kreislaufwirtschaften mit sozialen, ökologischen und produktiven Auswirkungen."
+  },
+  "accionSocial": {
+    "title": "Soziales und gemeinschaftliches Handeln",
+    "subtitle": "Wir bei Renace Atacama glauben, dass die Heilung der Wüste auch die Heilung ihrer Menschen bedeutet.",
+    "commitment": "Unser Engagement",
+    "text": "Wir arbeiten mit Gemeinden, Frauen, Recyclern und jungen Menschen zusammen, um die Solidarwirtschaft, Teilhabe und Würde in der Region zu stärken.",
+    "quote": "Renace Atacama soll das Leben und die Hoffnung der Gemeinschaft wieder aufbauen."
+  },
+  "galeria": {
+    "title": "Galerie",
+    "subtitle": "Landbilder, die die Problematik der Deponien verdeutlichen.",
+    "evidence": "Visueller Beweis"
+  },
+  "contenido": {
+    "badge": "Inhalt",
+    "title": "Der Dokumentarfilm",
+    "subtitle": "Das Projekt umfasst die Produktion von zwei abendfüllenden Dokumentarfilmen, die die Probleme in der Region und den Prozess der Schaffung des Innovations- und Wüstensäuberungszentrums hervorheben. Dokumentationen und eine visuelle Galerie, die über die Arbeit vor Ort berichten.",
+    "contactCta": "Kontaktieren Sie uns",
+    "twoDocs": "ZWEI DOKUMENTARFILM",
+    "twoDocsTitle": "Zwei Dokumentationen des Vorschlags",
+    "twoDocsSub": "Spielfilme, die das Problem, die Ursachen und die vorgeschlagenen Lösungen verbreiten, mit internationaler Reichweite und Community-Fokus. Inhalte für Kampagnen und Mobilisierung, die Renace Atacama als Referenz für Innovation und Nachhaltigkeit positionieren.",
+    "doc1Title": "Dokumentarfilm zum Streamen",
+    "doc1Text": "Es richtet sich an Streaming-Plattformen und soll die Probleme, Ursachen und Lösungsvorschläge mit internationaler Reichweite verbreiten.",
+    "doc2Title": "Community-Dokumentarfilm",
+    "doc2Text": "In Zusammenarbeit mit unserem Partnerkanal verfolgen Sie die Erfahrungen vor Ort, die Community-Organisation und die tatsächlichen Auswirkungen der Aktionen.",
+    "doc3Title": "Wirkung und Sichtbarkeit",
+    "doc3Text": "Inhalte für Kampagnen und Mobilisierung, die Renace Atacama als Referenz für Innovation und Nachhaltigkeit positionieren.",
+    "galleryAlt1": "Kleiderdeponie in der Wüste",
+    "galleryAlt2": "Grundstücke und Deponien in Alto Hospicio",
+    "galleryAlt3": "Ansammlung von Textilabfällen",
+    "galleryAlt4": "Berg weggeworfener Kleidung",
+    "galleryAlt5": "Textildeponie",
+    "galleryAlt6": "Kontext des Territoriums",
+    "galleryAlt7": "Recycling- und Handwerkswerkstatt",
+    "videoLabel": "YouTube-Video",
+    "galleryLabel": "GALERIE",
+    "galleryTitle": "Visueller Beweis des Territoriums",
+    "gallerySub": "Bilder des Landes, die die Probleme von Deponien und Regenerationsarbeiten zeigen.",
+    "bannerAlt": "Land- und Kleiderdeponien in Alto Hospicio"
+  },
+  "elDocumental": {
+    "title": "Der Dokumentarfilm",
+    "subtitle": "Das Projekt umfasst die Produktion von zwei abendfüllenden Dokumentarfilmen, die die Probleme in der Region und den Prozess der Schaffung des Innovations- und Wüstensäuberungszentrums hervorheben.",
+    "twoDocs": "Zwei Dokumentarfilme",
+    "doc1Title": "Dokumentarfilm zum Streamen",
+    "doc1Text": "Es richtet sich an Streaming-Plattformen und soll die Probleme, Ursachen und Lösungsvorschläge mit internationaler Reichweite verbreiten.",
+    "doc2Title": "Community-Dokumentarfilm",
+    "doc2Text": "In Zusammenarbeit mit unserem Partnerkanal verfolgen Sie die Erfahrungen vor Ort, die Community-Organisation und die tatsächlichen Auswirkungen der Aktionen.",
+    "doc3Title": "Wirkung und Sichtbarkeit",
+    "doc3Text": "Inhalte für Kampagnen und Mobilisierung, die Renace Atacama als Referenz für Innovation und Nachhaltigkeit positionieren.",
+    "features": "Funktionen",
+    "feature1": "Globale Reichweite",
+    "feature1Sub": "Internationale Streaming-Plattformen",
+    "feature2": "Soziale Auswirkungen",
+    "feature2Sub": "Bewusstsein und Mobilisierung der Gemeinschaft",
+    "feature3": "Doppelte Produktion",
+    "feature3Sub": "Zwei ergänzende Dokumentarfilme",
+    "joinCta": "Ich möchte mitmachen"
+  },
+  "escarabajos": {
+    "badge": "Wüstenkäfer",
+    "title": "Wüstenkäfer",
+    "subtitle": "Die Säuberungsarbeiten in der Wüste haben uns vom Mistkäfer inspiriert: einem wichtigen Organismus, der Nährstoffe recycelt, Samen verteilt und als Bioindikator für die Gesundheit des Ökosystems fungiert.",
+    "symbolLabel": "Projektsymbol",
+    "symbolQuote": "Es wird das Symbol des Projekts und eine Einladung zum Beitritt sein.",
+    "symbolDesc": "Der Käfer steht für Regeneration, Ressourcenrecycling und Gemeinschaftsarbeit im Gebiet.",
+    "howToJoin": "So treten Sie bei",
+    "workByArea": "Arbeiten Sie nach einem bestimmten Bereich",
+    "workByAreaDesc": "Bringen Sie Ihre beruflichen Fähigkeiten ein.",
+    "collaborateField": "Arbeiten Sie vor Ort zusammen",
+    "collaborateFieldDesc": "Beteiligen Sie sich aktiv an Reinigungsaktionen.",
+    "ambassador": "Seien Sie ein Botschafter",
+    "ambassadorDesc": "Verbreiten Sie das Projekt in Ihrer Community.",
+    "ctaHeadline": "Bereit mitzumachen? Gemeinsam regenerieren wir die Atacama-Wüste.",
+    "ctaButton": "Ich möchte mitmachen",
+    "logisticsAlt": "Logistik und Transport"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "back": "Zurück nach oben"
+  }
+}

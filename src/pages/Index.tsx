@@ -482,7 +482,7 @@ export default function Index() {
             >
               <div
                 className="absolute inset-0 bg-cover bg-center"
-                style={{ backgroundImage: "url(/blog-1.webp)" }}
+                style={{ backgroundImage: "url(/productos/escarabajo-final.jpg)" }}
               />
               <div className="absolute inset-0 bg-[#6F4E37]/70" aria-hidden />
             </div>

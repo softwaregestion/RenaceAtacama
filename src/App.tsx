@@ -12,7 +12,8 @@ import Nosotros from "./pages/Nosotros";
 import QuienesSomos from "./pages/QuienesSomos";
 import Equipo from "./pages/Equipo";
 import Partners from "./pages/Partners";
-import Colaboradores from "./pages/Colaboradores";
+import ColaboradoresNosotros from "./pages/ColaboradoresNosotros";
+import Embajadores from "./pages/Embajadores";
 import Contenido from "./pages/Contenido";
 import ElDocumental from "./pages/ElDocumental";
 import Escarabajos from "./pages/Escarabajos";
@@ -41,7 +42,8 @@ const App = () => (
             <Route path={ROUTES.quienesSomos} element={<QuienesSomos />} />
             <Route path={ROUTES.equipo} element={<Equipo />} />
             <Route path={ROUTES.partners} element={<Partners />} />
-            <Route path={ROUTES.colaboradores} element={<Colaboradores />} />
+            <Route path={ROUTES.colaboradores} element={<ColaboradoresNosotros />} />
+            <Route path={ROUTES.embajadores} element={<Embajadores />} />
             <Route path={ROUTES.contenido} element={<Contenido />} />
             <Route path={ROUTES.elDocumental} element={<ElDocumental />} />
             <Route path={ROUTES.escarabajos} element={<Escarabajos />} />

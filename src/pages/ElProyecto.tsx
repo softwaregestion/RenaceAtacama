@@ -13,6 +13,8 @@ const HERO_SHAPE_PATH =
 const RESULTADOS_ICONS = [RefreshCw, Sparkles, Leaf, Network] as const;
 const RESULTADOS_KEYS = ["transformar", "crear", "restaurar", "conectar"] as const;
 
+const YOUTUBE_VIDEO_ID = "dBz9LYR3d8Q";
+
 export default function ElProyecto() {
   const { t } = useTranslation();
   const impactos = [
@@ -70,6 +72,23 @@ export default function ElProyecto() {
             <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
               {t("elProyecto.subtitle")}
             </p>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mt-16 max-w-4xl mx-auto"
+          >
+            <div className="rounded-2xl overflow-hidden bg-gray-900 border border-border shadow-2xl aspect-video">
+              <iframe
+                title="Video El Proyecto"
+                src={`https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}?rel=0`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              />
+            </div>
           </motion.div>
         </div>
       </section>

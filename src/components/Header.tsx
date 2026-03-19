@@ -18,6 +18,13 @@ const FLAG_BY_LANG: Record<string, string> = {
   es: "🇪🇸",
   en: "🇺🇸",
   "pt-BR": "🇧🇷",
+  fr: "🇫🇷",
+  de: "🇩🇪",
+  zh: "🇨🇳",
+  "zh-TW": "🇹🇼",
+  ko: "🇰🇷",
+  ja: "🇯🇵",
+  sl: "🇸🇮",
 };
 
 export function Header() {
@@ -30,8 +37,20 @@ export function Header() {
   const navItems = useMemo(
     () => [
       { label: t("nav.home"), href: ROUTES.home },
-      { label: t("nav.elProyecto"), href: ROUTES.elProyecto },
-      { label: t("nav.nosotros"), href: ROUTES.nosotros },
+      {
+        label: t("nav.elProyecto"),
+        children: [
+          { label: t("nav.elProyecto"), href: ROUTES.elProyecto },
+          { label: t("nav.productos"), href: ROUTES.productos },
+        ],
+      },
+      {
+        label: t("nav.nosotros"),
+        children: [
+          { label: t("nav.colaboradores"), href: ROUTES.colaboradores },
+          { label: t("nav.embajadores"), href: ROUTES.embajadores },
+        ],
+      },
       { label: t("nav.contenido"), href: ROUTES.contenido },
       { label: t("nav.escarabajos"), href: ROUTES.escarabajos },
     ],

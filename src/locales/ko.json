@@ -1,0 +1,354 @@
+{
+  "nav": {
+    "home": "홈",
+    "elProyecto": "프로젝트",
+    "productos": "제품",
+    "nosotros": "우리",
+    "colaboradores": "팀",
+    "embajadores": "대사",
+    "contenido": "내용",
+    "escarabajos": "사막 딱정벌레",
+    "contact": "문의하기",
+    "openMenu": "메뉴 열기"
+  },
+  "footer": {
+    "description": "Alto Hospicio 직물 매립지를 아타카마 사막의 순환 경제 모델로 전환합니다.",
+    "quickLinks": "빠른 링크",
+    "elProyecto": "프로젝트",
+    "quienesSomos": "우리는 누구인가",
+    "contacto": "연락처",
+    "contactUs": "문의하기",
+    "location": "칠레 타라파카 지역"
+  },
+  "index": {
+    "hero": {
+      "tagline": "순환경제 · 아타카마 사막",
+      "titlePart1": "환생",
+      "titlePart2": "아타카마",
+      "titlePart3": "실질적인 영향을 미치는 재활용",
+      "subtitle": "Renace Atacama는 지속 가능성, 혁신 및 고용을 결합한 이니셔티브입니다. 우리는 폐기물을 새로운 제품으로 전환하여 지역 사회를 강화하고 지구를 돌봅니다.",
+      "cta": "자세히 알아보기",
+      "video": "동영상 보기",
+      "alt": "Renace Atacama — 실질적인 영향을 미치는 재활용",
+      "altoHospicio": "고등 호스피스",
+      "territory": "재생의 영토"
+    },
+    "impactos": {
+      "label": "영향",
+      "title": "환경, 사회, 경제",
+      "ambiental": {
+        "title": "환경에 미치는 영향",
+        "text": "토양 및 수질 오염, 생태계 악화 및 대기 오염."
+      },
+      "social": {
+        "title": "사회적 영향",
+        "text": "건강상의 위험과 심화되는 불평등과 사회적 갈등."
+      },
+      "economico": {
+        "title": "경제적 영향",
+        "text": "오염은 해당 지역의 관광 산업, 농업 및 어업에 영향을 미칩니다."
+      }
+    },
+    "vertederos": {
+      "title": "알토 호스피시오 매립지",
+      "text": "Alto Hospicio와 그 주변에는 매일 수많은 산업 및 도시 폐기물(의류, 타이어, 병 등)이 유입되어 사막 한가운데 불법 매립지가 생성됩니다. 300헥타르 이상이 영향을 받고 연간 거의 39,000톤이 영향을 받는 이 문제는 사회적, 경제적, 생태학적 영향을 미치는 타라파카의 가장 큰 환경 위기 중 하나가 되었습니다."
+    },
+    "stats": {
+      "area": "영향을 받는 지역",
+      "communities": "커뮤니티",
+      "tonsPerYear": "톤/년"
+    },
+    "accionSocial": {
+      "tag": "사회 및 지역사회 활동",
+      "title": "Renace Atacama는 지역 사회에서 삶과 희망을 재건하는 것입니다.",
+      "subtitle": "우리는 지역사회, 여성, 재활용업자, 젊은이들과 협력하여 지역 내 연대 경제, 참여 및 존엄성을 강화합니다.",
+      "card1Title": "사막을 치유하고, 그곳의 사람들을 치유하세요",
+      "card1Text": "Renace Atacama에서는 사막을 치유하는 것이 사막의 사람들을 치유하는 것이라고 믿습니다.",
+      "card2Title": "즉각적인 조치가 필요한 위기",
+      "card2Text": "문제의 규모는 해당 지역의 지역 사회, 공중 보건, 경관 및 생산 활동에 직접적인 영향을 미칩니다."
+    },
+    "partners": "파트너",
+    "patrocinadores": "후원자",
+    "escarabajosSection": {
+      "title": "사막 딱정벌레",
+      "intro1": "사막 청소 작업은 영양분을 재활용하고 씨앗을 분산시키며 생태계 건강의 생물학적 지표 역할을 하는 주요 유기체인 쇠똥구리에서 영감을 받았습니다.",
+      "intro2": "이는 프로젝트의 상징이자 참여 초대가 될 것입니다.",
+      "workByArea": "특정 지역별 작업",
+      "workByAreaDesc": "귀하의 전문 기술을 기여하십시오.",
+      "collaborateField": "현장에서 협력하세요",
+      "collaborateFieldDesc": "청소활동에 적극적으로 참여합니다.",
+      "ambassador": "대사가 되어보세요",
+      "ambassadorDesc": "지역사회에 프로젝트를 전파하세요."
+    },
+    "cta": {
+      "headline": "가입할 준비가 되셨나요? 우리는 함께 아타카마 사막을 재생합니다.",
+      "button": "가입하고 싶어요"
+    }
+  },
+  "contacto": {
+    "badge": "연락처",
+    "title": "문의하기",
+    "subtitle": "Renace Atacama와 제휴, 협력 또는 제휴를 추진하고 싶다면 대화를 나눠보세요.",
+    "writeUs": "우리에게 편지 쓰기",
+    "follow": "우리를 따르라",
+    "location": "칠레 타라파카 지역",
+    "ctaTitle": "우리는 함께 아타카마 사막을 재생합니다.",
+    "ctaSub": "당신의 목소리와 행동이 합산됩니다."
+  },
+  "nosotros": {
+    "tagline": "모든 결정의 중심에는 재생, 순환성, 커뮤니티가 있습니다.",
+    "title": "우리는 누구인가",
+    "introBefore": "Renace Atacama는 다음에서 탄생한 이니셔티브입니다. ",
+    "introAfter": "는 변화의 동인으로서 포용성, 순환성, 협업을 장려하는 여성 플랫폼입니다. 우리는 아타카마 사막에 혁신의 기둥을 만들고, 지역사회를 중심에 두고, 지역에 대한 기회를 창출하고, 폐기물과 관련된 문제에 대한 해결책을 모색합니다.",
+    "knowTeam": "팀에 대해 알아보세요",
+    "beginssCard": "이 프로젝트는 전문가와 지역 행위자로 구성된 학제간 팀이 주도하며 지속 가능성, 혁신 및 지역 사회 활동을 통합하여 지역을 복원하고 새로운 순환 경제를 활성화합니다.",
+    "ourProfessionals": "우리 전문가",
+    "teamTitle": "다양한 분야에 헌신하는 팀",
+    "teamSub": "지속가능성, 산업, 커뮤니티, 커뮤니케이션, 영역을 결합한 전문가 그룹입니다.",
+    "partnersSection": "파트너 및 제휴사",
+    "partnersTitle": "헌신적인 조직의 지원",
+    "partnersSub": "Renace Atacama는 지속 가능성에 전념하는 조직 및 기관에서 홍보합니다.",
+    "sponsors": "후원자",
+    "sponsorsTitle": "우리를 지원하는 단체",
+    "sponsorsSub": "Renace Atacama를 지원하고 후원하는 공공 기관.",
+    "collaborators": "협력자 및 홍보대사",
+    "collaboratorsTitle": "다양한 이니셔티브에서 Renace Atacama와 협력하는 전문가",
+    "banner": "환생 * 아타카마 * 재생",
+    "summary": "요약",
+    "role": "역할",
+    "experience": "경험",
+    "competencies": "역량",
+    "viewLinkedIn": "LinkedIn 프로필 보기",
+    "viewProfile": "프로필 보기"
+  },
+  "elProblema": {
+    "title": "사막의 직물 쓰레기장",
+    "subtitle": "Alto Hospicio의 불법 매립은 칠레 북부의 가장 큰 오염원 중 하나가 되어 생물 다양성, 공중 보건 및 지역 경제에 영향을 미치고 있습니다.",
+    "stats": {
+      "39000": "39,000",
+      "more300": "300개 이상",
+      "hectares": "영향을 받은 헥타르",
+      "tonsYear": "연간 쓰레기 톤",
+      "growing": "영향",
+      "growingLabel": "통제 없이 자라는"
+    },
+    "impacts": "영향",
+    "threeDimensions": "위기의 세 가지 차원",
+    "ambiental": {
+      "title": "환경에 미치는 영향",
+      "text": "토양, 공기 및 물의 오염. 아타카마 사막의 동식물군에 대한 피해."
+    },
+    "social": {
+      "title": "사회적 영향",
+      "text": "인근 지역사회, 건강 위험 및 삶의 질 저하에 직접적인 영향을 미칩니다."
+    },
+    "economico": {
+      "title": "경제적 영향",
+      "text": "청소 비용, 영토 가치 손실, 공공 자원에 대한 압박."
+    }
+  },
+  "elProyecto": {
+    "badge": "우리의 프로젝트",
+    "title": "다시 태어난 아타카마 프로젝트",
+    "subtitle": "Renace Atacama는 Alto Hospicio와 Atacama Desert를 혁신, 재생 및 지속 가능성의 허브로 변화시키려고 합니다.",
+    "band": "르네상스 • 아타카마 • 재생 • 순환 경제",
+    "problemLabel": "문제",
+    "problemTitle": "알토 호스피시오 매립지",
+    "problemText": "Alto Hospicio의 불법 매립은 칠레 북부의 가장 큰 오염원 중 하나가 되어 생물 다양성, 공중 보건 및 지역 경제에 영향을 미치고 있습니다.",
+    "area": "영향을 받는 지역",
+    "communities": "커뮤니티",
+    "tonsYear": "톤/년",
+    "projectLabel": "다시 태어난 아타카마 프로젝트",
+    "projectTitle": "산업단지 및 지역사회기술개발혁신센터",
+    "economiaRegenerativa": "재생경제",
+    "economiaText": "우리는 불법 매립지를 경제 및 영토 개발의 기회로 전환합니다.",
+    "nodoInnovacion": "혁신 노드",
+    "nodoText": "재활용, 교육, 혁신 및 지역 개발을 통합하는 지역 사회에 개방된 산업 단지입니다.",
+    "modeloCircular": "원형 모델",
+    "modeloText": "폐기물을 자원으로 전환하고 혁신을 촉진하며 지역 고용을 창출하는 모델입니다.",
+    "modalidad1": "산업단지와 지역사회 기술 개발 및 혁신 센터는 Renace Atacama의 운영 핵심이 될 것입니다. Alto Hospicio 매립지 근처에 위치한 이 곳의 기능은 오늘날 지역에 영향을 미치는 폐기물에 새로운 목적지를 제공하는 것입니다. 직물부터 시작하여 지역 필요에 따라 점진적으로 다른 재료로 확장됩니다.",
+    "modalidad2": "재활용 공장 그 이상으로 이 센터는 지역사회에 개방된 회의 및 학습 공간으로 생각됩니다. 혁신, 환경 교육, 기술 훈련 및 응용 연구가 이곳에 모여 새로운 지역 경제를 촉진하고 전문가, 조직 및 지역 주민 간의 협력 작업을 촉진할 것입니다.",
+    "modalidad3": "목표는 자재의 회수가 사회적, 경제적 가치 창출을 주도하는 자립 가능한 모델을 생성하여 Alto Hospicio를 칠레 북부의 지속 가능한 관리 및 환경 재생의 벤치마크로 통합하는 것입니다.",
+    "ejes": {
+      "ambiental": "환경",
+      "social": "소셜",
+      "comunitario": "커뮤니티",
+      "economico": "경제적"
+    },
+    "ejeAmbientalDesc": "자원의 보존 및 책임 있는 사용 생태복원; 인간 활동과 환경 사이의 지속 가능한 균형.",
+    "ejeSocialDesc": "형평성, 기본 서비스에 대한 접근, 보건 및 안전, 강화, 취약 계층의 관계 및 보호.",
+    "ejeComunitarioDesc": "이익단체의 참여 지역 거버넌스; 문화와 유산; 공동 프로젝트.",
+    "ejeEconomicoDesc": "지속 가능하고 포용적인 성장 현지 취업; 순환 가치 사슬; 청정 기술과 에너지.",
+    "ejesSectionTitle": "제안의 행동 방향",
+    "ejesSectionSub": "Renace Atacama는 지역의 도전에 대한 혁신적인 대응으로 등장합니다. 다양한 분야를 통합하고 여성 역량 강화를 중심축으로 하는 지속 가능하고 혁신적이며 장기적인 접근 방식을 통해 낭비를 기회로 전환합니다. 이 모든 것은 지속 가능한 개발을 목표로 하는 순환 경제 모델에 따라 표현됩니다.",
+    "resultados": {
+      "transformar": "변환",
+      "transformarText": "손상된 지역을 건강하고 회복력 있는 공간으로 종합적으로 변화시켜 커뮤니티 간의 협력을 통해 지속적인 유대 관계, 지식 교환 및 이러한 상처가 다시 발생하는 것을 방지하려는 깊은 헌신을 생성합니다.",
+      "crear": "만들기",
+      "crearText": "관찰, 경험, 응용 학습 및 상상력을 기반으로 창의적인 생산 체인을 장려하고 환경과 조화를 이루는 새로운 삶의 방식을 제시하는 지속 가능한 솔루션의 공동 창조를 촉진합니다.",
+      "restaurar": "복원",
+      "restaurarText": "아타카마 사막의 독특하고 취약한 가치를 인식하고 보존을 위해 책임감 있게 행동하면서 생태계 외부의 모든 폐기물과 물질을 정중하게 제거하십시오.",
+      "conectar": "연결하다",
+      "conectarText": "지속 가능한 패션 운동과 같은 환경 협력의 글로벌 네트워크에 통합하고, 모범 사례와 활동 경험을 공유하고, 재생, 창의성 및 생태 인식에 대한 구체적인 사례를 통해 기여합니다."
+    }
+  },
+  "laPropuesta": {
+    "title": "제안",
+    "subtitle": "Renace Atacama는 폐기물을 기회로 전환하여 지역의 과제에 대응합니다. 지속 가능성, 혁신 및 커뮤니티를 기반으로 한 순환 행동 모델입니다.",
+    "ejes": "행동 방침",
+    "fourPillars": "프로젝트의 네 가지 기둥",
+    "ambiental": "환경",
+    "social": "소셜",
+    "comunitario": "커뮤니티",
+    "economico": "경제적",
+    "whatWeAchieve": "우리가 달성한 것",
+    "expectedResults": "예상되는 결과",
+    "expectedResultsSub": "실질적인 영향을 미치는 지속 가능하고 복제 가능한 시스템으로 문제를 전환하기 위한 명확한 계획입니다.",
+    "joinProject": "프로젝트에 참여하세요",
+    "resultados": {
+      "transformar": "변환",
+      "transformarText": "자원 낭비, 초기에는 섬유에 중점을 두었습니다.",
+      "crear": "만들기",
+      "crearText": "지역 고용, 교육 및 순환 기업가 정신.",
+      "restaurar": "복원",
+      "restaurarText": "사막 복구 및 생태계 보호.",
+      "conectar": "연결하다",
+      "conectarText": "지역 사회, 산업 및 기관 간의 동맹."
+    }
+  },
+  "productos": {
+    "title": "재활용 의류에서 무엇을 얻을 수 있나요?",
+    "subtitle": "회수된 직물에 새로운 생명을 불어넣는 유용하고 창의적이며 지속 가능한 다양한 제품입니다.",
+    "categories": "카테고리",
+    "cat1": "편평하고 직조된 직물",
+    "cat1Items": [
+      "가방, 배낭, 케이스",
+      "앞치마, 플레이스매트, 식탁보",
+      "태피스트리, 장식용 페넌트",
+      "쿠션커버, 커튼",
+      "패치워크 및 퀼팅용 직물"
+    ],
+    "cat2": "액세서리 및 의상",
+    "cat2Items": [
+      "모자, 스카프, 조끼, 재킷",
+      "스크런치, 터번, 머리띠",
+      "인형용 옷",
+      "애완동물 의류"
+    ],
+    "cat3": "부드럽고 속이 꽉 찬 직물",
+    "cat3Items": [
+      "쿠션, 자푸스, 동물 인형",
+      "애완동물 침대",
+      "수제 단열/음향 절연체"
+    ],
+    "cat4": "경질제품용 소재",
+    "cat4Items": [
+      "프레스 펠트",
+      "가구 템플릿",
+      "생태학적 코팅"
+    ],
+    "cat5": "예술과 장식",
+    "cat5Items": [
+      "콜라주와 작품",
+      "패치워크 벽화",
+      "지역의 정체성을 지닌 공예품"
+    ],
+    "cat6": "웰니스 제품",
+    "cat6Items": [
+      "마스크 및 보온 가방",
+      "수유/요가 베개",
+      "명상 액세서리"
+    ],
+    "cat7": "바이오혁신과 지속가능성",
+    "cat7Items": [
+      "패널용 재활용 소재와 혼합된 섬유",
+      "생분해성 생태섬유 프로토타입"
+    ]
+  },
+  "quienesSomos": {
+    "title": "우리는 누구인가",
+    "subtitle": "Renace Atacama는 폐기물을 기회로 전환하고 지역 사회와 함께 지역을 재생하기 위해 혁신, 지속 가능성 및 순환 경제에 초점을 맞춘 Begins가 추진하는 이니셔티브입니다.",
+    "vision": "우리의 비전",
+    "visionText": "아타카마 사막을 복원하고 사회적, 환경적, 생산적 영향을 미치는 순환 경제를 활성화하십시오."
+  },
+  "accionSocial": {
+    "title": "사회 및 지역사회 활동",
+    "subtitle": "Renace Atacama에서는 사막을 치유하는 것이 사막의 사람들을 치유하는 것이라고 믿습니다.",
+    "commitment": "우리의 약속",
+    "text": "우리는 지역사회, 여성, 재활용업자, 젊은이들과 협력하여 지역 내 연대 경제, 참여 및 존엄성을 강화합니다.",
+    "quote": "Renace Atacama는 지역 사회에서 삶과 희망을 재건하는 것입니다."
+  },
+  "galeria": {
+    "title": "갤러리",
+    "subtitle": "매립 문제를 보여주는 토지 이미지.",
+    "evidence": "시각적 증거"
+  },
+  "contenido": {
+    "badge": "내용",
+    "title": "다큐멘터리",
+    "subtitle": "이 프로젝트에는 지역의 문제와 혁신 및 사막 청소 허브를 만드는 과정을 조명하는 두 편의 장편 다큐멘터리 제작이 포함됩니다. 현장 작업에 대한 설명을 제공하는 다큐멘터리 및 시각 갤러리입니다.",
+    "contactCta": "문의하기",
+    "twoDocs": "두 편의 다큐멘터리",
+    "twoDocsTitle": "제안에 대한 두 편의 다큐멘터리",
+    "twoDocsSub": "국제적인 범위와 커뮤니티에 초점을 맞춰 문제, 원인 및 제안된 해결책을 전파할 장편 영화입니다. Renace Atacama를 혁신과 지속 가능성의 참고 자료로 활용하는 캠페인 및 동원 콘텐츠입니다.",
+    "doc1Title": "스트리밍용 다큐멘터리",
+    "doc1Text": "스트리밍 플랫폼을 목표로 문제, 원인 및 제안된 솔루션을 국제적으로 전파할 것입니다.",
+    "doc2Title": "커뮤니티 다큐멘터리",
+    "doc2Text": "파트너 채널과 협력하여 현장 경험, 커뮤니티 조직 및 활동의 실제 영향을 따르게 됩니다.",
+    "doc3Title": "영향 및 가시성",
+    "doc3Text": "Renace Atacama를 혁신과 지속 가능성의 참고 자료로 활용하는 캠페인 및 동원 콘텐츠입니다.",
+    "galleryAlt1": "사막에 의류 덤프",
+    "galleryAlt2": "Alto Hospicio의 토지 및 매립지",
+    "galleryAlt3": "섬유 폐기물 축적",
+    "galleryAlt4": "버려진 옷의 산",
+    "galleryAlt5": "섬유 매립지",
+    "galleryAlt6": "영토의 맥락",
+    "galleryAlt7": "재활용 및 거래 워크숍",
+    "videoLabel": "유튜브 영상",
+    "galleryLabel": "갤러리",
+    "galleryTitle": "영토의 시각적 증거",
+    "gallerySub": "매립과 재생공사의 문제점을 보여주는 토지 이미지입니다.",
+    "bannerAlt": "Alto Hospicio의 토지 및 의복 덤프"
+  },
+  "elDocumental": {
+    "title": "다큐멘터리",
+    "subtitle": "이 프로젝트에는 지역의 문제와 혁신 및 사막 청소 허브를 만드는 과정을 조명하는 두 편의 장편 다큐멘터리 제작이 포함됩니다.",
+    "twoDocs": "다큐멘터리 두 편",
+    "doc1Title": "스트리밍용 다큐멘터리",
+    "doc1Text": "스트리밍 플랫폼을 목표로 문제, 원인 및 제안된 솔루션을 국제적으로 전파할 것입니다.",
+    "doc2Title": "커뮤니티 다큐멘터리",
+    "doc2Text": "파트너 채널과 협력하여 현장 경험, 커뮤니티 조직 및 활동의 실제 영향을 따르게 됩니다.",
+    "doc3Title": "영향 및 가시성",
+    "doc3Text": "Renace Atacama를 혁신과 지속 가능성의 참고 자료로 활용하는 캠페인 및 동원 콘텐츠입니다.",
+    "features": "특징",
+    "feature1": "글로벌 도달 범위",
+    "feature1Sub": "국제 스트리밍 플랫폼",
+    "feature2": "사회적 영향",
+    "feature2Sub": "지역사회 인식 및 동원",
+    "feature3": "이중 생산",
+    "feature3Sub": "두 편의 보완 다큐멘터리",
+    "joinCta": "가입하고 싶어요"
+  },
+  "escarabajos": {
+    "badge": "사막 딱정벌레",
+    "title": "사막 딱정벌레",
+    "subtitle": "사막 청소 작업은 영양분을 재활용하고 씨앗을 분산시키며 생태계 건강의 생물학적 지표 역할을 하는 주요 유기체인 쇠똥구리에서 영감을 받았습니다.",
+    "symbolLabel": "프로젝트 기호",
+    "symbolQuote": "이는 프로젝트의 상징이자 참여 초대가 될 것입니다.",
+    "symbolDesc": "딱정벌레는 해당 지역의 재생, 자원 재활용 및 지역 사회 활동을 나타냅니다.",
+    "howToJoin": "가입방법",
+    "workByArea": "특정 지역별 작업",
+    "workByAreaDesc": "귀하의 전문 기술을 기여하십시오.",
+    "collaborateField": "현장에서 협력하세요",
+    "collaborateFieldDesc": "청소활동에 적극적으로 참여합니다.",
+    "ambassador": "대사가 되어보세요",
+    "ambassadorDesc": "지역사회에 프로젝트를 전파하세요.",
+    "ctaHeadline": "가입할 준비가 되셨나요? 우리는 함께 아타카마 사막을 재생합니다.",
+    "ctaButton": "가입하고 싶어요",
+    "logisticsAlt": "물류 및 운송"
+  },
+  "notFound": {
+    "title": "페이지를 찾을 수 없습니다",
+    "back": "맨 위로 돌아가기"
+  }
+}
