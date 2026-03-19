@@ -30,13 +30,7 @@ export function Header() {
   const navItems = useMemo(
     () => [
       { label: t("nav.home"), href: ROUTES.home },
-      {
-        label: t("nav.elProyecto"),
-        children: [
-          { label: t("nav.elProyecto"), href: ROUTES.elProyecto },
-          { label: t("nav.productos"), href: ROUTES.productos },
-        ],
-      },
+      { label: t("nav.elProyecto"), href: ROUTES.elProyecto },
       { label: t("nav.nosotros"), href: ROUTES.nosotros },
       { label: t("nav.contenido"), href: ROUTES.contenido },
       { label: t("nav.escarabajos"), href: ROUTES.escarabajos },
