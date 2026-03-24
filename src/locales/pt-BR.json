@@ -303,6 +303,63 @@
     "ctaButton": "Quero participar",
     "logisticsAlt": "Logística e transporte"
   },
+  "productosPage": {
+    "badge": "PRODUTOS",
+    "titleProducts": "Produtos",
+    "titleBrand": "Escarabajos del Desierto",
+    "placeholders": {
+      "imageSoon": "Imagem em breve"
+    },
+    "tires": {
+      "title": "Produtos com pneus reciclados",
+      "desc": "A partir da borracha recuperada de pneus fora de uso, desenvolvemos peças resistentes para espaços públicos, indústria e lar, fechando o ciclo de materiais de difícil destinação final.",
+      "items": {
+        "pisos": "Pisos e placas de borracha",
+        "deportivo": "Granulado para quadras esportivas",
+        "urbano": "Mobiliário urbano e meios-fios",
+        "topes": "Topes e protetores de estacionamento",
+        "jardin": "Vasos e elementos de jardim"
+      }
+    },
+    "shoes": {
+      "title": "Solados e calçados com resíduos",
+      "desc": "Combinamos borracha e fibras recuperadas para solados duráveis, bom aderência e menor pegada ambiental, para trabalho, esporte e uso diário.",
+      "items": {
+        "deportivo": "Solados para calçado esportivo",
+        "laboral": "Solados para calçado de trabalho",
+        "infantil": "Calçado infantil com borracha reciclada"
+      }
+    },
+    "compost": {
+      "title": "Composto e valorização orgânica",
+      "desc": "Em breve incorporaremos esta linha: espaço reservado para compostagem e outros usos da fração orgânica ligados ao projeto.",
+      "body": "O conteúdo detalhado será publicado quando a linha estiver disponível."
+    },
+    "b2b": {
+      "title": "Linha industrial (B2B)",
+      "desc": "Comercializada principalmente para varejo, indústria automotiva, indústria de colchões, grandes marcas e solados de tênis.",
+      "items": {
+        "aislacion": "Isolamento térmico",
+        "colchones": "Feltros para colchões",
+        "automotriz": "Feltros para indústria automotiva",
+        "carteras": "Carteiras de pneus fora de uso",
+        "suelas": "Solados de tênis"
+      }
+    },
+    "b2c": {
+      "badge": "Têxteis",
+      "title": "Produtos fabricados a partir de têxteis reciclados",
+      "desc": "Comercializados online (Escarabajos Store) pela marca Escarabajos del Desierto.",
+      "linkStore": "Ir à Escarabajos Store",
+      "items": {
+        "ponchos": "Ponchos",
+        "gorros": "Gorros de jeans",
+        "pecheras": "Colete de jeans",
+        "chaquetas": "Jaquetas",
+        "peluches": "Pelúcias"
+      }
+    }
+  },
   "notFound": {
     "title": "Página não encontrada",
     "back": "Voltar ao início"

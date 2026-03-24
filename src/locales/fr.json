@@ -7,7 +7,7 @@
     "colaboradores": "Équipe",
     "embajadores": "Ambassadeurs",
     "contenido": "Contenu",
-    "escarabajos": "Coléoptères du désert",
+    "escarabajos": "Scarabées du désert",
     "contact": "Contactez-nous",
     "openMenu": "Ouvrir le menu"
   },
@@ -30,7 +30,7 @@
       "cta": "En savoir plus",
       "video": "Voir la vidéo",
       "alt": "Renace Atacama — le recyclage avec un réel impact",
-      "altoHospicio": "Hospice supérieur",
+      "altoHospicio": "Alto Hospicio",
       "territory": "Territoire en régénération"
     },
     "impactos": {
@@ -70,8 +70,8 @@
     "partners": "Partenaires",
     "patrocinadores": "Commanditaires",
     "escarabajosSection": {
-      "title": "Coléoptères du désert",
-      "intro1": "Les travaux de nettoyage du désert nous ont inspirés par le bousier : un organisme clé qui recycle les nutriments, disperse les graines et agit comme un bioindicateur de la santé des écosystèmes.",
+      "title": "Scarabées du désert",
+      "intro1": "Les travaux de nettoyage du désert nous ont inspirés par le scarabée : un organisme clé qui recycle les nutriments, disperse les graines et agit comme un bioindicateur de la santé des écosystèmes.",
       "intro2": "Ce sera le symbole du projet et une invitation à le rejoindre.",
       "workByArea": "Travailler par domaine spécifique",
       "workByAreaDesc": "Apportez vos compétences professionnelles.",
@@ -207,7 +207,7 @@
     "joinProject": "Rejoignez le projet",
     "resultados": {
       "transformar": "Transformer",
-      "transformarText": "Gaspillage de ressources, avec un accent initial sur les textiles.",
+      "transformarText": "Transformer les déchets en ressources, avec un accent initial sur les textiles.",
       "crear": "Créer",
       "crearText": "Emploi local, formation et entrepreneuriat circulaire.",
       "restaurar": "Restaurer",
@@ -329,13 +329,70 @@
     "feature3Sub": "Deux documentaires complémentaires",
     "joinCta": "je veux rejoindre"
   },
+  "productosPage": {
+    "badge": "PRODUITS",
+    "titleProducts": "Produits",
+    "titleBrand": "Escarabajos del Desierto",
+    "placeholders": {
+      "imageSoon": "Image à venir"
+    },
+    "tires": {
+      "title": "Produits à partir de pneus recyclés",
+      "desc": "À partir du caoutchouc récupéré sur des pneus en fin de vie, nous développons des pièces résistantes pour l’espace public, l’industrie et la maison, en bouclant le cycle des matériaux difficiles à éliminer.",
+      "items": {
+        "pisos": "Sols et dalles en caoutchouc",
+        "deportivo": "Granulés pour terrains de sport",
+        "urbano": "Mobilier urbain et bordures",
+        "topes": "Butées et protections de parking",
+        "jardin": "Jardinières et éléments de jardin"
+      }
+    },
+    "shoes": {
+      "title": "Semelles et chaussures à partir de résidus",
+      "desc": "Nous combinons caoutchouc et fibres récupérés pour des semelles durables, une bonne adhérence et une empreinte réduite, pour le travail, le sport et le quotidien.",
+      "items": {
+        "deportivo": "Semelles pour chaussures de sport",
+        "laboral": "Semelles pour chaussures de travail",
+        "infantil": "Chaussures enfants en caoutchouc recyclé"
+      }
+    },
+    "compost": {
+      "title": "Compost et valorisation organique",
+      "desc": "Cette ligne sera bientôt intégrée : espace réservé au compostage et à d’autres usages de la fraction organique liés au projet.",
+      "body": "Le contenu détaillé sera publié lorsque la ligne sera disponible."
+    },
+    "b2b": {
+      "title": "Ligne industrielle (B2B)",
+      "desc": "Destinée principalement au retail, à l’industrie automobile, à l’industrie du matelas, aux grandes marques et aux semelles de baskets.",
+      "items": {
+        "aislacion": "Isolation thermique",
+        "colchones": "Feutres pour matelas",
+        "automotriz": "Feutres pour l’industrie automobile",
+        "carteras": "Portefeuilles en pneus hors d’usage",
+        "suelas": "Semelles de baskets"
+      }
+    },
+    "b2c": {
+      "badge": "Textiles",
+      "title": "Produits fabriqués à partir de textiles recyclés",
+      "desc": "Commercialisés en ligne (Escarabajos Store) sous la marque Escarabajos del Desierto.",
+      "linkStore": "Aller à l’Escarabajos Store",
+      "items": {
+        "ponchos": "Ponchos",
+        "gorros": "Bonnets en jean",
+        "pecheras": "Gilet en jean",
+        "chaquetas": "Vestes",
+        "peluches": "Peluches"
+      }
+    }
+  },
   "escarabajos": {
-    "badge": "Coléoptères du désert",
-    "title": "Coléoptères du désert",
-    "subtitle": "Les travaux de nettoyage du désert nous ont inspirés par le bousier : un organisme clé qui recycle les nutriments, disperse les graines et agit comme un bioindicateur de la santé des écosystèmes.",
+    "badge": "Scarabées du désert",
+    "title": "Scarabées du désert",
+    "subtitle": "Les travaux de nettoyage du désert nous ont inspirés par le scarabée : un organisme clé qui recycle les nutriments, disperse les graines et agit comme un bioindicateur de la santé des écosystèmes.",
     "symbolLabel": "Symbole du projet",
     "symbolQuote": "Ce sera le symbole du projet et une invitation à le rejoindre.",
-    "symbolDesc": "Le coléoptère représente la régénération, le recyclage des ressources et le travail communautaire sur le territoire.",
+    "symbolDesc": "Le scarabée représente la régénération, le recyclage des ressources et le travail communautaire sur le territoire.",
     "howToJoin": "Comment rejoindre",
     "workByArea": "Travailler par domaine spécifique",
     "workByAreaDesc": "Apportez vos compétences professionnelles.",

@@ -207,7 +207,7 @@
     "joinProject": "Pridružite se projektu",
     "resultados": {
       "transformar": "Preobrazba",
-      "transformarText": "Zapravljanje virov, s prvotnim poudarkom na tekstilu.",
+      "transformarText": "Odpadke spremeniti v vire, s prvotnim poudarkom na tekstilu.",
       "crear": "Ustvari",
       "crearText": "Lokalno zaposlovanje, usposabljanje in krožno podjetništvo.",
       "restaurar": "Obnovi",
@@ -346,6 +346,63 @@
     "ctaHeadline": "Ste se pripravljeni pridružiti? Skupaj obnovimo puščavo Atacama.",
     "ctaButton": "Želim se pridružiti",
     "logisticsAlt": "Logistika in transport"
+  },
+  "productosPage": {
+    "badge": "IZDELKI",
+    "titleProducts": "Izdelki",
+    "titleBrand": "Escarabajos del Desierto",
+    "placeholders": {
+      "imageSoon": "Slika kmalu"
+    },
+    "tires": {
+      "title": "Izdelki iz recikliranih pnevmatik",
+      "desc": "Iz gumo iz rabljenih pnevmatik razvijamo trajne dele za javni prostor, industrijo in dom ter zapiramo krog materialov, ki jih je težko odstraniti.",
+      "items": {
+        "pisos": "Gumijasta tla in plošče",
+        "deportivo": "Granulat za športne površine",
+        "urbano": "Mestno pohištvo in robniki",
+        "topes": "Zaščita parkirišč in odbojniki",
+        "jardin": "Lonci in vrtni elementi"
+      }
+    },
+    "shoes": {
+      "title": "Podplate in obutev iz ostankov",
+      "desc": "Združujemo reciklirano gumo in vlakna za trajne podplate z dobrim oprijemom in manjšim okoljskim odtisom – za delo, šport in vsakdan.",
+      "items": {
+        "deportivo": "Podplate za športno obutev",
+        "laboral": "Podplate za delovno obutev",
+        "infantil": "Otroška obutev iz reciklirane gume"
+      }
+    },
+    "compost": {
+      "title": "Kompost in organska valorizacija",
+      "desc": "Ta linija bo kmalu na voljo: prostor za kompostiranje in druge načine izrabe organske frakcije v projektu.",
+      "body": "Podrobna vsebina bo objavljena, ko bo linija na voljo."
+    },
+    "b2b": {
+      "title": "Industrijska linija (B2B)",
+      "desc": "Predvsem za maloprodajo, avtoindustrijo, industrijo ležišč, velike blagovne znamke in podplate superg.",
+      "items": {
+        "aislacion": "Toplotna izolacija",
+        "colchones": "Filci za ležišča",
+        "automotriz": "Filci za avtoindustrijo",
+        "carteras": "Denarnice iz rabljenih pnevmatik",
+        "suelas": "Podplate superg"
+      }
+    },
+    "b2c": {
+      "badge": "Tekstil",
+      "title": "Izdelki iz recikliranega tekstila",
+      "desc": "Prodaja na spletu (Escarabajos Store) pod blagovno znamko Escarabajos del Desierto.",
+      "linkStore": "Na Escarabajos Store",
+      "items": {
+        "ponchos": "Ponči",
+        "gorros": "Kape iz jeansa",
+        "pecheras": "Jeans brezrokavniki",
+        "chaquetas": "Jakne",
+        "peluches": "Plišaste igrače"
+      }
+    }
   },
   "notFound": {
     "title": "Stran ni najdena",

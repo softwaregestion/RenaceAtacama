@@ -207,7 +207,7 @@
     "joinProject": "プロジェクトに参加する",
     "resultados": {
       "transformar": "トランスフォーム",
-      "transformarText": "資源の無駄、最初は繊維に焦点を当てました。",
+      "transformarText": "廃棄物を資源へと変え、当面は繊維に焦点を当てます。",
       "crear": "作成",
       "crearText": "地元での雇用、研修、循環型起業家精神。",
       "restaurar": "復元",
@@ -346,6 +346,63 @@
     "ctaHeadline": "参加する準備はできていますか?私たちは力を合わせてアタカマ砂漠を再生します。",
     "ctaButton": "参加したいです",
     "logisticsAlt": "物流と輸送"
+  },
+  "productosPage": {
+    "badge": "製品",
+    "titleProducts": "製品",
+    "titleBrand": "Escarabajos del Desierto",
+    "placeholders": {
+      "imageSoon": "画像は近日公開"
+    },
+    "tires": {
+      "title": "リサイクルタイヤから生まれる製品",
+      "desc": "廃タイヤから回収したゴムで、公共空間・産業・家庭向けの耐久部材を開発し、処理が難しい資源の循環を閉じます。",
+      "items": {
+        "pisos": "ゴム床材・タイル",
+        "deportivo": "運動場用グラニュー",
+        "urbano": "街路家具・縁石",
+        "topes": "車止め・防護",
+        "jardin": "プランター・庭の要素"
+      }
+    },
+    "shoes": {
+      "title": "残渣を活かしたソールと履物",
+      "desc": "回収ゴムと繊維を組み合わせ、耐久性とグリップ、小さな環境負荷を両立したソールを。作業・スポーツ・日常向けです。",
+      "items": {
+        "deportivo": "スポーツ靴のソール",
+        "laboral": "作業靴のソール",
+        "infantil": "リサイクルゴムの子ども靴"
+      }
+    },
+    "compost": {
+      "title": "堆肥と有機系の価値化",
+      "desc": "近日追加予定のラインです。堆肥化やプロジェクトに関わる有機系の利用のためのスペースです。",
+      "body": "ラインが整い次第、詳細を掲載します。"
+    },
+    "b2b": {
+      "title": "産業ライン（B2B）",
+      "desc": "主に小売、自動車産業、マットレス産業、大手ブランド、スニーカーソール向けです。",
+      "items": {
+        "aislacion": "断熱",
+        "colchones": "マットレス用フェルト",
+        "automotriz": "自動車産業向けフェルト",
+        "carteras": "廃タイヤの財布",
+        "suelas": "スニーカーソール"
+      }
+    },
+    "b2c": {
+      "badge": "テキスタイル",
+      "title": "リサイクル繊維からつくる製品",
+      "desc": "Escarabajos del Desierto ブランドで Escarabajos Store からオンライン販売。",
+      "linkStore": "Escarabajos Store へ",
+      "items": {
+        "ponchos": "ポンチョ",
+        "gorros": "デニム帽",
+        "pecheras": "デニムベスト",
+        "chaquetas": "ジャケット",
+        "peluches": "ぬいぐるみ"
+      }
+    }
   },
   "notFound": {
     "title": "ページが見つかりません",

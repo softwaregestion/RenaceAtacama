@@ -207,7 +207,7 @@
     "joinProject": "Treten Sie dem Projekt bei",
     "resultados": {
       "transformar": "Verwandeln",
-      "transformarText": "Verschwendung von Ressourcen, wobei der Schwerpunkt zunächst auf Textilien liegt.",
+      "transformarText": "Abfälle in Ressourcen verwandeln, mit anfänglichem Fokus auf Textilien.",
       "crear": "Erstellen",
       "crearText": "Lokale Beschäftigung, Ausbildung und zirkuläres Unternehmertum.",
       "restaurar": "Wiederherstellen",
@@ -346,6 +346,63 @@
     "ctaHeadline": "Bereit mitzumachen? Gemeinsam regenerieren wir die Atacama-Wüste.",
     "ctaButton": "Ich möchte mitmachen",
     "logisticsAlt": "Logistik und Transport"
+  },
+  "productosPage": {
+    "badge": "PRODUKTE",
+    "titleProducts": "Produkte",
+    "titleBrand": "Escarabajos del Desierto",
+    "placeholders": {
+      "imageSoon": "Bild folgt in Kürze"
+    },
+    "tires": {
+      "title": "Produkte aus recycelten Reifen",
+      "desc": "Aus dem Gummi von Altreifen entwickeln wir langlebige Teile für den öffentlichen Raum, Industrie und Zuhause – und schließen den Kreislauf schwer entsorgbarer Materialien.",
+      "items": {
+        "pisos": "Gummiböden und -platten",
+        "deportivo": "Granulat für Sportflächen",
+        "urbano": "Stadtmöbel und Bordsteine",
+        "topes": "Parkbegrenzungen und Anfahrschutz",
+        "jardin": "Pflanzgefäße und Gartenelemente"
+      }
+    },
+    "shoes": {
+      "title": "Sohlen und Schuhe aus Rückständen",
+      "desc": "Wir verbinden wiedergewonnenes Gummi und Fasern zu strapazierfähigen Sohlen mit gutem Grip und geringerer Umweltbelastung – für Arbeit, Sport und Alltag.",
+      "items": {
+        "deportivo": "Sohlen für Sportschuhe",
+        "laboral": "Sohlen für Arbeitsschuhe",
+        "infantil": "Kinderschuhe mit recyceltem Gummi"
+      }
+    },
+    "compost": {
+      "title": "Kompost und organische Verwertung",
+      "desc": "Diese Linie folgt in Kürze: Platz für Kompostierung und weitere Nutzung der Biofraktion im Projekt.",
+      "body": "Ausführliche Inhalte werden veröffentlicht, sobald die Linie verfügbar ist."
+    },
+    "b2b": {
+      "title": "Industrielinie (B2B)",
+      "desc": "Vor allem für Einzelhandel, Automobilindustrie, Matratzenindustrie, große Marken und Sneaker-Sohlen.",
+      "items": {
+        "aislacion": "Wärmedämmung",
+        "colchones": "Filze für Matratzen",
+        "automotriz": "Filze für die Automobilindustrie",
+        "carteras": "Geldbörsen aus Altreifen",
+        "suelas": "Sneaker-Sohlen"
+      }
+    },
+    "b2c": {
+      "badge": "Textilien",
+      "title": "Produkte aus recycelten Textilien",
+      "desc": "Online (Escarabajos Store) unter der Marke Escarabajos del Desierto.",
+      "linkStore": "Zur Escarabajos Store",
+      "items": {
+        "ponchos": "Ponchos",
+        "gorros": "Jeans-Mützen",
+        "pecheras": "Jeans-Westen",
+        "chaquetas": "Jacken",
+        "peluches": "Stofftiere"
+      }
+    }
   },
   "notFound": {
     "title": "Seite nicht gefunden",

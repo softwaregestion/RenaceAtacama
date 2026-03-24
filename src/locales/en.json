@@ -340,6 +340,63 @@
       }
     }
   },
+  "productosPage": {
+    "badge": "PRODUCTS",
+    "titleProducts": "Products",
+    "titleBrand": "Desert Beetles",
+    "placeholders": {
+      "imageSoon": "Image coming soon"
+    },
+    "tires": {
+      "title": "Products from recycled tires",
+      "desc": "We turn recovered rubber from end-of-life tires into durable pieces for public spaces, industry, and homes—closing the loop on hard-to-dispose materials.",
+      "items": {
+        "pisos": "Rubber flooring and pavers",
+        "deportivo": "Granules for sports surfaces",
+        "urbano": "Street furniture and kerbs",
+        "topes": "Parking stops and protectors",
+        "jardin": "Planters and garden elements"
+      }
+    },
+    "shoes": {
+      "title": "Soles and footwear from recovered materials",
+      "desc": "We blend recovered rubber and fibers for hard-wearing soles with solid grip and a smaller environmental footprint—work, sport, and everyday wear.",
+      "items": {
+        "deportivo": "Soles for sports footwear",
+        "laboral": "Soles for work boots",
+        "infantil": "Children’s footwear with recycled rubber"
+      }
+    },
+    "compost": {
+      "title": "Compost and organic recovery",
+      "desc": "This line will be added soon: space reserved for composting and other organic-fraction uses linked to the project.",
+      "body": "Detailed content will be published when the line is available."
+    },
+    "b2b": {
+      "title": "Industrial line (B2B)",
+      "desc": "Mainly for retail, automotive industry, mattress industry, major brands, and sneaker soles.",
+      "items": {
+        "aislacion": "Thermal insulation",
+        "colchones": "Felts for mattresses",
+        "automotriz": "Automotive industry felts",
+        "carteras": "Wallets from end-of-life tires",
+        "suelas": "Sneaker soles"
+      }
+    },
+    "b2c": {
+      "badge": "Textiles",
+      "title": "Products made from recycled textiles",
+      "desc": "Sold online (Escarabajos Store) under the Escarabajos del Desierto brand.",
+      "linkStore": "Go to Escarabajos Store",
+      "items": {
+        "ponchos": "Ponchos",
+        "gorros": "Denim beanies",
+        "pecheras": "Denim vests",
+        "chaquetas": "Jackets",
+        "peluches": "Plush toys"
+      }
+    }
+  },
   "notFound": {
     "title": "Page not found",
     "back": "Back to home"

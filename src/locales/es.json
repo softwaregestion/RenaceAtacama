@@ -344,6 +344,34 @@
     "badge": "PRODUCTOS",
     "titleProducts": "Productos",
     "titleBrand": "Escarabajos del Desierto",
+    "placeholders": {
+      "imageSoon": "Imagen próximamente"
+    },
+    "tires": {
+      "title": "Productos con neumáticos reciclados",
+      "desc": "A partir del caucho recuperado de neumáticos en desuso desarrollamos piezas resistentes para espacios públicos, industria y hogar, cerrando el ciclo de materiales de difícil disposición final.",
+      "items": {
+        "pisos": "Pisos y losetas de caucho",
+        "deportivo": "Granulado para canchas deportivas",
+        "urbano": "Mobiliario urbano y bordillos",
+        "topes": "Topes y protectores de estacionamiento",
+        "jardin": "Maceteros y elementos de jardín"
+      }
+    },
+    "shoes": {
+      "title": "Suelas y calzado con residuos",
+      "desc": "Combinamos caucho y fibras recuperadas para obtener suelas duraderas, buen agarre y menor huella ambiental, pensadas para calzado laboral, deportivo y uso cotidiano.",
+      "items": {
+        "deportivo": "Suelas para calzado deportivo",
+        "laboral": "Suelas para calzado de trabajo",
+        "infantil": "Calzado infantil con caucho reciclado"
+      }
+    },
+    "compost": {
+      "title": "Compost y valorización orgánica",
+      "desc": "Próximamente incorporaremos esta línea: espacio reservado para el compostaje y otros usos de fracción orgánica vinculados al proyecto.",
+      "body": "El contenido detallado de esta sección se publicará cuando la línea esté disponible."
+    },
     "b2b": {
       "title": "Línea Industrial (B2B)",
       "desc": "Se comercializará principalmente a retail, industrial automotriz, industria de colchones, grandes marcas y suelas de zapatillas.",
@@ -356,15 +384,15 @@
       }
     },
     "b2c": {
+      "badge": "Textiles",
       "title": "Productos fabricados a partir de Textiles reciclados",
       "desc": "Se comercializarán por plataformas online (Escarabajos Store) a través de la marca Escarabajos del Desierto.",
       "linkStore": "Ir al Escarabajos Store",
       "items": {
-        "hilos": "Hilos / Lana / Tela / Ponchos",
+        "ponchos": "Ponchos",
         "gorros": "Gorros de Jeans",
         "pecheras": "Pechera de jeans",
         "chaquetas": "Chaquetas",
-        "bolsos": "Bolsos y accesorios",
         "peluches": "Peluches"
       }
     }

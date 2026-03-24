@@ -207,7 +207,7 @@
     "joinProject": "加入項目",
     "resultados": {
       "transformar": "變換",
-      "transformarText": "資源浪費，最初集中在紡織品上。",
+      "transformarText": "將廢棄物轉化為資源，初期聚焦紡織品。",
       "crear": "創建",
       "crearText": "當地就業、培訓和循環創業。",
       "restaurar": "恢復",
@@ -346,6 +346,63 @@
     "ctaHeadline": "準備好加入了嗎？我們共同重建阿塔卡馬沙漠。",
     "ctaButton": "我想加入",
     "logisticsAlt": "物流運輸"
+  },
+  "productosPage": {
+    "badge": "產品",
+    "titleProducts": "產品",
+    "titleBrand": "Escarabajos del Desierto",
+    "placeholders": {
+      "imageSoon": "圖片即將上線"
+    },
+    "tires": {
+      "title": "回收輪胎製成的產品",
+      "desc": "我們利用廢舊輪胎回收的橡膠，為公共空間、工業與家庭打造耐用部件，讓難處理材料形成閉環。",
+      "items": {
+        "pisos": "橡膠地面與地墊",
+        "deportivo": "運動場用顆粒",
+        "urbano": "城市家具與路緣",
+        "topes": "停車擋與防護件",
+        "jardin": "花盆與園藝構件"
+      }
+    },
+    "shoes": {
+      "title": "以回收料製成的鞋底與鞋類",
+      "desc": "將回收橡膠與纖維結合，打造耐磨、抓地好、環境足跡更小的鞋底，適用於工作、運動與日常。",
+      "items": {
+        "deportivo": "運動鞋底",
+        "laboral": "工作鞋底",
+        "infantil": "回收橡膠童鞋"
+      }
+    },
+    "compost": {
+      "title": "堆肥與有機利用",
+      "desc": "此系列即將推出：預留堆肥及專案中其他有機組分利用內容。",
+      "body": "詳細內容將於該系列上線時發布。"
+    },
+    "b2b": {
+      "title": "工業線（B2B）",
+      "desc": "主要面向零售、汽車工業、床墊工業、大型品牌與運動鞋底。",
+      "items": {
+        "aislacion": "隔熱保溫",
+        "colchones": "床墊用氈",
+        "automotriz": "汽車工業用氈",
+        "carteras": "廢舊輪胎錢包",
+        "suelas": "運動鞋底"
+      }
+    },
+    "b2c": {
+      "badge": "紡織品",
+      "title": "回收紡織品製成的產品",
+      "desc": "透過 Escarabajos Store 線上銷售，品牌為 Escarabajos del Desierto。",
+      "linkStore": "前往 Escarabajos Store",
+      "items": {
+        "ponchos": "斗篷",
+        "gorros": "牛仔帽",
+        "pecheras": "牛仔背心",
+        "chaquetas": "夾克",
+        "peluches": "絨毛玩具"
+      }
+    }
   },
   "notFound": {
     "title": "找不到頁面",
