@@ -5,7 +5,7 @@ import { ArrowRight, Shirt, Cog, Leaf, Users, Zap, Briefcase, Recycle, Sparkles,
 import { Button } from "@/components/ui/button";
 import { PageWrapper } from "@/components/PageWrapper";
 import { ROUTES } from "@/lib/routes";
-import { SectionAccent, FeatureCard, StatsBlock, CTABand, StepCard, PageSection, GradientBand, FrostedCard } from "@/components/shared";
+import { SectionAccent, FeatureCard, StatsBlock, CTABand, StepCard, PageSection, FrostedCard, KeywordDivider } from "@/components/shared";
 
 const HERO_SHAPE_PATH =
   "M560.78.5H202.22c-13.66,0-24.72,11.07-24.72,24.72v41.71c0,14.12-11.45,25.57-25.57,25.57H25.22c-13.66,0-24.72,11.07-24.72,24.72v445.55c0,13.66,11.07,24.72,24.72,24.72h450.34c13.66,0,24.72-11.07,24.72-24.72v-48.17c0-10.55,8.56-19.11,19.11-19.11h41.38c13.66,0,24.72-11.07,24.72-24.72V25.22c0-13.66-11.07-24.72-24.72-24.72Z";
@@ -93,14 +93,14 @@ export default function ElProyecto() {
         </div>
       </section>
 
-      {/* Logo Marquee Band */}
-      <GradientBand className="py-8 lg:py-12">
-        <div className="container mx-auto px-6 lg:px-8">
-          <div className="flex justify-center items-center gap-8 lg:gap-12 text-white/90 text-sm font-medium flex-wrap">
-            {t("elProyecto.band")}
-          </div>
-        </div>
-      </GradientBand>
+      {/* Franja de palabras clave — mismo componente y estilo que el inicio */}
+      <KeywordDivider
+        className="bg-cream-dark px-6 lg:px-8"
+        items={t("elProyecto.band")
+          .split(/\s*•\s*/)
+          .map((s) => s.trim())
+          .filter(Boolean)}
+      />
 
       {/* El Problema Section - Two Column Layout */}
       <PageSection variant="light">
@@ -461,7 +461,7 @@ export default function ElProyecto() {
               EL COMPROMISO
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4">
-              <span className="font-script text-primary italic font-normal">Resultados</span>{" "}
+              <span className="font-script text-primary italic font-normal">Impactos</span>{" "}
               ESPERADOS
             </h2>
           </motion.div>

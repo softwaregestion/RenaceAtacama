@@ -142,7 +142,7 @@
     "badge": "NOSSO PROJETO",
     "title": "O Projeto Renace Atacama",
     "subtitle": "Renace Atacama busca transformar Alto Hospicio e o deserto do Atacama em um polo de inovação, regeneração e sustentabilidade.",
-    "band": "RENACE • ATACAMA • REGENERAÇÃO • ECONOMIA CIRCULAR",
+    "band": "RENACE • ATACAMA • ECONOMIA CIRCULAR • REGENERAÇÃO",
     "problemLabel": "O PROBLEMA",
     "problemTitle": "Os aterros de Alto Hospicio",
     "problemText": "Os aterros ilegais em Alto Hospicio tornaram-se um dos maiores focos de poluição do norte do Chile, afetando biodiversidade, saúde pública e economia regional.",
@@ -173,9 +173,9 @@
       "crear": "Criar",
       "crearText": "Impulsionar cadeias produtivas criativas, baseadas na observação, experiência, aprendizagem aplicada e imaginação, fomentando a cocriação de soluções sustentáveis que deem origem a uma nova forma de vida em harmonia com o entorno.",
       "restaurar": "Restaurar",
-      "restaurarText": "Retirar de forma respeitosa todos os resíduos e materiais alheios ao ecossistema, reconhecendo o valor único e vulnerável do Deserto do Atacama e atuando com responsabilidade em sua preservação.",
+      "restaurarText": "Retirar de forma respeitosa todos os resíduos e materiais alheios ao ecossistema, reconhecendo o valor único e frágil do Deserto do Atacama e atuando com responsabilidade em sua preservação.",
       "conectar": "Conectar",
-      "conectarText": "Integrar-nos a redes globais de colaboração ambiental, como o movimento da moda sustentável, compartilhando boas práticas e experiências a partir do fazer e aportando exemplos concretos de regeneração, criatividade e consciência ecológica."
+      "conectarText": "Integrar-nos a redes globais de colaboração ambiental, como o movimento da moda sustentável, compartilhando boas práticas e experiências a partir do aprender fazendo e aportando exemplos concretos de regeneração, criatividade e consciência ecológica."
     }
   },
   "laPropuesta": {

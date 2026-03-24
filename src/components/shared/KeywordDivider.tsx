@@ -13,23 +13,32 @@ export function KeywordDivider({
 }: KeywordDividerProps) {
   return (
     <div
-      className={`flex flex-wrap items-center justify-center gap-4 md:gap-8 py-8 md:py-12 ${className}`}
+      className={`flex justify-center py-6 md:py-10 min-h-0 ${className}`}
     >
-      {items.map((word, i) => (
-        <span key={word} className="flex items-center gap-4 md:gap-8">
-          <motion.span
-            initial={{ opacity: 0.5 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            className="text-base sm:text-xl md:text-4xl font-bold text-foreground/20 uppercase tracking-wider"
+      <div
+        className="flex flex-nowrap items-center justify-center gap-x-[clamp(0.35rem,2vw,1.75rem)] max-w-full min-w-0 overflow-x-auto overflow-y-hidden [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden px-1"
+      >
+        {items.map((word, i) => (
+          <span
+            key={`${i}-${word}`}
+            className="flex flex-nowrap items-center shrink-0 gap-x-[clamp(0.35rem,2vw,1.75rem)]"
           >
-            {word}
-          </motion.span>
-          {i < items.length - 1 && (
-            <span className="text-primary text-sm sm:text-lg md:text-2xl">•</span>
-          )}
-        </span>
-      ))}
+            <motion.span
+              initial={{ opacity: 0.5 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              className="font-bold text-foreground/20 uppercase tracking-wider whitespace-nowrap leading-none text-[clamp(0.5625rem,1.85vw+0.35rem,2.25rem)]"
+            >
+              {word}
+            </motion.span>
+            {i < items.length - 1 && (
+              <span className="text-primary shrink-0 leading-none text-[clamp(0.45rem,1.1vw+0.2rem,1.5rem)]">
+                •
+              </span>
+            )}
+          </span>
+        ))}
+      </div>
     </div>
   );
 }

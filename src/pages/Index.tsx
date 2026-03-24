@@ -230,7 +230,7 @@ export default function Index() {
                 <FrostedCard className="p-0 overflow-hidden">
                   <div className="relative h-48">
                     <img 
-                      src="/impactosa-mbientales-2.jpg" 
+                      src="/alto-territorio.jpg" 
                       alt="Área afectada" 
                       className="w-full h-full object-cover object-center"
                     />

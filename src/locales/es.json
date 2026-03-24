@@ -12,7 +12,7 @@
     "openMenu": "Abrir menú"
   },
   "footer": {
-    "description": "Transformando el vertedero textil de Alto Hospicio en un modelo de economía circular para el Desierto de Atacama.",
+    "description": "“Transformando los vertederos de Alto Hospicio en un modelo de economía circular para el Desierto de Atacama y su gente",
     "quickLinks": "Enlaces rápidos",
     "elProyecto": "El Proyecto",
     "quienesSomos": "Quiénes Somos",
@@ -142,7 +142,7 @@
     "badge": "NUESTRO PROYECTO",
     "title": "El Proyecto Renace Atacama",
     "subtitle": "Renace Atacama busca transformar Alto Hospicio y el desierto de Atacama en un polo de innovación, regeneración y sostenibilidad.",
-    "band": "RENACE • ATACAMA • REGENERACIÓN • ECONOMÍA CIRCULAR",
+    "band": "RENACE • ATACAMA • ECONOMÍA CIRCULAR • REGENERACIÓN",
     "problemLabel": "EL PROBLEMA",
     "problemTitle": "Los Vertederos de Alto Hospicio",
     "problemText": "Los vertederos ilegales en Alto Hospicio se han convertido en uno de los mayores focos de contaminación del norte de Chile, afectando biodiversidad, salud pública y economía regional.",
@@ -166,16 +166,16 @@
     "ejeComunitarioDesc": "Participación de grupos de interés; gobernanza local; cultura y patrimonio; proyectos colaborativos.",
     "ejeEconomicoDesc": "Crecimiento sostenible e inclusivo; empleo local; cadenas de valor circulares; tecnologías y energías limpias.",
     "ejesSectionTitle": "Ejes de acción de la propuesta",
-    "ejesSectionSub": "Renace Atacama surge como una respuesta transformadora a los desafíos del territorio. Convierte los desechos en oportunidades mediante un enfoque sostenible, innovador y de largo plazo, integrando distintas disciplinas y poniendo el empoderamiento femenino como eje central. Todo ello se articula bajo un modelo de economía circular orientado al desarrollo sustentable.",
+    "ejesSectionSub": "Renace Atacama surge como una respuesta transformadora a los desafíos del territorio. Convierte los desechos en oportunidades mediante un enfoque sostenible, innovador y de largo plazo, integrando distintas disciplinas y poniendo el empoderamiento femenino como eje central. Todo ello se articula bajo un modelo de economía circular orientado al desarrollo sostenible.",
     "resultados": {
       "transformar": "Transformar",
       "transformarText": "Transformar colectivamente un territorio dañado en un espacio saludable y resiliente, donde la colaboración entre comunidades genere lazos duraderos, intercambio de saberes y un compromiso profundo para evitar que estas heridas vuelvan a abrirse.",
       "crear": "Crear",
       "crearText": "Impulsar cadenas productivas creativas, basadas en la observación, la experiencia, el aprendizaje aplicado y la imaginación, fomentando la cocreación de soluciones sostenibles que den origen a una nueva forma de vida en armonía con el entorno.",
       "restaurar": "Restaurar",
-      "restaurarText": "Retirar de forma respetuosa todos los residuos y materiales ajenos al ecosistema, reconociendo el valor único y vulnerable del Desierto de Atacama, y actuando con responsabilidad hacia su preservación.",
+      "restaurarText": "Retirar de forma respetuosa todos los residuos y materiales ajenos al ecosistema, reconociendo el valor único y frágil del Desierto de Atacama, y actuando con responsabilidad hacia su preservación.",
       "conectar": "Conectar",
-      "conectarText": "Integrarnos a redes globales de colaboración ambiental, como el movimiento de la moda sostenible, compartiendo buenas prácticas y experiencias desde el hacer, y aportando con ejemplos concretos de regeneración, creatividad y conciencia ecológica."
+      "conectarText": "Integrarnos a redes globales de colaboración ambiental, como el movimiento de la moda sostenible, compartiendo buenas prácticas y experiencias desde el aprender haciendo, y aportando con ejemplos concretos de regeneración, creatividad y conciencia ecológica."
     }
   },
   "laPropuesta": {
@@ -246,13 +246,13 @@
     "contactCta": "Contáctanos",
     "twoDocs": "DOS DOCUMENTALES",
     "twoDocsTitle": "Dos documentales de la propuesta",
-    "twoDocsSub": "Largometrajes que divulgarán la problemática, las causas y las soluciones propuestas, con alcance internacional y enfoque comunitario. Contenido para campañas y movilización, posicionando a Renace Atacama como referente en innovación y sustentabilidad.",
+    "twoDocsSub": "Largometrajes que divulgarán la problemática, las causas y las soluciones propuestas, con alcance internacional y enfoque comunitario. Contenido para campañas y movilización, posicionando a Renace Atacama como referente en innovación y sostenibilidad.",
     "doc1Title": "Documental para Streaming",
     "doc1Text": "Orientado a plataformas de streaming, divulgará la problemática, las causas y las soluciones propuestas con alcance internacional.",
     "doc2Title": "Documental Comunitario",
     "doc2Text": "En colaboración con nuestro canal asociado, seguirá la experiencia en terreno, la organización comunitaria y el impacto real de las acciones.",
     "doc3Title": "Impacto y visibilidad",
-    "doc3Text": "Contenido para campañas y movilización, posicionando a Renace Atacama como referente en innovación y sustentabilidad.",
+    "doc3Text": "Contenido para campañas y movilización, posicionando a Renace Atacama como referente en innovación y sostenibilidad.",
     "galleryAlt1": "Vertedero de ropa en el desierto",
     "galleryAlt2": "Terreno y vertederos en Alto Hospicio",
     "galleryAlt3": "Acumulación de residuos textiles",
@@ -275,7 +275,7 @@
     "doc2Title": "Documental Comunitario",
     "doc2Text": "En colaboración con nuestro canal asociado, seguirá la experiencia en terreno, la organización comunitaria y el impacto real de las acciones.",
     "doc3Title": "Impacto y visibilidad",
-    "doc3Text": "Contenido para campañas y movilización, posicionando a Renace Atacama como referente en innovación y sustentabilidad.",
+    "doc3Text": "Contenido para campañas y movilización, posicionando a Renace Atacama como referente en innovación y sostenibilidad.",
     "features": "Características",
     "feature1": "Alcance Global",
     "feature1Sub": "Plataformas de streaming internacionales",
