@@ -376,7 +376,11 @@
     },
     "compost": {
       "title": "Kompost in organska valorizacija",
-      "desc": "Ta linija bo kmalu na voljo: prostor za kompostiranje in druge načine izrabe organske frakcije v projektu.",
+      "desc": "Trajnostne rešitve za upravljanje organskih odpadkov v Alto Hospiciu in Iquiqueju.",
+      "subtitle": "Kaj počnemo",
+      "detail": "Nudimo trajnostne rešitve za upravljanje organskih odpadkov v občinah Alto Hospicio in Iquique. Spodbujamo vključevanje kompostiranja v vsakdanje življenje na preprost in dostopen način za prebivalce puščave Atacama ter v skupnosti krepimo kulturo večje odgovornosti in okoljske ozaveščenosti na območju.",
+      "imageAlt1": "Skupnostno kompostiranje v Atacami",
+      "imageAlt2": "Upravljanje organskih odpadkov in kompost",
       "body": "Podrobna vsebina bo objavljena, ko bo linija na voljo."
     },
     "b2b": {

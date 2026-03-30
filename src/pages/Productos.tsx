@@ -372,7 +372,7 @@ export default function Productos() {
               </div>
             </motion.div>
 
-            {/* Compost — espacio reservado */}
+            {/* Compost */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -390,9 +390,38 @@ export default function Productos() {
                 </h2>
                 <p className="text-white/80 leading-relaxed md:text-lg font-light">{t(ps("compost.desc"))}</p>
               </div>
-              <div className="rounded-[2rem] border-2 border-dashed border-white/20 bg-black/20 min-h-[220px] lg:min-h-[280px] flex flex-col items-center justify-center gap-4 px-8 py-12 text-center">
-                <Sprout className="w-12 h-12 text-[#e8b67d]/40" />
-                <p className="text-white/45 text-sm md:text-base max-w-md leading-relaxed">{t(ps("compost.body"))}</p>
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-stretch">
+                <div className="lg:col-span-5 rounded-3xl border border-white/10 bg-black/25 backdrop-blur-md p-6 sm:p-8 flex flex-col justify-between">
+                  <div className="space-y-4">
+                    <h3 className="text-lg sm:text-xl font-semibold text-white tracking-tight">
+                      {t(ps("compost.subtitle"))}
+                    </h3>
+                    <p className="text-white/75 leading-relaxed text-sm sm:text-base">
+                      {t(ps("compost.detail"))}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4 h-full">
+                  <div className="group relative rounded-3xl overflow-hidden border border-white/10 bg-black/30 h-[260px] sm:h-full">
+                    <img
+                      src="/compost-1.png"
+                      alt={t(ps("compost.imageAlt1"))}
+                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/10 to-transparent pointer-events-none" />
+                  </div>
+                  <div className="group relative rounded-3xl overflow-hidden border border-white/10 bg-black/30 h-[260px] sm:h-full">
+                    <img
+                      src="/compost-2.png"
+                      alt={t(ps("compost.imageAlt2"))}
+                      className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/10 to-transparent pointer-events-none" />
+                  </div>
+                </div>
               </div>
             </motion.div>
           </div>

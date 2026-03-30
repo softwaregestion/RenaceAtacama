@@ -358,7 +358,11 @@
     },
     "compost": {
       "title": "Compost et valorisation organique",
-      "desc": "Cette ligne sera bientôt intégrée : espace réservé au compostage et à d’autres usages de la fraction organique liés au projet.",
+      "desc": "Des solutions de gestion durable des déchets organiques à Alto Hospicio et Iquique.",
+      "subtitle": "Ce que nous faisons",
+      "detail": "Nous proposons des solutions de gestion durable des déchets organiques dans les communes d’Alto Hospicio et d’Iquique. Nous favorisons l’intégration du compostage dans la vie quotidienne, de manière simple et accessible pour les habitant·e·s du désert d’Atacama, en impulsant au sein de la communauté une culture de plus grande responsabilité et de conscience environnementale sur le territoire.",
+      "imageAlt1": "Compostage communautaire en Atacama",
+      "imageAlt2": "Gestion des déchets organiques et compost",
       "body": "Le contenu détaillé sera publié lorsque la ligne sera disponible."
     },
     "b2b": {

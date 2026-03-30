@@ -369,7 +369,11 @@
     },
     "compost": {
       "title": "Compost and organic recovery",
-      "desc": "This line will be added soon: space reserved for composting and other organic-fraction uses linked to the project.",
+      "desc": "Sustainable organic-waste management solutions in Alto Hospicio and Iquique.",
+      "subtitle": "What we do",
+      "detail": "We provide sustainable organic-waste management solutions in the municipalities of Alto Hospicio and Iquique. We promote incorporating composting into everyday life in a simple and accessible way for residents of the Atacama Desert, fostering a culture of greater responsibility and environmental awareness across the territory.",
+      "imageAlt1": "Community composting in Atacama",
+      "imageAlt2": "Organic waste management and compost",
       "body": "Detailed content will be published when the line is available."
     },
     "b2b": {

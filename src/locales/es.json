@@ -369,7 +369,11 @@
     },
     "compost": {
       "title": "Compost y valorización orgánica",
-      "desc": "Próximamente incorporaremos esta línea: espacio reservado para el compostaje y otros usos de fracción orgánica vinculados al proyecto.",
+      "desc": "Soluciones de gestión sustentable para residuos orgánicos en Alto Hospicio e Iquique.",
+      "subtitle": "¿Qué hacemos?",
+      "detail": "Brindamos soluciones de gestión sustentable para residuos orgánicos en las comunas de Alto Hospicio e Iquique. Promovemos la incorporación del compostaje en la vida diaria, de manera simple y accesible para los habitantes del Desierto de Atacama, impulsando en la comunidad una cultura de mayor responsabilidad y conciencia ambiental en el territorio.",
+      "imageAlt1": "Compostaje comunitario en Atacama",
+      "imageAlt2": "Gestión de residuos orgánicos y compost",
       "body": "El contenido detallado de esta sección se publicará cuando la línea esté disponible."
     },
     "b2b": {
