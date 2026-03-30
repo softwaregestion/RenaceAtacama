@@ -184,7 +184,7 @@ const COLABORADORES: Colaborador[] = [
   },
   {
     id: "saraSamaniegoMarce",
-    name: "Sara Samaniego (Marce La Reciclamores)",
+    name: "Marce La Recicladora",
     linkedin: "",
     image: "/gente/mrce-larecicladora.jpg",
   },
@@ -232,6 +232,7 @@ const MARCAS_LOGOS = [
 const NAME_LINE_SPLIT_OVERRIDES: Record<string, { first: string; second: string }> = {
   'María José Cáceres': { first: 'María José', second: 'Cáceres' },
   'Miguel Angel Curihuinca': { first: 'Miguel Angel', second: 'Curihuinca' },
+  'Marce La Recicladora': { first: 'Marce La', second: 'Recicladora' },
 };
 
 function TeamCard({
@@ -418,9 +419,10 @@ function ColabCard({
   const summary = t(`${cm}.summary`);
   const role = t(`${cm}.role`);
   const experience = getI18nStringArray(t, `${cm}.experience`);
+  const nameOverride = NAME_LINE_SPLIT_OVERRIDES[member.name];
   const nameParts = member.name.split(" ");
-  const firstName = nameParts[0];
-  const lastName = nameParts.slice(1).join(" ");
+  const firstName = nameOverride ? nameOverride.first : nameParts[0];
+  const lastName = nameOverride ? nameOverride.second : nameParts.slice(1).join(" ");
 
   const LinkedInIcon = () => (
     <svg

@@ -222,7 +222,7 @@ const colaboradoresMembersEs = {
     role: "Embajadora",
   },
   saraSamaniegoMarce: {
-    title: "Influencer",
+    title: "Generadora de Contenido ambiental y fundadora de Reciclamores ONG",
     summary:
       'Marce es conocida como la primera "Recicladora influencer" de Latinoamérica. Su objetivo es crear contenido educativo y social, principalmente en temas de sostenibilidad ambiental, creando conciencia sobre el consumo responsable y hablando principalmente de reciclaje de una manera RE FÁCIL, RE BAKANA Y RE DIFERENTE.\n\nOtro de sus grandes propósitos es visibilizar y dignificar la importante labor que realiza el gremio de los "reciclamores" por el medio ambiente y la sociedad, labor que lleva a cabo desde hace 5 años, en los que ha servido de maestra, ejemplo y vocera en países como Argentina, Brasil, México, Chile, Ecuador, Perú y principalmente Colombia.\n\nDentro de sus logros más destacados, Marce fue a representar a Colombia en Alemania en el foro más importante de jóvenes "One Young World", fue galardonada en los Premios "Insta Fest 2022" como mejor influencer con contenido educativo, y en la Asamblea Mundial de la juventud llevada a cabo en la ONU en Nueva York recibió el reconocimiento de "mejor historia de impacto", además de ser portada en el periódico más importante del mundo, The New York Times.',
     role: "Embajadora",
@@ -460,7 +460,7 @@ const colaboradoresMembersEn = {
     role: "Ambassador",
   },
   saraSamaniegoMarce: {
-    title: "Influencer",
+    title: "Environmental content creator and founder of Reciclamores ONG",
     summary:
       'Marce is known as Latin America’s first "recycling influencer." Her goal is to create educational and social content, mainly on environmental sustainability, raising awareness about responsible consumption and talking about recycling in a really easy, really cool and really different way.\n\nAnother major purpose is to make visible and dignify the essential work of "reciclamores" (waste pickers) for the environment and society, which she has carried out for 5 years as a teacher, example and spokesperson in countries such as Argentina, Brazil, Mexico, Chile, Ecuador, Peru and especially Colombia.\n\nAmong her highlights, Marce represented Colombia in Germany at the leading youth forum "One Young World," was awarded at the "Insta Fest 2022" as best influencer with educational content, and at the UN World Youth Assembly in New York received recognition for "best impact story," in addition to being on the cover of The New York Times.',
     role: "Ambassador",
