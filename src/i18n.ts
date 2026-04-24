@@ -44,7 +44,9 @@ function getStoredLanguage(): string {
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored && LANGUAGES.some((l) => l.code === stored)) return stored;
-  } catch (_) {}
+  } catch (_) {
+    return "es";
+  }
   return "es";
 }
 
@@ -72,7 +74,9 @@ i18n.use(initReactI18next).init({
 i18n.on("languageChanged", (lng) => {
   try {
     localStorage.setItem(STORAGE_KEY, lng);
-  } catch (_) {}
+  } catch (_) {
+    return;
+  }
 });
 
 export default i18n;
