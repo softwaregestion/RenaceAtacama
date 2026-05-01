@@ -379,7 +379,7 @@ export default function Index() {
             </h2>
           </div>
           <div className="relative overflow-hidden">
-            <div className="flex animate-scroll-left gap-8 lg:gap-12">
+            <div className="flex animate-scroll-left gap-9 lg:gap-14">
               {/* Primera fila de logos */}
               {[
                 "/logo-beginns-1.jpg",
@@ -387,11 +387,12 @@ export default function Index() {
                 "/logo-normadi-1.jpg",
                 "/revibe.png",
                 "/hymenophyllym-logo.jpg",
-                "/iscatex-logo.jpg",
-                "/labeltrana-logo-ver.jpg",
+                //"/iscatex-logo.jpg",
+                //"/labeltrana-logo-ver.jpg",
                 "/proche-logo.png",
                 "/logo-hotel.jpg",
                 "/unap.jpg",
+                "/oma-logo-blancoynegro.png"
               ].map((logo, i) => (
                 <img
                   key={`logo-1-${i}`}
@@ -407,11 +408,12 @@ export default function Index() {
                 "/logo-normadi-1.jpg",
                 "/revibe.png",
                 "/hymenophyllym-logo.jpg",
-                "/iscatex-logo.jpg",
-                "/labeltrana-logo-ver.jpg",
+                //"/iscatex-logo.jpg",
+               // "/labeltrana-logo-ver.jpg",
                 "/proche-logo.png",
                 "/logo-hotel.jpg",
                 "/unap.jpg",
+                "/oma-logo-blancoynegro.png"
               ].map((logo, i) => (
                 <img
                   key={`logo-2-${i}`}
@@ -439,7 +441,7 @@ export default function Index() {
                 { src: "/logo-gore-tarapaca.png", link: "https://www.goretarapaca.gov.cl/" },
                 { src: "/alto-hospicio-logo.png", link: "https://maho.cl/web/" },
                 { src: "/logo-muni-iquique.png", link: "https://www.municipioiquique.cl/" },
-                { src: "/camara-verde-chile.png", link: "https://camaraverde.org/" },
+                //{ src: "/camara-verde-chile.png", link: "https://camaraverde.org/" },
               ].map((logo, i) => (
                 <a
                   key={`patro-1-${i}`}
@@ -459,7 +461,7 @@ export default function Index() {
                 { src: "/logo-gore-tarapaca.png", link: "https://www.goretarapaca.gov.cl/" },
                 { src: "/alto-hospicio-logo.png", link: "https://maho.cl/web/" },
                 { src: "/logo-muni-iquique.png", link: "https://www.municipioiquique.cl/" },
-                { src: "/camara-verde-chile.png", link: "https://camaraverde.org/" },
+                //{ src: "/camara-verde-chile.png", link: "https://camaraverde.org/" },
               ].map((logo, i) => (
                 <a
                   key={`patro-2-${i}`}

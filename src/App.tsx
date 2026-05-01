@@ -21,6 +21,10 @@ import AccionSocial from "./pages/AccionSocial";
 import Productos from "./pages/Productos";
 import Contacto from "./pages/Contacto";
 import NotFound from "./pages/NotFound";
+import JointVenture from "./pages/JointVenture";
+import BioOMA from "./pages/BioOMA";
+import BioBeginns from "./pages/BioBeginns";
+import ProyectosComunitarios from "./pages/ProyectosComunitarios";
 import { ROUTES } from "./lib/routes";
 
 const App = () => (
@@ -34,6 +38,10 @@ const App = () => (
           <Route path={ROUTES.elProblema} element={<ElProblema />} />
           <Route path={ROUTES.elProyecto} element={<ElProyecto />} />
           <Route path={ROUTES.laPropuesta} element={<LaPropuesta />} />
+          <Route path={ROUTES.proyectosComunitarios} element={<ProyectosComunitarios />} />
+          <Route path={ROUTES.jointVenture} element={<JointVenture />} />
+          <Route path={ROUTES.bioOMA} element={<BioOMA />} />
+          <Route path={ROUTES.bioBeginss} element={<BioBeginns />} />
           <Route path={ROUTES.nosotros} element={<Nosotros />} />
           <Route path={ROUTES.quienesSomos} element={<QuienesSomos />} />
           <Route path={ROUTES.equipo} element={<Equipo />} />

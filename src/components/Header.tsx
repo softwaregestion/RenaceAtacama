@@ -42,8 +42,17 @@ export function Header() {
         children: [
           { label: t("nav.elProyecto"), href: ROUTES.elProyecto },
           { label: t("nav.productos"), href: ROUTES.productos },
+          { label: t("nav.proyectosComunitarios"), href: ROUTES.proyectosComunitarios },
         ],
       },
+      {
+        label: t("nav.quienesImpulsan"),
+        children: [
+          { label: t("nav.jointVenture"), href: ROUTES.jointVenture },
+          { label: t("nav.bioOMA"), href: ROUTES.bioOMA },
+          { label: t("nav.bioBeginss"), href: ROUTES.bioBeginss },
+        ],
+      }, 
       {
         label: t("nav.nosotros"),
         children: [

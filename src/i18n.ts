@@ -17,15 +17,15 @@ const STORAGE_KEY = "renace-lang";
 
 export const LANGUAGES = [
   { code: "es", label: "Español" },
-  { code: "en", label: "English" },
-  { code: "pt-BR", label: "Português (BR)" },
-  { code: "fr", label: "Français" },
-  { code: "de", label: "Deutsch" },
-  { code: "zh", label: "中文" },
-  { code: "zh-TW", label: "Mandarin" },
-  { code: "ko", label: "한국어" },
-  { code: "ja", label: "日本語" },
-  { code: "sl", label: "Slovenščina" },
+  { code: "en", label: "English" }, //Inglés//
+  { code: "pt-BR", label: "Português (BR)" }, //Portugués Brasil//
+  { code: "fr", label: "Français" }, //Francés//
+  { code: "de", label: "Deutsch" }, //Alemám//
+  { code: "zh", label: "中文" }, //Chino//
+  { code: "zh-TW", label: "Mandarin" }, //Chino mandarín//
+  { code: "ko", label: "한국어" }, //Coreano//
+  { code: "ja", label: "日本語" }, //Japonés//
+  { code: "sl", label: "Slovenščina" }, //Esloveno//
 ] as const;
 
 export type LanguageCode = (typeof LANGUAGES)[number]["code"];

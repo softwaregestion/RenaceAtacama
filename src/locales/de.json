@@ -3,6 +3,11 @@
     "home": "Zuhause",
     "elProyecto": "Das Projekt",
     "productos": "Produkte",
+    "proyectosComunitarios": "Gemeinschaftsprojekte",
+    "quienesImpulsan": "Die Initiatoren",
+    "jointVenture": "Joint Venture",
+    "bioOMA": "Bio OMA",
+    "bioBeginss": "Bio Beginss",
     "nosotros": "uns",
     "colaboradores": "Team",
     "embajadores": "Botschafter",
@@ -411,5 +416,45 @@
   "notFound": {
     "title": "Seite nicht gefunden",
     "back": "Zurück nach oben"
+  },
+  "jointVenture": {
+    "badge": "Joint Venture",
+    "title": "Joint Venture",
+    "subtitle": "Renace Atacama wird von einem Joint Venture zwischen OMA und Beginss entwickelt, die für die Konzeption, Umsetzung und Erweiterung des Projekts verantwortlich sind.",
+    "Twosubtitle": "Diese Partnerschaft vereint fachliche Kompetenz, strategische Weitsicht und praktische Umsetzung vor Ort und gewährleistet so eine solide und beständige Wirkung in den Bereichen Umwelt, Soziales und Wirtschaft in der Region. ",   
+    "doc1Title": "OMA",
+    "doc1Text": "Er bringt seine Erfahrung in der Entwicklung von Umwelt-Assets, einschließlich CO₂- und Kunststoff-Emissionszertifikaten, ein und ist an allen Phasen beteiligt: von der Konzeption und Strukturierung bis hin zur Registrierung, Überwachung, Verwaltung und Vermarktung.",
+    "doc1Text2": "Darüber hinaus leistet es einen Beitrag zu ESG-Strategien, Emissionsinventaren und Kompensationsprozessen und stärkt so die technische Grundlage und die Glaubwürdigkeit des Projekts.",
+    "doc2Title": "Beginss ",
+    "doc2Text": "Er ergänzt die Organisation durch seine Vision und seine Umsetzungsstärke und wirkt direkt an der Umsetzung der Initiativen vor Ort mit.",
+    "doc2Text2": "Die Zusammenarbeit mit OMA ermöglicht es, die Strategie in die Tat umzusetzen und dabei für Konsistenz und eine enge Verbindung zum lokalen Kontext zu sorgen."    
+  },
+    "bioOma": {
+    "badge": "Bio OMA",
+    "title": "Bio OMA",
+    "subtitle": "Mit einem systemischen Ansatz entwickelt OMA Projekte für Emissionszertifikate, Kunststoffzertifikate und andere Umweltaktiva im Rahmen der Kreislaufwirtschaft für Abfälle und ist dabei an allen Phasen der Projektentwicklung beteiligt, von der Generierung der Aktiva bis hin zur Umsetzung sozialer und ökologischer Praktiken. Diese Phasen reichen von der Konzeption und Strukturierung über die Registrierung und Überwachung bis hin zur Verwaltung und Vermarktung der Vermögenswerte und bieten einen umfassenden professionellen Service, damit unsere Kunden ihren Produkten und Dienstleistungen nachhaltig einen Mehrwert verleihen können.",
+    "Twosubtitle": "OMA verfügt über fundierte Erfahrung in der Nachhaltigkeitsberatung und ist in den Bereichen Entwicklung von ESG-Strategien für Unternehmen, Erstellung von Indikatoren und Gestaltung von Berichten sowie bei Emissionsinventaren und der Kompensation von Treibhausgasemissionen tätig. ",
+    "NameFounder":"Juliana Rolla De Leo",
+    "SubtFounder":"Über 20 Jahre weltweite Erfahrung im Bereich Nachhaltigkeit. Seit 2004 im Bereich Emissionszertifikate tätig.",
+    "DescFounder":"Im Laufe ihrer 20-jährigen internationalen Karriere hat sich Juliana auf dem Markt als Strategin für Nachhaltigkeit und territoriale Entwicklung etabliert, indem sie Geschäftsmodelle entwarf und entwickelte, die einen Mehrwert für die Stakeholder schaffen. Ihr Hauptansatz ist ein systemischer Blick auf Nachhaltigkeit, verbunden mit Innovation und intelligenten Finanzmechanismen. Ihre ersten Erfahrungen auf dem Kohlenstoffmarkt sammelte sie 2004 in Europa – wo sie über ein Jahrzehnt lang lebte – während der ersten Phase des Kyoto-Protokolls. Seitdem entwickelt sie Projekte und handelt mit Emissionszertifikaten und anderen Umweltgütern. Nach ihrem Abschluss in Außenhandel absolvierte sie verschiedene Nachhaltigkeitskurse in Europa, einen MBA in Unternehmensfinanzierung und promoviert derzeit im Fach Umweltingenieurwesen an der Universität Rom – Tor Vergata. Im Jahr 2009 gründete sie Eco Business Solutions. Auf der Grundlage ihrer gesamten Erfahrung bei Eco entwickelte sie ein neues Geschäftsmodell und leitete eine Finanzierungsrunde, um OMA ACTIVOS AMBIENTALES S.A. zu gründen, deren Mitbegründerin und CEO sie ist. Sie ist ehrenamtliche Direktorin von Pro Natura International, Mitglied des Europäischen Wissenschaftlich-Technischen Ausschusses von Remtech Europe und hat in verschiedenen Ländern wie Italien, Frankreich, Spanien, Deutschland, Polen, Ägypten, Mexiko, den USA und vier weiteren Ländern gearbeitet und gelebt."
+  },
+    "bioBeginns": {
+    "badge": "Bio Beginss",
+    "title": "Bio Beginss",
+    "subtitle": "Beginss ist eine von Frauen getragene Plattform, die Inklusion, Kreislaufwirtschaft und Zusammenarbeit als Triebkräfte des Wandels fördert. Wir wollen im Atacama-Wüste ein Innovationszentrum schaffen, das die Gemeinden in den Mittelpunkt stellt, Chancen für die Region eröffnet und Lösungen für die mit Abfall verbundenen Probleme entwickelt. "    
+  },
+    "proyectosComunitarios": 
+  {
+    "badge": "Gemeinschaftsprojekte",
+    "title": "Gemeinschaftsprojekte",
+    "subtitle": "Die vorgeschlagenen Gemeinschaftsprojekte bieten nachhaltige Lösungen, die Umweltbildung, Kreislaufwirtschaft und lokale Entwicklung miteinander verbinden.",
+    "project1": "Biokompostierung",
+    "project1Desc": "Durch Biokompostierung werden organische Abfälle in Dünger umgewandelt, was verantwortungsbewusste Praktiken fördert und die Umweltbelastung verringert.",
+    "project2": "Aufforstung",
+    "project2Desc": "Die Wiederaufforstung fördert die Erholung geschädigter Ökosysteme und stärkt dabei die Artenvielfalt und das Engagement der lokalen Bevölkerung.",
+    "project3": "Touristische Route",   
+    "project3Desc": "Die „Kleider-Tour“ fördert die Wiederverwendung von Textilien, schafft Bewusstsein und eröffnet neue wirtschaftliche Möglichkeiten.", 
+    "text": "Insgesamt bieten diese Projekte Bildungs- und Praxiserfahrungen, die zu widerstandsfähigeren Gemeinschaften beitragen, die sich für ihre Umgebung engagieren.", 
+    "banner": "ENTDECKEN SIE UNSERE GEMEINSCHAFTSPROJEKTE"
   }
 }

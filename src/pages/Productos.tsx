@@ -29,10 +29,10 @@ const B2B_ITEMS = [
 
 const NEUMATICOS_ITEMS = [
   { key: "pisos", img: "/productos/bag-5.png" },
-  { key: "deportivo", img: "/productos/bag-4.webp" },
+  { key: "deportivo", img: "/productos/bag-4.jpg" },
   { key: "urbano", img: "/productos/bag-1.jpg" },
   { key: "topes", img: "/productos/bag-3.jpg" },
-  { key: "jardin", img: "/productos/bag-2.webp" },
+  { key: "jardin", img: "/productos/bag-2.jpg" },
 ] as const;
 
 const ZAPATOS_ITEMS = [

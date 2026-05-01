@@ -3,6 +3,11 @@
     "home": "Home",
     "elProyecto": "The project",
     "productos": "Products",
+    "proyectosComunitarios": "Community Projects",
+    "quienesImpulsan": "About leaders",
+    "jointVenture": "Joint Venture",
+    "bioOMA": "Bio OMA",
+    "bioBeginss": "Bio Beginss",
     "nosotros": "About us",
     "colaboradores": "Team",
     "embajadores": "Ambassadors",
@@ -404,5 +409,45 @@
   "notFound": {
     "title": "Page not found",
     "back": "Back to home"
+  },
+  "jointVenture": {
+    "badge": "Joint Venture",
+    "title": "Joint Venture",
+    "subtitle": "Renace Atacama is being developed by a Joint Venture between OMA and Beginss, who are responsible for the structuring, implementation, and expansion of the project.",
+    "Twosubtitle": "This alliance combines technical capability, strategic vision, and on-the-ground execution, guaranteeing robustness and consistency in generating environmental, social, and economic impact in the region.",   
+    "doc1Title": "OMA",
+    "doc1Text": "Brings its expertise in the development of environmental assets, including carbon and plastic credits, participating in every stage of the process: from conception and structuring to registration, monitoring, management, and marketing.",
+    "doc1Text2": "In addition, it contributes to ESG strategies, emissions inventories, and carbon neutralization processes, thereby strengthening the project’s technical foundation and credibility.",
+    "doc2Title": "Beginss ",
+    "doc2Text": "Complements the organization with its vision and ability to execute, playing a direct role in implementing initiatives in the region.",
+    "doc2Text2": "Its collaboration with OMA enables the transformation of strategy into action, ensuring consistency and alignment with the local context."    
+  },
+    "bioOma": {
+    "badge": "Bio OMA",
+    "title": "Bio OMA",
+    "subtitle": "Using a systemic approach, OMA develops projects involving carbon credits, plastic credits, and other environmental assets within the framework of the circular economy for waste, participating in all stages of project development, from asset generation to the implementation of socio-environmental practices. These stages range from conception and structuring, registration, and monitoring to the management and marketing of assets, offering a comprehensive professional service so that our clients can add value to their products and services in a sustainable manner.",
+    "Twosubtitle": "OMA has extensive experience in sustainability consulting, including the development of corporate ESG strategies, the creation of performance metrics, and the structuring of reports, as well as emissions inventories and the offsetting of greenhouse gas emissions. ",
+    "NameFounder":"Juliana Rolla De Leo",
+    "SubtFounder":"+ 20 years of global experience in sustainability. Has been working with carbon credits since 2004",
+    "DescFounder":"Throughout her 20-year international career, Juliana has established herself in the market as a sustainability and territorial development strategist, designing and developing business models capable of generating value for stakeholders. Her core philosophy is a systemic approach to sustainability linked to innovation and smart financial mechanisms. She gained her first experience in the carbon market in 2004 in Europe—where she lived for over a decade—during the first phase of the Kyoto Protocol, and since then has been developing projects and trading carbon credits and other environmental assets. A graduate in International Trade, she completed various sustainability courses in Europe, earned an MBA in Corporate Finance, and is currently pursuing a Ph.D. in Environmental Engineering at the University of Rome – Tor Vergata. In 2009, she founded Eco Business Solutions. Drawing on her extensive experience as Eco, she structured a new business model and led a fundraising round to launch OMA ACTIVOS AMBIENTALES S.A., of which she is co-founder and CEO. She is a volunteer director at Pro Natura International, a member of the European Technical and Scientific Committee of Remtech Europe, and has worked and lived in various countries, including Italy, France, Spain, Germany, Poland, Egypt, Mexico, and the U.S., among four others."
+  },
+    "bioBeginns": {
+    "badge": "Bio Beginss",
+    "title": "Bio Beginss",
+    "subtitle": "Beginss is a women-led platform that promotes inclusion, circularity, and collaboration as drivers of transformation. We aim to create an innovation hub in the Atacama Desert by putting communities at the center, creating opportunities for the region, and developing solutions to waste-related challenges. "    
+  },
+    "proyectosComunitarios": 
+  {
+    "badge": "Community Projects",
+    "title": "Community Projects",
+    "subtitle": "The proposed community projects develop sustainable solutions that integrate environmental education, the circular economy, and local development.",
+    "project1": "Biocomposting",
+    "project1Desc": "Biocomposting transforms organic waste into compost, promoting responsible practices and reducing environmental impact.",
+    "project2": "Reforestation",
+    "project2Desc": "Reforestation promotes the recovery of degraded ecosystems, enhancing biodiversity and community involvement.",
+    "project3": "Tourist Route",   
+    "project3Desc": "The clothing tourism route promotes the reuse of textiles, raising awareness and creating new economic opportunities.", 
+    "text": "Together, these projects offer educational and hands-on experiences that foster more resilient communities committed to their surroundings.", 
+    "banner": "LEARN ABOUT OUR COMMUNITY PROJECTS"
   }
 }

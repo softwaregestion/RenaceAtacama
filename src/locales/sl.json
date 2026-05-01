@@ -3,6 +3,11 @@
     "home": "domov",
     "elProyecto": "Projekt",
     "productos": "Izdelki",
+    "proyectosComunitarios": "Skupnostni projekti",
+    "quienesImpulsan": "Kdo stoji za tem",
+    "jointVenture": "Joint Venture",
+    "bioOMA": "Bio OMA",
+    "bioBeginss": "Bio Beginss",
     "nosotros": "nas",
     "colaboradores": "Ekipa",
     "embajadores": "Ambasadorji",
@@ -411,5 +416,45 @@
   "notFound": {
     "title": "Stran ni najdena",
     "back": "Nazaj na vrh"
+  },
+  "jointVenture": {
+    "badge": "Joint Venture",
+    "title": "Joint Venture",
+    "subtitle": "Projekt »Renace Atacama« razvija skupno podjetje OMA in Beginss, ki sta odgovorna za zasnovo, izvedbo in širitev projekta.",
+    "Twosubtitle": "To partnerstvo združuje strokovno znanje, strateško vizijo in izvajanje na terenu, s čimer zagotavlja trdnost in doslednost pri ustvarjanju okoljskega, socialnega in gospodarskega vpliva v regiji. ",   
+    "doc1Title": "OMA",
+    "doc1Text": "Prispeva svoje izkušnje na področju razvoja okoljskih sredstev, vključno z ogljičnimi in plastičnimi krediti, ter sodeluje v vseh fazah: od zasnove in oblikovanja do registracije, spremljanja, upravljanja in trženja.",
+    "doc1Text2": "Poleg tega prispeva k strategijam ESG, evidencam emisij in postopkom nevtralizacije, s čimer krepi tehnično podlago in verodostojnost projekta.",
+    "doc2Title": "Beginss ",
+    "doc2Text": "Strukturo dopolnjuje s svojo vizijo in izvedbenimi sposobnostmi ter neposredno sodeluje pri izvajanju pobud na terenu.",
+    "doc2Text2": "Sodelovanje z OMA omogoča, da strategijo prenesejo v prakso ter tako zagotovijo doslednost in povezanost z lokalnim okoljem."    
+  },
+    "bioOma": {
+    "badge": "Bio OMA",
+    "title": "Bio OMA",
+    "subtitle": "Z sistemskim pristopom OMA razvija projekte na področju ogljičnih kreditov, plastičnih kreditov in drugih okoljskih sredstev v okviru krožnega gospodarstva z odpadki, pri čemer sodeluje v vseh fazah razvoja projekta, od ustvarjanja sredstev do izvajanja družbeno-okoljskih praks. Te faze segajo od zasnove in strukturiranja, registracije in spremljanja do upravljanja in trženja sredstev, pri čemer ponujamo celovito strokovno storitev, da lahko naši stranke trajnostno dodajo vrednost svojim izdelkom in storitvam.",
+    "Twosubtitle": "OMA ima bogate izkušnje na področju svetovanja o trajnosti, kjer se ukvarja z razvojem korporativnih ESG-programov, oblikovanjem kazalnikov in strukturiranjem poročil ter z inventarizacijo emisij in nevtralizacijo emisij toplogrednih plinov. ",
+    "NameFounder":"Juliana Rolla De Leo",
+    "SubtFounder":"Več kot 20 let mednarodnih izkušenj na področju trajnostnega razvoja. S področjem ogljičnih kreditov se ukvarja od leta 2004",
+    "DescFounder":"V svojih 20 letih mednarodne kariere se je Juliana na trgu uveljavila kot strateginja za trajnostni razvoj in teritorialni razvoj, saj je zasnovala in razvila poslovne modele, ki ustvarjajo vrednost za deležnike. Njen glavni pristop temelji na sistemskem razumevanju trajnosti, povezanem z inovacijami in pametnimi finančnimi mehanizmi. Prve izkušnje na trgu ogljika je pridobila leta 2004 v Evropi – kjer je preživela več kot desetletje – v prvi fazi Kjotskega protokola, od takrat pa razvija projekte, trguje z ogljičnimi krediti in drugimi okoljskimi sredstvi. Diplomirala je iz zunanje trgovine, opravila različne tečaje o trajnosti v Evropi, magistrirala iz korporativnih financ in trenutno opravlja doktorski študij iz okoljskega inženirstva na Univerzi v Rimu – Tor Vergata. Leta 2009 je ustanovila podjetje Eco Business Solutions. Na podlagi vseh izkušenj, ki jih je pridobila v podjetju Eco, je oblikovala nov poslovni model in vodila krog zbiranja sredstev za ustanovitev podjetja OMA ACTIVOS AMBIENTALES S.A., katerega soustanoviteljica in izvršna direktorica je. Je prostovoljna direktorica Pro Natura International, članica Evropskega znanstveno-tehničnega odbora Remtech Europe, delala in živela pa je v različnih državah, med drugim v Italiji, Franciji, Španiji, Nemčiji, Poljski, Egiptu, Mehiki in ZDA."
+  },
+    "bioBeginns": {
+    "badge": "Bio Beginss",
+    "title": "Bio Beginss",
+    "subtitle": "Beginss je platforma žensk, ki spodbuja vključevanje, krožno gospodarstvo in sodelovanje kot gonilne sile preobrazbe. Naš cilj je ustvariti center inovacij v puščavi Atacama, pri čemer v središče postavljamo lokalne skupnosti, ustvarjamo priložnosti za to območje in razvijamo rešitve za probleme, povezane z odpadki. "    
+  },
+    "proyectosComunitarios": 
+  {
+    "badge": "Skupnostni projekti",
+    "title": "Skupnostni projekti",
+    "subtitle": "Predlagani projekti Skupnosti združujejo trajnostne rešitve, ki vključujejo okoljsko izobraževanje, krožno gospodarstvo in lokalni razvoj.",
+    "project1": "biološko kompostiranje",
+    "project1Desc": "Biološko kompostiranje pretvarja organske odpadke v gnojilo, s čimer spodbuja odgovorno ravnanje in zmanjšuje vpliv na okolje.",
+    "project2": "Poganjki poganjki",
+    "project2Desc": "Pogozdovanje spodbuja obnovo degradiranih ekosistemov ter krepi biotsko raznovrstnost in sodelovanje lokalnih skupnosti.",
+    "project3": "Turistična pot",   
+    "project3Desc": "Turistična pot oblačil poudarja pomen ponovne uporabe tekstila, s čimer ozavešča javnost in ustvarja nove gospodarske priložnosti.", 
+    "text": "Ti projekti skupaj ponujajo izobraževalne in praktične izkušnje, ki spodbujajo nastanek bolj odpornih skupnosti, ki so zavezane svojemu okolju.", 
+    "banner": "SPOZNAJTE NAŠE SKUPNOSTNE PROJEKTE"
   }
 }

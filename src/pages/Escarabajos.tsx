@@ -15,7 +15,7 @@ const SHAPE_PATH =
 const COMO_SUMARTE_KEYS = [
   { key: "workByArea", icon: Briefcase, image: "/fast-fashion.jpg" },
   { key: "collaborateField", icon: MapPin, image: "/desierto-solo.jpg" },
-  { key: "ambassador", icon: Megaphone, image: "/recliclaje.webp" },
+  { key: "ambassador", icon: Megaphone, image: "/recliclaje.jpg" },
 ] as const;
 
 export default function Escarabajos() {

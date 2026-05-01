@@ -3,6 +3,11 @@
     "home": "Início",
     "elProyecto": "O projeto",
     "productos": "Produtos",
+    "proyectosComunitarios": "Projetos Comunitários",
+    "quienesImpulsan": "Quem está por trás",
+    "jointVenture": "Joint Venture",
+    "bioOMA": "Bio OMA",
+    "bioBeginss": "Bio Beginss",
     "nosotros": "Nós",
     "colaboradores": "Equipe",
     "embajadores": "Embaixadores",
@@ -367,5 +372,45 @@
   "notFound": {
     "title": "Página não encontrada",
     "back": "Voltar ao início"
+  },
+  "jointVenture": {
+    "badge": "Joint Venture",
+    "title": "Joint Venture",
+    "subtitle": "O projeto “Renace Atacama” é desenvolvido por uma joint venture entre a OMA e a Beginss, responsáveis pela estruturação, implementação e expansão do projeto.",
+    "Twosubtitle": "Essa aliança combina capacidade técnica, visão estratégica e execução no terreno, garantindo solidez e consistência na geração de impacto ambiental, social e econômico na região. ",   
+    "doc1Title": "OMA",
+    "doc1Text": "Ele contribui com sua experiência no desenvolvimento de ativos ambientais, incluindo créditos de carbono e de plástico, participando de todas as etapas: desde a concepção e estruturação até o registro, monitoramento, gestão e comercialização.",
+    "doc1Text2": "Além disso, contribui para estratégias ESG, inventários de emissões e processos de neutralização, fortalecendo a base técnica e a credibilidade do projeto.",
+    "doc2Title": "Beginss ",
+    "doc2Text": "Ele complementa a estrutura com sua visão e capacidade de execução, atuando diretamente na implementação das iniciativas no território.",
+    "doc2Text2": "Seu trabalho em conjunto com a OMA permite transformar a estratégia em ação, garantindo consistência e conexão com o contexto local."    
+  },
+    "bioOma": {
+    "badge": "Bio OMA",
+    "title": "Bio OMA",
+    "subtitle": "Por meio de uma abordagem sistêmica, a OMA desenvolve projetos de créditos de carbono, créditos de plástico e outros ativos ambientais no âmbito da economia circular de resíduos, participando de todas as etapas do desenvolvimento do projeto, desde a geração de ativos até a implementação de práticas socioambientais. Essas etapas abrangem desde a concepção e estruturação, o registro e o monitoramento, até a gestão e comercialização dos ativos, oferecendo um serviço profissional integral para que nossos clientes possam agregar valor de forma sustentável aos seus produtos e serviços.",
+    "Twosubtitle": "A OMA possui uma sólida experiência em consultoria de sustentabilidade, atuando no desenvolvimento de agendas ESG corporativas, na criação de indicadores e na estruturação de relatórios, bem como em inventários de emissões e na neutralização de emissões de gases de efeito estufa. ",
+    "NameFounder":"Juliana Rolla De Leo",
+    "SubtFounder":"+ de 20 Anos de experiência mundial em Sustentabilidade Trabalha com Créditos de Carbono desde 2004",
+    "DescFounder":"Ao longo de seus 20 anos de carreira internacional, Juliana consolidou-se no mercado como estrategista de sustentabilidade e desenvolvimento territorial, concebendo e desenvolvendo modelos de negócios capazes de gerar valor para as partes interessadas. Sua premissa principal é a abordagem sistêmica da sustentabilidade, associada à inovação e a mecanismos financeiros inteligentes. Teve sua primeira experiência no mercado de carbono em 2004, na Europa – onde residiu por mais de uma década –, durante a primeira fase do Protocolo de Quioto, e desde então vem desenvolvendo projetos, negociando créditos de carbono e outros ativos ambientais. Formada em Comércio Exterior, realizou diversos cursos de sustentabilidade na Europa, um MBA em Finanças Corporativas e atualmente cursa um doutorado em Engenharia Ambiental na Universidade de Roma - Tor Vergata. Em 2009, fundou a Eco Business Solutions. Com base em toda a experiência consolidada como Eco, ela estruturou um novo modelo de negócios e conduziu uma rodada de captação de recursos para dar origem à OMA ACTIVOS AMBIENTALES S.A., da qual é cofundadora e CEO. É diretora voluntária da Pro Natura International, membro do Comitê Técnico-Científico Europeu da Remtech Europe e já trabalhou e morou em diversos países, como Itália, França, Espanha, Alemanha, Polônia, Egito, México e Estados Unidos, entre outros quatro."
+  },
+    "bioBeginns": {
+    "badge": "Bio Beginss",
+    "title": "Bio Beginss",
+    "subtitle": "Beginss, uma plataforma de mulheres que promove a inclusão, a circularidade e a colaboração como motores de transformação. Buscamos criar um polo de inovação no Deserto do Atacama, colocando as comunidades no centro, criando oportunidades para a região e gerando soluções para os problemas associados aos resíduos. "    
+  },
+    "proyectosComunitarios": 
+  {
+    "badge": "Projetos Comunitários",
+    "title": "Projetos Comunitários",
+    "subtitle": "Os projetos comunitários propostos apresentam soluções sustentáveis que combinam educação ambiental, economia circular e desenvolvimento local.",
+    "project1": "Biocompostagem",
+    "project1Desc": "A compostagem biológica transforma resíduos orgânicos em adubo, promovendo práticas responsáveis e reduzindo o impacto ambiental.",
+    "project2": "Reflorestamento",
+    "project2Desc": "O reflorestamento promove a recuperação de ecossistemas degradados, fortalecendo a biodiversidade e a participação da comunidade.",
+    "project3": "Rota Turística",   
+    "project3Desc": "A rota turística do vestuário valoriza a reutilização de tecidos, promovendo a conscientização e criando novas oportunidades econômicas.", 
+    "text": "Em conjunto, esses projetos oferecem experiências formativas e práticas que promovem comunidades mais resilientes e comprometidas com o meio ambiente.", 
+    "banner": "CONHEÇA NOSSOS PROJETOS COMUNITÁRIOS"
   }
 }

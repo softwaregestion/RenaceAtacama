@@ -37,7 +37,7 @@ type NosotrosVariant = "all" | "colaboradores" | "embajadores";
 const TEAM_ORDER = [
   'Claudio Bedoya',
   'Diego Albagly',
-  'Catherinne Herrera',
+  //'Catherinne Herrera',
   'Patricio Cabezas',
   'Marco Bedoya',
   'Mario Pino',
@@ -64,12 +64,12 @@ const TEAM: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/patricio-javier-cabezas-alamos-aa7371bb",
     image: "/patricio-cabezas.png",
   },
-  {
+  /*{
     id: "catherinneHerrera",
     name: "Catherinne Herrera",
     linkedin: "https://www.linkedin.com/in/catherinne-herrera-8792508/",
     image: "/catherinne-herrera.jpg",
-  },
+  },*/
   {
     id: "diegoAlbagly",
     name: "Diego Albagly",

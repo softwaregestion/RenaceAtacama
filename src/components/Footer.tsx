@@ -23,7 +23,7 @@ export function Footer() {
   const { t } = useTranslation();
   const quickLinks = [
     { label: t("footer.elProyecto"), to: ROUTES.elProyecto },
-    { label: t("footer.quienesSomos"), to: ROUTES.quienesSomos },
+    { label: t("footer.quienesSomos"), to: ROUTES.nosotros },
     { label: t("footer.contacto"), to: ROUTES.contacto },
   ];
 

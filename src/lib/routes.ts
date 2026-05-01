@@ -16,6 +16,10 @@ export const ROUTES = {
   accionSocial: "/accion-social",
   productos: "/productos",
   contacto: "/contacto",
+  jointVenture : "/joint-venture",
+  bioOMA : "/bioOMA",
+  bioBeginss : "/bioBeginss",
+  proyectosComunitarios: "/proyectosComunitarios",
 } as const;
 
 export const NAV_ITEMS = [
