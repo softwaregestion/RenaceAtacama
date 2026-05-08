@@ -108,7 +108,7 @@
     "knowTeam": "Conocer equipo",
     "beginssCard": "El proyecto es impulsado por un equipo interdisciplinario de expertos y actores locales, integrando sostenibilidad, innovación y acción comunitaria para restaurar el territorio y activar nuevas economías circulares.",
     "ourProfessionals": "NUESTROS PROFESIONALES",
-    "teamTitle": "Equipo multidisciplinario comprometido",
+    "teamTitle": "Equipo Etapa 1 de Diagnóstico y Plan Maestro",
     "teamSub": "Un grupo de profesionales que combina sostenibilidad, industria, comunidad, comunicación y territorio.",
     "partnersSection": "PARTNERS Y ASOCIADOS",
     "partnersTitle": "Impulsado por organizaciones comprometidas",
@@ -344,7 +344,8 @@
         "jackets": { "name": "Chaquetas", "tag": "Moda sostenible" },
         "bags": { "name": "Bolsos", "tag": "Incluye neumáticos reciclados" }
       }
-    }
+    },
+    "BtnFoundation":"VISITA NUESTRA FUNDACIÓN"
   },
   "productosPage": {
     "badge": "PRODUCTOS",
@@ -414,28 +415,34 @@
   "jointVenture": {
     "badge": "Joint Venture",
     "title": "Joint Venture",
-    "subtitle": "Renace Atacama es desarrollada por una Joint Venture entre OMA y Beginss, responsables de la estructuración, implementación y expansión del proyecto.",
+    "subtitle": "Renace Atacama es desarrollada por una Joint Venture entre ",
+    "subtitle2": ", responsables de la estructuración, implementación y expansión del proyecto.",
     "Twosubtitle": "Esta alianza, combina capacidad técnica, visión estratégica y ejecución en terreno, garantizando solidez y consistencia en la generación de impacto ambiental, social y económico en la región. ",   
-    "doc1Title": "OMA",
+    "doc1Title": "OMA",     
     "doc1Text": "Aporta su experiencia en el desarrollo de activos ambientales, incluyendo créditos de carbono y plástico, participando en todas las etapas: desde la concepción y estructuración hasta el registro, monitoreo, gestión y comercialización.",
     "doc1Text2": "Además, contribuye con estrategias ESG, inventarios de emisiones y procesos de neutralización, fortaleciendo la base técnica y la credibilidad del proyecto.",
     "doc2Title": "Beginss ",
     "doc2Text": "Complementa la estructura con su visión y capacidad de ejecución, actuando directamente en la implementación de las iniciativas en el territorio.",
-    "doc2Text2": "Su trabajo conjunto con OMA permite transformar la estrategia en acción, asegurando consistencia y conexión con el contexto local."    
+    "doc2Text2": "Su trabajo conjunto con OMA permite transformar la estrategia en acción, asegurando consistencia y conexión con el contexto local.",    
+    "doc1LinkkWeb": "https://omagroup.com.br/",
+    "doc2LinkkWeb": "https://beginss.com/",
+    "doc1Logo": "/oma-logo-blancoynegro.png",
+    "doc2Logo": "/beginns-logo-blancoynegro.png"    
   },
     "bioOma": {
     "badge": "Bio OMA",
     "title": "Bio OMA",
-    "subtitle": "Mediante un enfoque sistémico, OMA desarrolla proyectos de créditos de carbono, créditos plásticos y otros activos ambientales en el marco de la economía circular de los residuos, participando en todas las etapas del desarrollo del proyecto, desde la generación de activos hasta la implementación de prácticas socioambientales. Estas etapas abarcan desde la concepción y estructuración, el registro y el monitoreo, hasta la gestión y comercialización de los activos, ofreciendo un servicio profesional integral para que nuestros clientes puedan agregar valor de forma sostenible a sus productos y servicios.",
-    "Twosubtitle": "OMA cuenta con una sólida experiencia en consultoría de sostenibilidad, trabajando en el desarrollo de agendas ESG corporativas, la creación de indicadores y la estructuración de informes, así como en inventarios de emisiones y la neutralización de emisiones de gases de efecto invernadero. ",
+    "subtitle": "Mediante un enfoque sistémico, ",
+    "subtitle2": " desarrolla proyectos de créditos de carbono, créditos plásticos y otros activos ambientales en el marco de la economía circular de los residuos, participando en todas las etapas del desarrollo del proyecto, desde la generación de activos hasta la implementación de prácticas socioambientales. Estas etapas abarcan desde la concepción y estructuración, el registro y el monitoreo, hasta la gestión y comercialización de los activos, ofreciendo un servicio profesional integral para que nuestros clientes puedan agregar valor de forma sostenible a sus productos y servicios.",
+    "Twosubtitle": " cuenta con una sólida experiencia en consultoría de sostenibilidad, trabajando en el desarrollo de agendas ESG corporativas, la creación de indicadores y la estructuración de informes, así como en inventarios de emisiones y la neutralización de emisiones de gases de efecto invernadero. ",
     "NameFounder":"Juliana Rolla De Leo",
     "SubtFounder":"+ de 20 años de experiencia mundial en Sostenibilidad. Trabaja con Créditos de Carbono desde 2004",
-    "DescFounder":"A lo largo de sus 20 años de carrera internacional, Juliana se consolidó en el mercado como estratega de sostenibilidad y desarrollo territorial, diseñando y desarrollando modelos de negocios capaces de generar valor para los stakeholders. Su principal premisa es el enfoque sistémico de la sostenibilidad ligado a la innovación y a los mecanismos financieros inteligentes. Tuvo su primera experiencia en el mercado de carbono en 2004, en Europa – donde residió por más de una década – durante la primera etapa del Protocolo de Kioto, y desde entonces ha estado desarrollando proyectos, negociando créditos de carbono y otros activos ambientales. Graduada en Comercio Exterior, realizó diversos cursos de sostenibilidad en Europa, un MBA en Finanzas Corporativas y actualmente cursa un doctorado en Ingeniería Ambiental en la Universidad de Roma - Tor Vergata. . En 2009, fundó Eco Business Solutions. Basándose en toda la experiencia consolidada como Eco, estructuró un nuevo modelo de negocio y condujo una ronda de captación de recursos para dar origen a OMA ACTIVOS AMBIENTALES S.A., de la cual es cofundadora y CEO. Es Directora voluntaria de Pro Natura International, Miembro del Comité Técnico Científico Europeo de Remtech Europe, y ha trabajado y vivido en diversos países como Italia, Francia, España, Alemania, Polonia, Egipto, México, EE. UU., entre otros cuatro."
+    "DescFounder":"A lo largo de sus 20 años de carrera internacional, Juliana se consolidó en el mercado como estratega de sostenibilidad y desarrollo territorial, diseñando y desarrollando modelos de negocios capaces de generar valor para los stakeholders. Su principal premisa es el enfoque sistémico de la sostenibilidad ligado a la innovación y a los mecanismos financieros inteligentes. Tuvo su primera experiencia en el mercado de carbono en 2004, en Europa – donde residió por más de una década – durante la primera etapa del Protocolo de Kioto, y desde entonces ha estado desarrollando proyectos, negociando créditos de carbono y otros activos ambientales. Graduada en Comercio Exterior, realizó diversos cursos de sostenibilidad en Europa, un MBA en Finanzas Corporativas y actualmente cursa un doctorado en Ingeniería Ambiental en la Universidad de Roma - Tor Vergata. . En 2009, fundó Eco Business Solutions. Basándose en toda la experiencia consolidada como Eco, estructuró un nuevo modelo de negocio y condujo una ronda de captación de recursos para dar origen a OMA ACTIVOS AMBIENTALES S.A., de la cual es cofundadora y CEO. Es Directora voluntaria de Pro Natura International, Miembro del Comité Técnico Científico Europeo de Remtech Europe, y ha trabajado y vivido en diversos países como Italia, Francia, España, Alemania, Polonia, Egipto, México, EE. UU., entre otros cuatro."    
   },
     "bioBeginns": {
     "badge": "Bio Beginss",
     "title": "Bio Beginss",
-    "subtitle": "Beginss, una plataforma de mujeres que promueve la inclusión, la circularidad y la colaboración como motores de transformación. Buscamos crear un polo de innovación en el Desierto de Atacama poniendo en el centro a las comunidades, creando oportunidades para el territorio y generando soluciones frente a las problemáticas asociadas a los residuos. "    
+    "subtitle": ", una plataforma de mujeres que promueve la inclusión, la circularidad y la colaboración como motores de transformación. Buscamos crear un polo de innovación en el Desierto de Atacama poniendo en el centro a las comunidades, creando oportunidades para el territorio y generando soluciones frente a las problemáticas asociadas a los residuos. "    
   },
     "proyectosComunitarios": 
   {

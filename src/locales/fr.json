@@ -108,7 +108,7 @@
     "knowTeam": "Apprenez à connaître l'équipe",
     "beginssCard": "Le projet est porté par une équipe interdisciplinaire d'experts et d'acteurs locaux, intégrant durabilité, innovation et action communautaire pour restaurer le territoire et activer de nouvelles économies circulaires.",
     "ourProfessionals": "NOS PROFESSIONNELS",
-    "teamTitle": "Équipe multidisciplinaire engagée",
+    "teamTitle": "Équipe chargée de la phase 1 du diagnostic et du plan directeur",
     "teamSub": "Un groupe de professionnels qui allie durabilité, industrie, communauté, communication et territoire.",
     "partnersSection": "PARTENAIRES ET ASSOCIÉS",
     "partnersTitle": "Propulsé par des organisations engagées",
@@ -411,7 +411,8 @@
     "ambassadorDesc": "Diffusez le projet dans votre communauté.",
     "ctaHeadline": "Prêt à rejoindre ? Ensemble, nous régénérons le désert d'Atacama.",
     "ctaButton": "je veux rejoindre",
-    "logisticsAlt": "Logistique et transport"
+    "logisticsAlt": "Logistique et transport",
+    "BtnFoundation":"VISITEZ NOTRE FONDATION"
   },
   "notFound": {
     "title": "Page introuvable",
@@ -420,20 +421,26 @@
   "jointVenture": {
     "badge": "Joint Venture",
     "title": "Joint Venture",
-    "subtitle": "Le projet « Renace Atacama » est développé par une coentreprise entre OMA et Beginss, chargées de la conception, de la mise en œuvre et de l'extension du projet.",
+    "subtitle": "Le projet « Renace Atacama » est développé par une coentreprise entre ",
+    "subtitle2": ", chargées de la conception, de la mise en œuvre et de l'extension du projet.",
     "Twosubtitle": "Ce partenariat allie compétences techniques, vision stratégique et mise en œuvre sur le terrain, garantissant ainsi la solidité et la cohérence des retombées environnementales, sociales et économiques dans la région.",   
     "doc1Title": "OMA",
     "doc1Text": "Il apporte son expertise dans le développement d'actifs environnementaux, notamment les crédits carbone et les crédits liés au plastique, en intervenant à toutes les étapes : de la conception et de la structuration jusqu'à l'enregistrement, au suivi, à la gestion et à la commercialisation.",
     "doc1Text2": "De plus, cela contribue aux stratégies ESG, aux inventaires des émissions et aux processus de neutralisation, renforçant ainsi la base technique et la crédibilité du projet.",
     "doc2Title": "Beginss ",
     "doc2Text": "Il apporte à l'organisation sa vision et sa capacité d'exécution, en intervenant directement dans la mise en œuvre des initiatives sur le terrain.",
-    "doc2Text2": "Leur collaboration avec OMA permet de traduire la stratégie en actions concrètes, tout en garantissant la cohérence et l'adéquation avec le contexte local."    
+    "doc2Text2": "Leur collaboration avec OMA permet de traduire la stratégie en actions concrètes, tout en garantissant la cohérence et l'adéquation avec le contexte local.",
+    "doc1LinkkWeb": "https://omagroup.com.br/",
+    "doc2LinkkWeb": "https://beginss.com/",
+    "doc1Logo": "/oma-logo-blancoynegro.png",
+    "doc2Logo": "/beginns-logo-blancoynegro.png"  
   },
     "bioOma": {
     "badge": "Bio OMA",
     "title": "Bio OMA",
-    "subtitle": "Grâce à une approche systémique, OMA développe des projets liés aux crédits carbone, aux crédits plastiques et à d'autres actifs environnementaux dans le cadre de l'économie circulaire des déchets, en intervenant à toutes les étapes du développement du projet, de la création d'actifs à la mise en œuvre de pratiques socio-environnementales. Ces étapes vont de la conception et de la structuration, à l'enregistrement et au suivi, jusqu'à la gestion et la commercialisation des actifs, offrant ainsi un service professionnel complet permettant à nos clients d'apporter une valeur ajoutée durable à leurs produits et services.",
-    "Twosubtitle": "OMA possède une solide expérience en conseil en matière de développement durable. Elle intervient dans l'élaboration de stratégies ESG d'entreprise, la création d'indicateurs et la mise en place de rapports, ainsi que dans les inventaires d'émissions et la neutralisation des émissions de gaz à effet de serre. ",
+    "subtitle": "Grâce à une approche systémique, ",
+    "subtitle2": " développe des projets liés aux crédits carbone, aux crédits plastiques et à d'autres actifs environnementaux dans le cadre de l'économie circulaire des déchets, en intervenant à toutes les étapes du développement du projet, de la création d'actifs à la mise en œuvre de pratiques socio-environnementales. Ces étapes vont de la conception et de la structuration, à l'enregistrement et au suivi, jusqu'à la gestion et la commercialisation des actifs, offrant ainsi un service professionnel complet permettant à nos clients d'apporter une valeur ajoutée durable à leurs produits et services.",
+    "Twosubtitle": " possède une solide expérience en conseil en matière de développement durable. Elle intervient dans l'élaboration de stratégies ESG d'entreprise, la création d'indicateurs et la mise en place de rapports, ainsi que dans les inventaires d'émissions et la neutralisation des émissions de gaz à effet de serre. ",
     "NameFounder":"Juliana Rolla De Leo",
     "SubtFounder":"Plus de 20 ans d'expérience internationale dans le domaine du développement durable. Il travaille dans le secteur des crédits carbone depuis 2004",
     "DescFounder":"Au cours de ses 20 années de carrière internationale, Juliana s'est imposée sur le marché en tant que stratège en matière de développement durable et d'aménagement du territoire, en concevant et en développant des modèles économiques capables de créer de la valeur pour les parties prenantes. Son principe fondamental repose sur une approche systémique du développement durable, associée à l'innovation et à des mécanismes financiers intelligents. Elle a fait ses premiers pas sur le marché du carbone en 2004, en Europe – où elle a résidé pendant plus d'une décennie – lors de la première phase du Protocole de Kyoto, et depuis lors, elle développe des projets et négocie des crédits carbone ainsi que d'autres actifs environnementaux. Diplômée en commerce extérieur, elle a suivi divers cours sur la durabilité en Europe, a obtenu un MBA en finance d'entreprise et prépare actuellement un doctorat en génie environnemental à l'université de Rome - Tor Vergata. En 2009, elle a fondé Eco Business Solutions. S'appuyant sur toute l'expérience acquise chez Eco, elle a structuré un nouveau modèle d'entreprise et mené une levée de fonds pour créer OMA ACTIVOS AMBIENTALES S.A., dont elle est cofondatrice et PDG. Elle est directrice bénévole de Pro Natura International, membre du Comité technique et scientifique européen de Remtech Europe, et a travaillé et vécu dans divers pays tels que l'Italie, la France, l'Espagne, l'Allemagne, la Pologne, l'Égypte, le Mexique et les États-Unis, entre autres."
@@ -441,7 +448,7 @@
     "bioBeginns": {
     "badge": "Bio Beginss",
     "title": "Bio Beginss",
-    "subtitle": "Beginss, une plateforme féminine qui promeut l'inclusion, la circularité et la collaboration comme moteurs de transformation. Nous souhaitons créer un pôle d'innovation dans le désert d'Atacama en plaçant les communautés au cœur de notre action, en créant des opportunités pour le territoire et en proposant des solutions aux problèmes liés aux déchets."    
+    "subtitle": ", une plateforme féminine qui promeut l'inclusion, la circularité et la collaboration comme moteurs de transformation. Nous souhaitons créer un pôle d'innovation dans le désert d'Atacama en plaçant les communautés au cœur de notre action, en créant des opportunités pour le territoire et en proposant des solutions aux problèmes liés aux déchets."    
   },
     "proyectosComunitarios": 
   {

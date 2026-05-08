@@ -57,7 +57,7 @@ export function Header() {
         label: t("nav.nosotros"),
         children: [
           { label: t("nav.colaboradores"), href: ROUTES.colaboradores },
-          { label: t("nav.embajadores"), href: ROUTES.embajadores },
+          //{ label: t("nav.embajadores"), href: ROUTES.embajadores },
         ],
       },
       { label: t("nav.contenido"), href: ROUTES.contenido },

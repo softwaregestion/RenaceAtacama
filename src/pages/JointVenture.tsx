@@ -35,8 +35,11 @@ export default function JointVenture() {
     () =>
       DOC_KEYS.map((key, i) => ({
         title: t(`jointVenture.${key}Title`),
+        logo: t(`jointVenture.${key}Logo`),
+        link: t(`jointVenture.${key}LinkkWeb`),
         text: t(`jointVenture.${key}Text`),
         text2: t(`jointVenture.${key}Text2`),
+
       })),
     [t]
   );
@@ -63,6 +66,25 @@ export default function JointVenture() {
             </h1>
             <p className="text-muted-foreground text-base md:text-lg max-w-5xl mx-auto leading-relaxed text-white">
               {t("jointVenture.subtitle")}
+               <a
+                    href="https://omagroup.com.br/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-bold text-foreground hover:text-primary transition-colors underline text-white"
+                  >
+                    OMA
+                  </a>
+                &nbsp;y&nbsp;  
+                <a
+                    href="https://beginss.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-bold text-foreground hover:text-primary transition-colors underline text-white"
+                  >
+                    Beginss
+                  </a>
+                {t("jointVenture.subtitle2")}
+
             </p> 
               <p className="text-muted-foreground text-base md:text-lg max-w-5xl mx-auto leading-relaxed text-white">
               {t("jointVenture.Twosubtitle")}
@@ -80,14 +102,29 @@ export default function JointVenture() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
-                className="group p-6 rounded-2xl bg-card border border-border hover:border-primary hover:shadow-lg transition-all text-center bg-[#391800]"
+                className="group p-6 rounded-2xl bg-card border border-border hover:border-primary hover:shadow-lg transition-all text-center bg-[#391800] "
               >
-                
-                <h3 className="text-lg font-bold text-foreground uppercase tracking-wide mb-3">
-                  {doc.title}
+                  
+                <h3 className="text-lg font-bold text-foreground uppercase tracking-wide mb-3 ">                  
+                   <a
+                    href={doc.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-bold text-foreground hover:text-primary transition-colors underline"
+                  >                 
+                     <img                 
+                            src={doc.logo}    
+                            alt={t("doc.tittle")}
+                            className="h-10 lg:h-18 w-auto object-contain"
+                          />
+
+                   {doc.title} 
+                   
+                </a>
+                    
                 </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  {doc.text}
+                  {doc.text}  
                 </p>
                   <p className="text-sm text-muted-foreground leading-relaxed">                 
                   {doc.text2}

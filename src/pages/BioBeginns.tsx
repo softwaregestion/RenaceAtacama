@@ -58,10 +58,27 @@ export default function BioBeginns() {
               <span className="w-2 h-2 rounded-full bg-[#9b734c] shrink-0" />
               {t("bioBeginns.badge")}
             </div>
+            <div className="flex justify-center bg-transparent">
+              <a href="https://www.beginss.com/" target="_blank" rel="noopener noreferrer">
+                  <img                 
+                    src="/beginns-logo-blancoynegro.png"
+                    alt={t("bioOMA.title")}
+                    className="h-20 lg:h-28 w-auto object-contain"
+                  />
+              </a>
+              </div>  
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight">
               {t("bioBeginns.title")}
             </h1>
             <p className="text-muted-foreground text-base md:text-lg max-w-5xl mx-auto leading-relaxed">
+               <a
+                    href="https://beginss.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-bold text-foreground hover:text-primary transition-colors underline"
+                  >
+                    Beginns
+                  </a>  
               {t("bioBeginns.subtitle")}
             </p>       
           </motion.div>

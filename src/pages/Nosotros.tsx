@@ -136,7 +136,7 @@ const TEAM: TeamMember[] = [
     linkedin: "",
     image: "/cesas-guzman-torrico.jpg",
   },
-  {
+  /*{
     id: "paulaCastillo",
     name: "Paula Castillo",
     linkedin: "https://www.linkedin.com/in/paula-castillo-del-desierto-651239211",
@@ -147,7 +147,7 @@ const TEAM: TeamMember[] = [
     name: "Ashley Castillo",
     linkedin: "https://www.linkedin.com/in/ashley-castillo",
     image: "/ashley-castillo-briones.jpg",
-  },
+  },*/
 ];
 
 interface Colaborador {
@@ -213,7 +213,7 @@ const LOGOS_PATROCINADORES = [
   { src: "/logo-gore-tarapaca.png", link: "https://www.goretarapaca.gov.cl/" },
   { src: "/alto-hospicio-logo.png", link: "https://maho.cl/web/" },
   { src: "/logo-muni-iquique.png", link: "https://www.municipioiquique.cl/" },
-  { src: "/camara-verde-chile.png", link: "https://camaraverde.org/" },
+  //{ src: "/camara-verde-chile.png", link: "https://camaraverde.org/" },
 ];
 
 const MARCAS_LOGOS = [
@@ -222,11 +222,12 @@ const MARCAS_LOGOS = [
   "/logo-normadi-1.jpg",
   "/revibe.png",
   "/hymenophyllym-logo.jpg",
-  "/iscatex-logo.jpg",
-  "/labeltrana-logo-ver.jpg",
+  //"/iscatex-logo.jpg",
+  //"/labeltrana-logo-ver.jpg",
   "/proche-logo.png",
   "/logo-hotel.jpg",
   "/unap.jpg",
+  "/oma-logo-blancoynegro.png",
 ];
 
 const NAME_LINE_SPLIT_OVERRIDES: Record<string, { first: string; second: string }> = {

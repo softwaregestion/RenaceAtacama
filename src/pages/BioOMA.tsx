@@ -62,13 +62,39 @@ export default function BioOMA() {
               <span className="w-2 h-2 rounded-full bg-[#9b734c] shrink-0" />
               {t("bioOma.badge")}
             </div>
+             <div className="flex justify-center bg-transparent">
+              <a href="https://omagroup.com.br/" target="_blank" rel="noopener noreferrer">
+              <img                 
+                src="/oma-logo-blancoynegro.png"
+                alt={t("bioOMA.title")}
+                className="h-20 lg:h-28 w-auto object-contain"
+              />
+            </a>
+          </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight">
               {t("bioOma.title")}
             </h1>
             <p className="text-muted-foreground text-base md:text-lg max-w-5xl mx-auto leading-relaxed">
-              {t("bioOma.subtitle")}
+               {t("bioOma.subtitle")}
+                <a
+                    href="https://omagroup.com.br/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-bold text-foreground hover:text-primary transition-colors underline"
+                  >
+                    OMA
+                  </a>
+              {t("bioOma.subtitle2")}
             </p> 
               <p className="text-muted-foreground text-base md:text-lg max-w-5xl mx-auto leading-relaxed">
+              <a
+                    href="https://omagroup.com.br/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-bold text-foreground hover:text-primary transition-colors underline"
+                  >
+                    OMA
+                  </a>
               {t("bioOma.Twosubtitle")}
             </p> 
           </motion.div>
